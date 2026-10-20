@@ -31,7 +31,7 @@ You can also use a skill for one task without installing it: attach its Markdown
 The marketplace has one plugin per product. Add it in Claude Code:
 
 ```text
-/plugin marketplace add cimbolicproductions/apex-skills-free
+/plugin marketplace add https://github.com/cimbolicproductions/apex-skills-free.git
 ```
 
 Install the starter you chose:
@@ -51,6 +51,9 @@ You only need to run the install command for your chosen skill. Invoke it with y
 ```
 
 The session handoff plugin keeps the original skill name `claude-session-handoff`, so its invocation includes that name.
+
+HTTPS avoids requiring GitHub SSH keys. With GitHub SSH access already set up,
+you can instead use `/plugin marketplace add cimbolicproductions/apex-skills-free`.
 
 If you have a local checkout, you can instead open Claude Code in its root and run:
 

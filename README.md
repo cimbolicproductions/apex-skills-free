@@ -33,11 +33,18 @@ Start with one skill. Your agent can inspect the files and choose the right inst
 In Claude Code, run:
 
 ```text
-/plugin marketplace add cimbolicproductions/apex-skills-free
+/plugin marketplace add https://github.com/cimbolicproductions/apex-skills-free.git
 /plugin install apex-anti-slop@apex-skills-free
 ```
 
 Then use `/apex-anti-slop:anti-slop` with a draft.
+
+The HTTPS command works without GitHub SSH keys. If your GitHub SSH access is
+already configured, the short form also works:
+
+```text
+/plugin marketplace add cimbolicproductions/apex-skills-free
+```
 
 To use a local checkout instead, open Claude Code in its root and add it with:
 
