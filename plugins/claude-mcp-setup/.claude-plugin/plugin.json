@@ -1,0 +1,12 @@
+{
+  "name": "apex-mcp-setup",
+  "version": "1.0.0",
+  "description": "Claude MCP Setup and Troubleshooting",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/claude-mcp-setup"
+  ]
+}

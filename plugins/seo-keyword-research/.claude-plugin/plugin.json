@@ -1,0 +1,12 @@
+{
+  "name": "apex-seo-keyword-research",
+  "version": "1.0.0",
+  "description": "Keyword Research",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/seo-keyword-research"
+  ]
+}

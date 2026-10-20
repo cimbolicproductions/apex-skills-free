@@ -1,0 +1,12 @@
+{
+  "name": "apex-mcp-server-builder",
+  "version": "1.0.0",
+  "description": "MCP Server Builder",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/claude-mcp-server-builder"
+  ]
+}

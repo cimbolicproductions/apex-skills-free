@@ -1,0 +1,12 @@
+{
+  "name": "apex-saas-pricing-strategy",
+  "version": "1.0.0",
+  "description": "SaaS Pricing Strategy",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/saas-pricing-strategy"
+  ]
+}

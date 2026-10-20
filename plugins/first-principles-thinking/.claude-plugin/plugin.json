@@ -1,0 +1,12 @@
+{
+  "name": "apex-first-principles-thinking",
+  "version": "1.0.0",
+  "description": "First Principles Reasoner",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/first-principles-thinking"
+  ]
+}

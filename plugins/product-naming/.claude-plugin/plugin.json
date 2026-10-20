@@ -1,0 +1,12 @@
+{
+  "name": "apex-product-naming",
+  "version": "1.0.0",
+  "description": "Brand & Naming Strategist",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+  "skills": [
+    "./payload/product-naming"
+  ]
+}

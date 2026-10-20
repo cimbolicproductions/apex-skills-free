@@ -1,0 +1,12 @@
+{
+  "name": "apex-marketplace-pricing-comps",
+  "version": "1.0.0",
+  "description": "Marketplace Pricing Comps",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/marketplace-pricing-comps"
+  ]
+}

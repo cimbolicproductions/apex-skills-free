@@ -1,0 +1,12 @@
+{
+  "name": "apex-marketplace-scam-safety",
+  "version": "1.0.0",
+  "description": "Marketplace Scam and Safety Guard",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/marketplace-scam-safety"
+  ]
+}

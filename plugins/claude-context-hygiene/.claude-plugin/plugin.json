@@ -1,0 +1,12 @@
+{
+  "name": "apex-context-hygiene",
+  "version": "1.0.0",
+  "description": "Claude Code Context Hygiene",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/claude-context-hygiene"
+  ]
+}

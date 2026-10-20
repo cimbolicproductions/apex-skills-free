@@ -1,0 +1,12 @@
+{
+  "name": "apex-skill-creator",
+  "version": "1.0.0",
+  "description": "Skill Forge",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "apex-worktree-parallel-setup",
+  "version": "1.0.0",
+  "description": "Parallel Claude Worktree Setup",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/claude-worktree-parallel-setup"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "apex-saas-activation-analytics",
+  "version": "1.0.0",
+  "description": "SaaS Activation Analytics",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/saas-activation-analytics"
+  ]
+}

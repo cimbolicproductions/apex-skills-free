@@ -1,0 +1,12 @@
+{
+  "name": "apex-fail-loud",
+  "version": "1.0.0",
+  "description": "Fail Loud, Never Fake",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/claude-fail-loud"
+  ]
+}

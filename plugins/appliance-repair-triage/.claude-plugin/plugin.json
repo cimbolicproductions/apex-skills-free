@@ -1,0 +1,12 @@
+{
+  "name": "apex-appliance-repair-triage",
+  "version": "1.0.0",
+  "description": "Appliance Repair Triage",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/appliance-repair-triage"
+  ]
+}

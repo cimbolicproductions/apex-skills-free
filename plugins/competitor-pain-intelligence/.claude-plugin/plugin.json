@@ -1,0 +1,12 @@
+{
+  "name": "apex-competitor-pain-intelligence",
+  "version": "1.0.0",
+  "description": "Competitor Pain Intelligence",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/competitor-pain-intelligence"
+  ]
+}

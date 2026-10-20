@@ -1,0 +1,12 @@
+{
+  "name": "apex-local-negative-review-response",
+  "version": "1.0.0",
+  "description": "Negative Review Response Handler",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/local-negative-review-response"
+  ]
+}

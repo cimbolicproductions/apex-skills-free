@@ -1,0 +1,12 @@
+{
+  "name": "apex-local-lead-followup-sequence",
+  "version": "1.0.0",
+  "description": "Local Lead Follow-Up Sequence",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/local-lead-followup-sequence"
+  ]
+}

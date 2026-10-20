@@ -1,0 +1,12 @@
+{
+  "name": "apex-hook-setup",
+  "version": "1.0.0",
+  "description": "Claude Code Hook Setup",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/claude-hook-setup"
+  ]
+}

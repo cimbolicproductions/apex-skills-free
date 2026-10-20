@@ -1,0 +1,12 @@
+{
+  "name": "apex-upwork-hunter",
+  "version": "1.0.0",
+  "description": "Automated Upwork Closer",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+  "skills": [
+    "./payload/upwork-hunter"
+  ]
+}

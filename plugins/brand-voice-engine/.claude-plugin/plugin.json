@@ -1,0 +1,12 @@
+{
+  "name": "apex-brand-voice-engine",
+  "version": "1.0.0",
+  "description": "Brand Voice Engine",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload"
+  ]
+}

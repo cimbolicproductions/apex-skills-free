@@ -1,0 +1,19 @@
+{
+  "name": "apex-context-vault",
+  "version": "1.0.0",
+  "description": "Personal Context Vault",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/ai-handoff-brief-builder",
+    "./payload/blocker-snag-triage",
+    "./payload/context-vault-architect",
+    "./payload/guided-brain-dump-capture",
+    "./payload/personal-operating-system-map",
+    "./payload/project-context-captain",
+    "./payload/vault-ingestion-router",
+    "./payload/weekly-context-review"
+  ]
+}

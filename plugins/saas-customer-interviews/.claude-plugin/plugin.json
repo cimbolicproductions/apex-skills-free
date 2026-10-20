@@ -1,0 +1,12 @@
+{
+  "name": "apex-saas-customer-interviews",
+  "version": "1.0.0",
+  "description": "SaaS Customer Interviews",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/saas-customer-interviews"
+  ]
+}

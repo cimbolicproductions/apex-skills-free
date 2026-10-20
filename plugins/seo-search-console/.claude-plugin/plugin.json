@@ -1,0 +1,12 @@
+{
+  "name": "apex-seo-search-console",
+  "version": "1.0.0",
+  "description": "Search Console Analysis",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/seo-search-console"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "apex-tweet-builder",
+  "version": "1.0.0",
+  "description": "Tweet Builder",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload"
+  ]
+}

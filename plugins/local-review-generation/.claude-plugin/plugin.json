@@ -1,0 +1,12 @@
+{
+  "name": "apex-local-review-generation",
+  "version": "1.0.0",
+  "description": "Local Review Generation System",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/local-review-generation"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "apex-copywriting-mastery",
+  "version": "1.0.0",
+  "description": "Direct-Response Copywriter",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+  "skills": [
+    "./payload/copywriting-mastery"
+  ]
+}

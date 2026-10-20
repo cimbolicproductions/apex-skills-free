@@ -1,0 +1,12 @@
+{
+  "name": "apex-project-closeout",
+  "version": "1.0.0",
+  "description": "Project Context Saver",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+  "skills": [
+    "./payload/project-closeout"
+  ]
+}

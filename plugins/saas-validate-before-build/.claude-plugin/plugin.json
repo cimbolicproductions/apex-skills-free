@@ -1,0 +1,12 @@
+{
+  "name": "apex-saas-validate-before-build",
+  "version": "1.0.0",
+  "description": "SaaS Validate Before Build",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/saas-validate-before-build"
+  ]
+}

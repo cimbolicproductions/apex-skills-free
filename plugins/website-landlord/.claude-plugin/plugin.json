@@ -1,0 +1,12 @@
+{
+  "name": "apex-website-landlord",
+  "version": "1.0.0",
+  "description": "Website Landlord Playbook",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+  "skills": [
+    "./payload/website-landlord"
+  ]
+}

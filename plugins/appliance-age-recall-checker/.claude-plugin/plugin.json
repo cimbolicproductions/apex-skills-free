@@ -1,0 +1,12 @@
+{
+  "name": "apex-appliance-age-recall-checker",
+  "version": "1.0.0",
+  "description": "Appliance Age and Recall Checker",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/appliance-age-recall-checker"
+  ]
+}

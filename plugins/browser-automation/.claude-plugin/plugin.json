@@ -1,0 +1,12 @@
+{
+  "name": "apex-browser-automation",
+  "version": "1.0.0",
+  "description": "Browser Automation Scripter",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+  "skills": [
+    "./payload/browser-automation"
+  ]
+}

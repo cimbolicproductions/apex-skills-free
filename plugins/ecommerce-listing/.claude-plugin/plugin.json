@@ -1,0 +1,12 @@
+{
+  "name": "apex-ecommerce-listing",
+  "version": "1.0.0",
+  "description": "E-commerce Listing Optimizer",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+  "skills": [
+    "./payload/ecommerce-listing"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "apex-yt-content-engine",
+  "version": "1.0.0",
+  "description": "YouTube Repurposing Engine",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+  "skills": [
+    "./payload/yt-content-engine"
+  ]
+}

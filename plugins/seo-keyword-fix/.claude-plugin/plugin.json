@@ -1,0 +1,12 @@
+{
+  "name": "apex-seo-keyword-fix",
+  "version": "1.0.0",
+  "description": "Automated SEO Orchestrator",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+  "skills": [
+    "./payload/seo-keyword-fix"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "apex-reducer-lens",
+  "version": "1.0.0",
+  "description": "The Reducer Lens",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/reducer-lens"
+  ]
+}

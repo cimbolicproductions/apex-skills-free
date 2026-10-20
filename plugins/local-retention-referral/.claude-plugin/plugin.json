@@ -1,0 +1,12 @@
+{
+  "name": "apex-local-retention-referral",
+  "version": "1.0.0",
+  "description": "Local Retention and Referral System",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/local-retention-referral"
+  ]
+}

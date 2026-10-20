@@ -1,0 +1,12 @@
+{
+  "name": "apex-seo-longtail-keywords",
+  "version": "1.0.0",
+  "description": "Long-tail Keyword Research",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/seo-longtail-keywords"
+  ]
+}

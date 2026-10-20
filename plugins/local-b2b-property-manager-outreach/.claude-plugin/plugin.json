@@ -1,0 +1,12 @@
+{
+  "name": "apex-local-b2b-property-manager-outreach",
+  "version": "1.0.0",
+  "description": "B2B Property Manager Outreach",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/local-b2b-property-manager-outreach"
+  ]
+}

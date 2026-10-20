@@ -1,0 +1,12 @@
+{
+  "name": "apex-saas-mvp-stack",
+  "version": "1.0.0",
+  "description": "SaaS MVP Stack",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/saas-mvp-stack"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "apex-cost-optimizer",
+  "version": "1.0.0",
+  "description": "Claude Code Cost Optimizer",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/claude-cost-optimizer"
+  ]
+}

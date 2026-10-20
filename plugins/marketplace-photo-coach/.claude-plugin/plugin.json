@@ -1,0 +1,12 @@
+{
+  "name": "apex-marketplace-photo-coach",
+  "version": "1.0.0",
+  "description": "Marketplace Photo Coach",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/marketplace-photo-coach"
+  ]
+}

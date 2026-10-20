@@ -1,0 +1,12 @@
+{
+  "name": "apex-local-quote-followup",
+  "version": "1.0.0",
+  "description": "Local Quote Follow-Up",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/local-quote-followup"
+  ]
+}

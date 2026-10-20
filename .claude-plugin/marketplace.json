@@ -1,0 +1,346 @@
+{
+  "name": "apex-skills-free",
+  "owner": {
+    "name": "Apex Skills"
+  },
+  "metadata": {
+    "description": "67 free AI agent skill files and packs"
+  },
+  "plugins": [
+    {
+      "name": "apex-browser-automation",
+      "source": "./plugins/browser-automation",
+      "description": "Browser Automation Scripter"
+    },
+    {
+      "name": "apex-project-closeout",
+      "source": "./plugins/project-closeout",
+      "description": "Project Context Saver"
+    },
+    {
+      "name": "apex-skill-creator",
+      "source": "./plugins/skill-creator",
+      "description": "Skill Forge"
+    },
+    {
+      "name": "apex-content-repurposing-engine",
+      "source": "./plugins/content-repurposing-engine",
+      "description": "Content Multiplier"
+    },
+    {
+      "name": "apex-anti-slop",
+      "source": "./plugins/anti-slop",
+      "description": "Slop Killer"
+    },
+    {
+      "name": "apex-upwork-hunter",
+      "source": "./plugins/upwork-hunter",
+      "description": "Automated Upwork Closer"
+    },
+    {
+      "name": "apex-website-landlord",
+      "source": "./plugins/website-landlord",
+      "description": "Website Landlord Playbook"
+    },
+    {
+      "name": "apex-seo-keyword-fix",
+      "source": "./plugins/seo-keyword-fix",
+      "description": "Automated SEO Orchestrator"
+    },
+    {
+      "name": "apex-yt-content-engine",
+      "source": "./plugins/yt-content-engine",
+      "description": "YouTube Repurposing Engine"
+    },
+    {
+      "name": "apex-local-audit",
+      "source": "./plugins/local-audit",
+      "description": "B2B Automation Auditor"
+    },
+    {
+      "name": "apex-podcast-wisdom",
+      "source": "./plugins/podcast-wisdom",
+      "description": "Podcast Insight Extractor"
+    },
+    {
+      "name": "apex-copywriting-mastery",
+      "source": "./plugins/copywriting-mastery",
+      "description": "Direct-Response Copywriter"
+    },
+    {
+      "name": "apex-product-naming",
+      "source": "./plugins/product-naming",
+      "description": "Brand & Naming Strategist"
+    },
+    {
+      "name": "apex-web-design-foundations",
+      "source": "./plugins/web-design-foundations",
+      "description": "UI/UX Design Roaster"
+    },
+    {
+      "name": "apex-asset-generator",
+      "source": "./plugins/asset-generator",
+      "description": "App Asset Prompt Architect"
+    },
+    {
+      "name": "apex-ecommerce-listing",
+      "source": "./plugins/ecommerce-listing",
+      "description": "E-commerce Listing Optimizer"
+    },
+    {
+      "name": "apex-context-hygiene",
+      "source": "./plugins/claude-context-hygiene",
+      "description": "Claude Code Context Hygiene"
+    },
+    {
+      "name": "apex-session-handoff",
+      "source": "./plugins/claude-session-handoff",
+      "description": "Claude Code Session Handoff"
+    },
+    {
+      "name": "apex-fail-loud",
+      "source": "./plugins/claude-fail-loud",
+      "description": "Fail Loud, Never Fake"
+    },
+    {
+      "name": "apex-hook-setup",
+      "source": "./plugins/claude-hook-setup",
+      "description": "Claude Code Hook Setup"
+    },
+    {
+      "name": "apex-mcp-setup",
+      "source": "./plugins/claude-mcp-setup",
+      "description": "Claude MCP Setup and Troubleshooting"
+    },
+    {
+      "name": "apex-mcp-server-builder",
+      "source": "./plugins/claude-mcp-server-builder",
+      "description": "MCP Server Builder"
+    },
+    {
+      "name": "apex-worktree-parallel-setup",
+      "source": "./plugins/claude-worktree-parallel-setup",
+      "description": "Parallel Claude Worktree Setup"
+    },
+    {
+      "name": "apex-pr-review",
+      "source": "./plugins/claude-pr-review",
+      "description": "Claude PR Review"
+    },
+    {
+      "name": "apex-cost-optimizer",
+      "source": "./plugins/claude-cost-optimizer",
+      "description": "Claude Code Cost Optimizer"
+    },
+    {
+      "name": "apex-saas-validate-before-build",
+      "source": "./plugins/saas-validate-before-build",
+      "description": "SaaS Validate Before Build"
+    },
+    {
+      "name": "apex-saas-customer-interviews",
+      "source": "./plugins/saas-customer-interviews",
+      "description": "SaaS Customer Interviews"
+    },
+    {
+      "name": "apex-saas-landing-page",
+      "source": "./plugins/saas-landing-page",
+      "description": "SaaS Landing Page"
+    },
+    {
+      "name": "apex-saas-pricing-strategy",
+      "source": "./plugins/saas-pricing-strategy",
+      "description": "SaaS Pricing Strategy"
+    },
+    {
+      "name": "apex-saas-activation-analytics",
+      "source": "./plugins/saas-activation-analytics",
+      "description": "SaaS Activation Analytics"
+    },
+    {
+      "name": "apex-saas-onboarding-flow",
+      "source": "./plugins/saas-onboarding-flow",
+      "description": "SaaS Onboarding Flow"
+    },
+    {
+      "name": "apex-saas-stripe-setup",
+      "source": "./plugins/saas-stripe-setup",
+      "description": "SaaS Stripe Setup"
+    },
+    {
+      "name": "apex-saas-mvp-stack",
+      "source": "./plugins/saas-mvp-stack",
+      "description": "SaaS MVP Stack"
+    },
+    {
+      "name": "apex-saas-pmf-engine",
+      "source": "./plugins/saas-pmf-engine",
+      "description": "SaaS PMF Engine"
+    },
+    {
+      "name": "apex-saas-launch-playbook",
+      "source": "./plugins/saas-launch-playbook",
+      "description": "SaaS Launch Playbook"
+    },
+    {
+      "name": "apex-saas-aso",
+      "source": "./plugins/saas-aso",
+      "description": "App Store Optimization"
+    },
+    {
+      "name": "apex-saas-founder-notes",
+      "source": "./plugins/saas-founder-notes",
+      "description": "Founder Second Brain Notes"
+    },
+    {
+      "name": "apex-local-gbp-optimizer",
+      "source": "./plugins/local-gbp-optimizer",
+      "description": "Local Google Business Profile Optimizer"
+    },
+    {
+      "name": "apex-local-missed-call-textback",
+      "source": "./plugins/local-missed-call-textback",
+      "description": "Missed-Call Text-Back Builder"
+    },
+    {
+      "name": "apex-local-lead-followup-sequence",
+      "source": "./plugins/local-lead-followup-sequence",
+      "description": "Local Lead Follow-Up Sequence"
+    },
+    {
+      "name": "apex-local-quote-followup",
+      "source": "./plugins/local-quote-followup",
+      "description": "Local Quote Follow-Up"
+    },
+    {
+      "name": "apex-local-review-generation",
+      "source": "./plugins/local-review-generation",
+      "description": "Local Review Generation System"
+    },
+    {
+      "name": "apex-local-b2b-property-manager-outreach",
+      "source": "./plugins/local-b2b-property-manager-outreach",
+      "description": "B2B Property Manager Outreach"
+    },
+    {
+      "name": "apex-local-good-better-best-pricing",
+      "source": "./plugins/local-good-better-best-pricing",
+      "description": "Good-Better-Best Local Pricing"
+    },
+    {
+      "name": "apex-local-crm-automation",
+      "source": "./plugins/local-crm-automation",
+      "description": "Local CRM and Automation Setup"
+    },
+    {
+      "name": "apex-local-retention-referral",
+      "source": "./plugins/local-retention-referral",
+      "description": "Local Retention and Referral System"
+    },
+    {
+      "name": "apex-local-negative-review-response",
+      "source": "./plugins/local-negative-review-response",
+      "description": "Negative Review Response Handler"
+    },
+    {
+      "name": "apex-marketplace-listing-optimizer",
+      "source": "./plugins/marketplace-listing-optimizer",
+      "description": "Marketplace Listing Optimizer"
+    },
+    {
+      "name": "apex-marketplace-pricing-comps",
+      "source": "./plugins/marketplace-pricing-comps",
+      "description": "Marketplace Pricing Comps"
+    },
+    {
+      "name": "apex-marketplace-photo-coach",
+      "source": "./plugins/marketplace-photo-coach",
+      "description": "Marketplace Photo Coach"
+    },
+    {
+      "name": "apex-marketplace-negotiation-scripts",
+      "source": "./plugins/marketplace-negotiation-scripts",
+      "description": "Marketplace Negotiation Scripts"
+    },
+    {
+      "name": "apex-marketplace-scam-safety",
+      "source": "./plugins/marketplace-scam-safety",
+      "description": "Marketplace Scam and Safety Guard"
+    },
+    {
+      "name": "apex-appliance-inspection-guide",
+      "source": "./plugins/appliance-inspection-guide",
+      "description": "Used Appliance Inspection Guide"
+    },
+    {
+      "name": "apex-appliance-repair-triage",
+      "source": "./plugins/appliance-repair-triage",
+      "description": "Appliance Repair Triage"
+    },
+    {
+      "name": "apex-appliance-age-recall-checker",
+      "source": "./plugins/appliance-age-recall-checker",
+      "description": "Appliance Age and Recall Checker"
+    },
+    {
+      "name": "apex-steve-jobs-design",
+      "source": "./plugins/steve-jobs-design",
+      "description": "The Craft Lens"
+    },
+    {
+      "name": "apex-first-principles-thinking",
+      "source": "./plugins/first-principles-thinking",
+      "description": "First Principles Reasoner"
+    },
+    {
+      "name": "apex-competitor-pain-intelligence",
+      "source": "./plugins/competitor-pain-intelligence",
+      "description": "Competitor Pain Intelligence"
+    },
+    {
+      "name": "apex-context-vault",
+      "source": "./plugins/context-vault",
+      "description": "Personal Context Vault"
+    },
+    {
+      "name": "apex-brand-voice-engine",
+      "source": "./plugins/brand-voice-engine",
+      "description": "Brand Voice Engine"
+    },
+    {
+      "name": "apex-tweet-builder",
+      "source": "./plugins/tweet-builder",
+      "description": "Tweet Builder"
+    },
+    {
+      "name": "apex-reducer-lens",
+      "source": "./plugins/reducer-lens",
+      "description": "The Reducer Lens"
+    },
+    {
+      "name": "apex-aeo-and-geo",
+      "source": "./plugins/aeo-and-geo",
+      "description": "AEO and GEO"
+    },
+    {
+      "name": "apex-seo-keyword-research",
+      "source": "./plugins/seo-keyword-research",
+      "description": "Keyword Research"
+    },
+    {
+      "name": "apex-seo-longtail-keywords",
+      "source": "./plugins/seo-longtail-keywords",
+      "description": "Long-tail Keyword Research"
+    },
+    {
+      "name": "apex-seo-bing-places",
+      "source": "./plugins/seo-bing-places",
+      "description": "Bing Places"
+    },
+    {
+      "name": "apex-seo-search-console",
+      "source": "./plugins/seo-search-console",
+      "description": "Search Console Analysis"
+    }
+  ]
+}

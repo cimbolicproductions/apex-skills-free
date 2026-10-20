@@ -1,0 +1,12 @@
+{
+  "name": "apex-content-repurposing-engine",
+  "version": "1.0.0",
+  "description": "Content Multiplier",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload"
+  ]
+}

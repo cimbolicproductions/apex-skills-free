@@ -1,0 +1,12 @@
+{
+  "name": "apex-saas-launch-playbook",
+  "version": "1.0.0",
+  "description": "SaaS Launch Playbook",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/saas-launch-playbook"
+  ]
+}

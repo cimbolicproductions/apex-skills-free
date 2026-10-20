@@ -1,0 +1,12 @@
+{
+  "name": "apex-saas-stripe-setup",
+  "version": "1.0.0",
+  "description": "SaaS Stripe Setup",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/saas-stripe-setup"
+  ]
+}

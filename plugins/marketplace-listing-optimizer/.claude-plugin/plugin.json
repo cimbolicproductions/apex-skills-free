@@ -1,0 +1,12 @@
+{
+  "name": "apex-marketplace-listing-optimizer",
+  "version": "1.0.0",
+  "description": "Marketplace Listing Optimizer",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/marketplace-listing-optimizer"
+  ]
+}

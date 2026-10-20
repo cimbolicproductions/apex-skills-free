@@ -1,0 +1,12 @@
+{
+  "name": "apex-local-gbp-optimizer",
+  "version": "1.0.0",
+  "description": "Local Google Business Profile Optimizer",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/local-gbp-optimizer"
+  ]
+}

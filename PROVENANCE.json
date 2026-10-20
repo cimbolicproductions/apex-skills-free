@@ -1,0 +1,1981 @@
+{
+  "formatVersion": 1,
+  "sourceUrl": "https://apexskills.dev/api/free-bundle",
+  "sourceSha256": "25f4b3cfe105525d0261181f15eef61ce697aa47e0aa4a3d9bae6f4327f5700e",
+  "sourceSizeBytes": 227143,
+  "productCount": 67,
+  "registeredWorkflowCount": 74,
+  "pathNormalization": "ZIP backslashes become forward slashes; file bytes are unchanged.",
+  "products": [
+    {
+      "id": "browser-automation",
+      "title": "Browser Automation Scripter",
+      "filename": "Browser-Automation-Agent.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "4ff35822f793cb3017f2cdcaca035e036dfbb5e26f0735dbfa5dd0419cb2aca5",
+      "sizeBytes": 2378,
+      "artifactPath": "products/Browser-Automation-Agent.md",
+      "pluginPath": "plugins/browser-automation",
+      "pluginName": "apex-browser-automation",
+      "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+      "skillPaths": [
+        "./payload/browser-automation"
+      ],
+      "skillNames": [
+        "browser-automation"
+      ]
+    },
+    {
+      "id": "project-closeout",
+      "title": "Project Context Saver",
+      "filename": "Project-Closeout-Handoff.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "1768a46e86ce661dd50890ed915c7c622b3d8a05bb7ec954b62be2f59505c080",
+      "sizeBytes": 2168,
+      "artifactPath": "products/Project-Closeout-Handoff.md",
+      "pluginPath": "plugins/project-closeout",
+      "pluginName": "apex-project-closeout",
+      "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+      "skillPaths": [
+        "./payload/project-closeout"
+      ],
+      "skillNames": [
+        "project-closeout"
+      ]
+    },
+    {
+      "id": "skill-creator",
+      "title": "Skill Forge",
+      "filename": "skill-creator.zip",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "d99a1e7d4151cca9c7c160889c088dc9a6d7df73075f58f6919a38fdd3527a94",
+      "sizeBytes": 4237,
+      "artifactPath": "products/skill-creator.zip",
+      "pluginPath": "plugins/skill-creator",
+      "pluginName": "apex-skill-creator",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload"
+      ],
+      "skillNames": [
+        "skill-creator"
+      ]
+    },
+    {
+      "id": "content-repurposing-engine",
+      "title": "Content Multiplier",
+      "filename": "content-repurposing-engine.zip",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "46c647aad4ba9e97cf691a7ec493bed40e014440ca0b0b5e562b3b4123e2a05a",
+      "sizeBytes": 6448,
+      "artifactPath": "products/content-repurposing-engine.zip",
+      "pluginPath": "plugins/content-repurposing-engine",
+      "pluginName": "apex-content-repurposing-engine",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload"
+      ],
+      "skillNames": [
+        "content-repurposing-engine"
+      ]
+    },
+    {
+      "id": "anti-slop",
+      "title": "Slop Killer",
+      "filename": "anti-slop.zip",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "afad98266ffc30768d8e268d8abbcd360f41ea12136841e90caa76ba4d4ceb89",
+      "sizeBytes": 11470,
+      "artifactPath": "products/anti-slop.zip",
+      "pluginPath": "plugins/anti-slop",
+      "pluginName": "apex-anti-slop",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload"
+      ],
+      "skillNames": [
+        "anti-slop"
+      ]
+    },
+    {
+      "id": "upwork-hunter",
+      "title": "Automated Upwork Closer",
+      "filename": "Upwork-Automated-Lead-Hunter.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "80e9062a7e58b14bd557622c9393990af14951b7d4aca8eb2845d6449fb14583",
+      "sizeBytes": 2083,
+      "artifactPath": "products/Upwork-Automated-Lead-Hunter.md",
+      "pluginPath": "plugins/upwork-hunter",
+      "pluginName": "apex-upwork-hunter",
+      "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+      "skillPaths": [
+        "./payload/upwork-hunter"
+      ],
+      "skillNames": [
+        "upwork-hunter"
+      ]
+    },
+    {
+      "id": "website-landlord",
+      "title": "Website Landlord Playbook",
+      "filename": "Website-Landlord-SEO-Playbook.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "5c955557f3b39e37296d8ae64da99b7c1b1409c2b52c66281129049e67bacaee",
+      "sizeBytes": 2144,
+      "artifactPath": "products/Website-Landlord-SEO-Playbook.md",
+      "pluginPath": "plugins/website-landlord",
+      "pluginName": "apex-website-landlord",
+      "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+      "skillPaths": [
+        "./payload/website-landlord"
+      ],
+      "skillNames": [
+        "website-landlord"
+      ]
+    },
+    {
+      "id": "seo-keyword-fix",
+      "title": "Automated SEO Orchestrator",
+      "filename": "SEO-Keyword-Fix-Pipeline.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "da4fd0c00318af845532bb66ee24260a0758fabd6296648d2d50573cd4b21372",
+      "sizeBytes": 6099,
+      "artifactPath": "products/SEO-Keyword-Fix-Pipeline.md",
+      "pluginPath": "plugins/seo-keyword-fix",
+      "pluginName": "apex-seo-keyword-fix",
+      "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+      "skillPaths": [
+        "./payload/seo-keyword-fix"
+      ],
+      "skillNames": [
+        "seo-keyword-fix"
+      ]
+    },
+    {
+      "id": "yt-content-engine",
+      "title": "YouTube Repurposing Engine",
+      "filename": "YouTube-to-Content-Engine.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "77af17d1a274201aeb21d4fd96f606bad3485226d86d87118272b677ee2d65c2",
+      "sizeBytes": 1901,
+      "artifactPath": "products/YouTube-to-Content-Engine.md",
+      "pluginPath": "plugins/yt-content-engine",
+      "pluginName": "apex-yt-content-engine",
+      "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+      "skillPaths": [
+        "./payload/yt-content-engine"
+      ],
+      "skillNames": [
+        "yt-content-engine"
+      ]
+    },
+    {
+      "id": "local-audit",
+      "title": "B2B Automation Auditor",
+      "filename": "Local-Business-AI-Audit.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "560131c296641e5ef52b4c19a3a36a8d8dc01d6d5cf32d1d71ef5c38bf45b256",
+      "sizeBytes": 1775,
+      "artifactPath": "products/Local-Business-AI-Audit.md",
+      "pluginPath": "plugins/local-audit",
+      "pluginName": "apex-local-audit",
+      "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+      "skillPaths": [
+        "./payload/local-audit"
+      ],
+      "skillNames": [
+        "local-audit"
+      ]
+    },
+    {
+      "id": "podcast-wisdom",
+      "title": "Podcast Insight Extractor",
+      "filename": "Podcast-Wisdom-Extractor.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "3ade5b49894e98a94d8dbf9c925b64a8e456ff0fd2c18b5a2b0f199dcc2c26d0",
+      "sizeBytes": 1939,
+      "artifactPath": "products/Podcast-Wisdom-Extractor.md",
+      "pluginPath": "plugins/podcast-wisdom",
+      "pluginName": "apex-podcast-wisdom",
+      "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+      "skillPaths": [
+        "./payload/podcast-wisdom"
+      ],
+      "skillNames": [
+        "podcast-wisdom"
+      ]
+    },
+    {
+      "id": "copywriting-mastery",
+      "title": "Direct-Response Copywriter",
+      "filename": "Copywriting-Mastery.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "8230cb0001166b785e8b61582ea6752cb2cfb1d733610b5a85a015ac7fb4fee8",
+      "sizeBytes": 2139,
+      "artifactPath": "products/Copywriting-Mastery.md",
+      "pluginPath": "plugins/copywriting-mastery",
+      "pluginName": "apex-copywriting-mastery",
+      "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+      "skillPaths": [
+        "./payload/copywriting-mastery"
+      ],
+      "skillNames": [
+        "copywriting-mastery"
+      ]
+    },
+    {
+      "id": "product-naming",
+      "title": "Brand & Naming Strategist",
+      "filename": "Product-Naming-Strategist.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "1c9338101e3c47c1c504f3d9e6a9b98c33445e4e0a2ec3504cfba22b12cedc1a",
+      "sizeBytes": 2091,
+      "artifactPath": "products/Product-Naming-Strategist.md",
+      "pluginPath": "plugins/product-naming",
+      "pluginName": "apex-product-naming",
+      "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+      "skillPaths": [
+        "./payload/product-naming"
+      ],
+      "skillNames": [
+        "product-naming"
+      ]
+    },
+    {
+      "id": "web-design-foundations",
+      "title": "UI/UX Design Roaster",
+      "filename": "Web-Design-Foundations.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "897b17bfdb91f483ac1060fb219a91214674583c903f05e2bdcde03122055fd7",
+      "sizeBytes": 2186,
+      "artifactPath": "products/Web-Design-Foundations.md",
+      "pluginPath": "plugins/web-design-foundations",
+      "pluginName": "apex-web-design-foundations",
+      "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+      "skillPaths": [
+        "./payload/web-design-foundations"
+      ],
+      "skillNames": [
+        "web-design-foundations"
+      ]
+    },
+    {
+      "id": "asset-generator",
+      "title": "App Asset Prompt Architect",
+      "filename": "App-Asset-Prompt-Generator.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "07f8cf792c3bee11f2a6fa203e3affe7a06f12245ad4bb3a80443d318c496e31",
+      "sizeBytes": 2596,
+      "artifactPath": "products/App-Asset-Prompt-Generator.md",
+      "pluginPath": "plugins/asset-generator",
+      "pluginName": "apex-asset-generator",
+      "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+      "skillPaths": [
+        "./payload/asset-generator"
+      ],
+      "skillNames": [
+        "asset-generator"
+      ]
+    },
+    {
+      "id": "ecommerce-listing",
+      "title": "E-commerce Listing Optimizer",
+      "filename": "E-commerce-Listing-Optimizer.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "cfce7f7618931c0e40a43c18f12aae1dd6b662b092b869390cbe6337a004f083",
+      "sizeBytes": 2513,
+      "artifactPath": "products/E-commerce-Listing-Optimizer.md",
+      "pluginPath": "plugins/ecommerce-listing",
+      "pluginName": "apex-ecommerce-listing",
+      "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+      "skillPaths": [
+        "./payload/ecommerce-listing"
+      ],
+      "skillNames": [
+        "ecommerce-listing"
+      ]
+    },
+    {
+      "id": "claude-context-hygiene",
+      "title": "Claude Code Context Hygiene",
+      "filename": "claude-context-hygiene.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "00999a95311ad9c1017e276721e4cf2688f84a80bb04f25b31edeef5e9a2b31e",
+      "sizeBytes": 3163,
+      "artifactPath": "products/claude-context-hygiene.md",
+      "pluginPath": "plugins/claude-context-hygiene",
+      "pluginName": "apex-context-hygiene",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/claude-context-hygiene"
+      ],
+      "skillNames": [
+        "claude-context-hygiene"
+      ]
+    },
+    {
+      "id": "claude-session-handoff",
+      "title": "Claude Code Session Handoff",
+      "filename": "claude-session-handoff.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "f2023b0b90f723bcaa03f458bb47a1983c566b657a6d0529d19cc96f9ffa74a2",
+      "sizeBytes": 2596,
+      "artifactPath": "products/claude-session-handoff.md",
+      "pluginPath": "plugins/claude-session-handoff",
+      "pluginName": "apex-session-handoff",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/claude-session-handoff"
+      ],
+      "skillNames": [
+        "claude-session-handoff"
+      ]
+    },
+    {
+      "id": "claude-fail-loud",
+      "title": "Fail Loud, Never Fake",
+      "filename": "claude-fail-loud.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "192ae9bbe5f5244fd2fcc341fc5422907e8cff1e67cb8b2b5b0bd951229bc269",
+      "sizeBytes": 2874,
+      "artifactPath": "products/claude-fail-loud.md",
+      "pluginPath": "plugins/claude-fail-loud",
+      "pluginName": "apex-fail-loud",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/claude-fail-loud"
+      ],
+      "skillNames": [
+        "claude-fail-loud"
+      ]
+    },
+    {
+      "id": "claude-hook-setup",
+      "title": "Claude Code Hook Setup",
+      "filename": "claude-hook-setup.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "5982b4098b810897a6cbdcd9d19cea0defed2f592feb5569797fd9d33056f5f6",
+      "sizeBytes": 2734,
+      "artifactPath": "products/claude-hook-setup.md",
+      "pluginPath": "plugins/claude-hook-setup",
+      "pluginName": "apex-hook-setup",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/claude-hook-setup"
+      ],
+      "skillNames": [
+        "claude-hook-setup"
+      ]
+    },
+    {
+      "id": "claude-mcp-setup",
+      "title": "Claude MCP Setup and Troubleshooting",
+      "filename": "claude-mcp-setup.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "6a236bff43d548d55a3af8cee0f87202b92780e535bab2fae4c273a5c032f010",
+      "sizeBytes": 2857,
+      "artifactPath": "products/claude-mcp-setup.md",
+      "pluginPath": "plugins/claude-mcp-setup",
+      "pluginName": "apex-mcp-setup",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/claude-mcp-setup"
+      ],
+      "skillNames": [
+        "claude-mcp-setup"
+      ]
+    },
+    {
+      "id": "claude-mcp-server-builder",
+      "title": "MCP Server Builder",
+      "filename": "claude-mcp-server-builder.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "1ae54454cee59c19afb1c70a3a23da766ee56b5d5a877dc1b29f8f16da20f680",
+      "sizeBytes": 2711,
+      "artifactPath": "products/claude-mcp-server-builder.md",
+      "pluginPath": "plugins/claude-mcp-server-builder",
+      "pluginName": "apex-mcp-server-builder",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/claude-mcp-server-builder"
+      ],
+      "skillNames": [
+        "claude-mcp-server-builder"
+      ]
+    },
+    {
+      "id": "claude-worktree-parallel-setup",
+      "title": "Parallel Claude Worktree Setup",
+      "filename": "claude-worktree-parallel-setup.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "6aa03920a9c84fd8448f7c98a63060c48035c735d3eadf50daa5dc96ad596f93",
+      "sizeBytes": 2658,
+      "artifactPath": "products/claude-worktree-parallel-setup.md",
+      "pluginPath": "plugins/claude-worktree-parallel-setup",
+      "pluginName": "apex-worktree-parallel-setup",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/claude-worktree-parallel-setup"
+      ],
+      "skillNames": [
+        "claude-worktree-parallel-setup"
+      ]
+    },
+    {
+      "id": "claude-pr-review",
+      "title": "Claude PR Review",
+      "filename": "claude-pr-review.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "2d469af2611d8ed763a8d1f7e7c42e961303980e9d5ff81fe62acb458a6b92d2",
+      "sizeBytes": 2632,
+      "artifactPath": "products/claude-pr-review.md",
+      "pluginPath": "plugins/claude-pr-review",
+      "pluginName": "apex-pr-review",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/claude-pr-review"
+      ],
+      "skillNames": [
+        "claude-pr-review"
+      ]
+    },
+    {
+      "id": "claude-cost-optimizer",
+      "title": "Claude Code Cost Optimizer",
+      "filename": "claude-cost-optimizer.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "6e74de63bc4cc491ca2ebb8a93503a333b0a795d58728d7f114491be569f15a1",
+      "sizeBytes": 2739,
+      "artifactPath": "products/claude-cost-optimizer.md",
+      "pluginPath": "plugins/claude-cost-optimizer",
+      "pluginName": "apex-cost-optimizer",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/claude-cost-optimizer"
+      ],
+      "skillNames": [
+        "claude-cost-optimizer"
+      ]
+    },
+    {
+      "id": "saas-validate-before-build",
+      "title": "SaaS Validate Before Build",
+      "filename": "saas-validate-before-build.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "f802281539c7038f9caf9c3b520c0e874e677290b86adbde46c394efcdfaae65",
+      "sizeBytes": 2832,
+      "artifactPath": "products/saas-validate-before-build.md",
+      "pluginPath": "plugins/saas-validate-before-build",
+      "pluginName": "apex-saas-validate-before-build",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/saas-validate-before-build"
+      ],
+      "skillNames": [
+        "saas-validate-before-build"
+      ]
+    },
+    {
+      "id": "saas-customer-interviews",
+      "title": "SaaS Customer Interviews",
+      "filename": "saas-customer-interviews.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "52f815dd6f11fa34fe8627de5aeb86e62dbca85919a58557f3d36b1551b5e67a",
+      "sizeBytes": 2750,
+      "artifactPath": "products/saas-customer-interviews.md",
+      "pluginPath": "plugins/saas-customer-interviews",
+      "pluginName": "apex-saas-customer-interviews",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/saas-customer-interviews"
+      ],
+      "skillNames": [
+        "saas-customer-interviews"
+      ]
+    },
+    {
+      "id": "saas-landing-page",
+      "title": "SaaS Landing Page",
+      "filename": "saas-landing-page.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "d50456afe7f66a64314c62b4810958afdf719b80ce5b2182ef29a82e89c8afee",
+      "sizeBytes": 2677,
+      "artifactPath": "products/saas-landing-page.md",
+      "pluginPath": "plugins/saas-landing-page",
+      "pluginName": "apex-saas-landing-page",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/saas-landing-page"
+      ],
+      "skillNames": [
+        "saas-landing-page"
+      ]
+    },
+    {
+      "id": "saas-pricing-strategy",
+      "title": "SaaS Pricing Strategy",
+      "filename": "saas-pricing-strategy.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "cb5ed85b87dd3f4be7ac4c8f2e4d844203e7cf6c47671782598ed1cd27082ebf",
+      "sizeBytes": 2786,
+      "artifactPath": "products/saas-pricing-strategy.md",
+      "pluginPath": "plugins/saas-pricing-strategy",
+      "pluginName": "apex-saas-pricing-strategy",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/saas-pricing-strategy"
+      ],
+      "skillNames": [
+        "saas-pricing-strategy"
+      ]
+    },
+    {
+      "id": "saas-activation-analytics",
+      "title": "SaaS Activation Analytics",
+      "filename": "saas-activation-analytics.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "620a2ae3f6dcf664b16c656794d498c9561d9186ffcb112ed85f203264e1aca2",
+      "sizeBytes": 2768,
+      "artifactPath": "products/saas-activation-analytics.md",
+      "pluginPath": "plugins/saas-activation-analytics",
+      "pluginName": "apex-saas-activation-analytics",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/saas-activation-analytics"
+      ],
+      "skillNames": [
+        "saas-activation-analytics"
+      ]
+    },
+    {
+      "id": "saas-onboarding-flow",
+      "title": "SaaS Onboarding Flow",
+      "filename": "saas-onboarding-flow.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "296e990662917d134a2df08503f989939598e11099a32c009035b9dff70cbb17",
+      "sizeBytes": 2604,
+      "artifactPath": "products/saas-onboarding-flow.md",
+      "pluginPath": "plugins/saas-onboarding-flow",
+      "pluginName": "apex-saas-onboarding-flow",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/saas-onboarding-flow"
+      ],
+      "skillNames": [
+        "saas-onboarding-flow"
+      ]
+    },
+    {
+      "id": "saas-stripe-setup",
+      "title": "SaaS Stripe Setup",
+      "filename": "saas-stripe-setup.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "84192ec02d2bcd1a850c1bd36565f910ae7a31c71c9be713274339cbb9fd0930",
+      "sizeBytes": 2875,
+      "artifactPath": "products/saas-stripe-setup.md",
+      "pluginPath": "plugins/saas-stripe-setup",
+      "pluginName": "apex-saas-stripe-setup",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/saas-stripe-setup"
+      ],
+      "skillNames": [
+        "saas-stripe-setup"
+      ]
+    },
+    {
+      "id": "saas-mvp-stack",
+      "title": "SaaS MVP Stack",
+      "filename": "saas-mvp-stack.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "0eae350673f015ef6cda14c592704030179d8fd37065e6de13ddfe8c3af45e79",
+      "sizeBytes": 2915,
+      "artifactPath": "products/saas-mvp-stack.md",
+      "pluginPath": "plugins/saas-mvp-stack",
+      "pluginName": "apex-saas-mvp-stack",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/saas-mvp-stack"
+      ],
+      "skillNames": [
+        "saas-mvp-stack"
+      ]
+    },
+    {
+      "id": "saas-pmf-engine",
+      "title": "SaaS PMF Engine",
+      "filename": "saas-pmf-engine.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "ed14531853df32e4b715c206f97075121b407a6aca869e3383f9246d74604fef",
+      "sizeBytes": 2657,
+      "artifactPath": "products/saas-pmf-engine.md",
+      "pluginPath": "plugins/saas-pmf-engine",
+      "pluginName": "apex-saas-pmf-engine",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/saas-pmf-engine"
+      ],
+      "skillNames": [
+        "saas-pmf-engine"
+      ]
+    },
+    {
+      "id": "saas-launch-playbook",
+      "title": "SaaS Launch Playbook",
+      "filename": "saas-launch-playbook.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "f1a7122b91d6dd7041945b2832e139337bd8d25b994805ea26afcc18ebdcc78a",
+      "sizeBytes": 2769,
+      "artifactPath": "products/saas-launch-playbook.md",
+      "pluginPath": "plugins/saas-launch-playbook",
+      "pluginName": "apex-saas-launch-playbook",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/saas-launch-playbook"
+      ],
+      "skillNames": [
+        "saas-launch-playbook"
+      ]
+    },
+    {
+      "id": "saas-aso",
+      "title": "App Store Optimization",
+      "filename": "saas-aso.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "7068274ceef1db545cbd606001be2f5bdb222d5b4e6ecf641713b72e09d0605a",
+      "sizeBytes": 2788,
+      "artifactPath": "products/saas-aso.md",
+      "pluginPath": "plugins/saas-aso",
+      "pluginName": "apex-saas-aso",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/saas-aso"
+      ],
+      "skillNames": [
+        "saas-aso"
+      ]
+    },
+    {
+      "id": "saas-founder-notes",
+      "title": "Founder Second Brain Notes",
+      "filename": "saas-founder-notes.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "4998bf3b20128e0f6ee3647e4eaab933e007271929bb7fa608470f09ff01dce8",
+      "sizeBytes": 2654,
+      "artifactPath": "products/saas-founder-notes.md",
+      "pluginPath": "plugins/saas-founder-notes",
+      "pluginName": "apex-saas-founder-notes",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/saas-founder-notes"
+      ],
+      "skillNames": [
+        "saas-founder-notes"
+      ]
+    },
+    {
+      "id": "local-gbp-optimizer",
+      "title": "Local Google Business Profile Optimizer",
+      "filename": "local-gbp-optimizer.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "3f8559cca37437fbec51a2023a78c7ed16a68fa813948abd7a1fd9cf96f7fa49",
+      "sizeBytes": 7834,
+      "artifactPath": "products/local-gbp-optimizer.md",
+      "pluginPath": "plugins/local-gbp-optimizer",
+      "pluginName": "apex-local-gbp-optimizer",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/local-gbp-optimizer"
+      ],
+      "skillNames": [
+        "local-gbp-optimizer"
+      ]
+    },
+    {
+      "id": "local-missed-call-textback",
+      "title": "Missed-Call Text-Back Builder",
+      "filename": "local-missed-call-textback.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "06dd1326d77758ec5ef6913fc7d67a257a907564e7de263090f9d6f34d35ed44",
+      "sizeBytes": 2682,
+      "artifactPath": "products/local-missed-call-textback.md",
+      "pluginPath": "plugins/local-missed-call-textback",
+      "pluginName": "apex-local-missed-call-textback",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/local-missed-call-textback"
+      ],
+      "skillNames": [
+        "local-missed-call-textback"
+      ]
+    },
+    {
+      "id": "local-lead-followup-sequence",
+      "title": "Local Lead Follow-Up Sequence",
+      "filename": "local-lead-followup-sequence.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "c0e278b4402fa0544964c73dfb2c6eeba9811c6d3ef19857993d730bf2073ee9",
+      "sizeBytes": 2668,
+      "artifactPath": "products/local-lead-followup-sequence.md",
+      "pluginPath": "plugins/local-lead-followup-sequence",
+      "pluginName": "apex-local-lead-followup-sequence",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/local-lead-followup-sequence"
+      ],
+      "skillNames": [
+        "local-lead-followup-sequence"
+      ]
+    },
+    {
+      "id": "local-quote-followup",
+      "title": "Local Quote Follow-Up",
+      "filename": "local-quote-followup.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "45f8fc3b5cfc8f2d6ce13b86dde890505ebb072c3f2071f07e2d95f49489afd7",
+      "sizeBytes": 2645,
+      "artifactPath": "products/local-quote-followup.md",
+      "pluginPath": "plugins/local-quote-followup",
+      "pluginName": "apex-local-quote-followup",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/local-quote-followup"
+      ],
+      "skillNames": [
+        "local-quote-followup"
+      ]
+    },
+    {
+      "id": "local-review-generation",
+      "title": "Local Review Generation System",
+      "filename": "local-review-generation.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "edb1e569d4fa44e4adf8d0007715c2bc6a89737f56555777b34d971827be3b69",
+      "sizeBytes": 2738,
+      "artifactPath": "products/local-review-generation.md",
+      "pluginPath": "plugins/local-review-generation",
+      "pluginName": "apex-local-review-generation",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/local-review-generation"
+      ],
+      "skillNames": [
+        "local-review-generation"
+      ]
+    },
+    {
+      "id": "local-b2b-property-manager-outreach",
+      "title": "B2B Property Manager Outreach",
+      "filename": "local-b2b-property-manager-outreach.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "f0ca87699d1fcea88e5f5379a201fcc6d7e82bf3b33f8f30fe2b42976aa94cda",
+      "sizeBytes": 2968,
+      "artifactPath": "products/local-b2b-property-manager-outreach.md",
+      "pluginPath": "plugins/local-b2b-property-manager-outreach",
+      "pluginName": "apex-local-b2b-property-manager-outreach",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/local-b2b-property-manager-outreach"
+      ],
+      "skillNames": [
+        "local-b2b-property-manager-outreach"
+      ]
+    },
+    {
+      "id": "local-good-better-best-pricing",
+      "title": "Good-Better-Best Local Pricing",
+      "filename": "local-good-better-best-pricing.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "e58d91f3a529a4fde4545ad7910ac26984ac4ca111b7f9d254eeb21aa81486f3",
+      "sizeBytes": 2774,
+      "artifactPath": "products/local-good-better-best-pricing.md",
+      "pluginPath": "plugins/local-good-better-best-pricing",
+      "pluginName": "apex-local-good-better-best-pricing",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/local-good-better-best-pricing"
+      ],
+      "skillNames": [
+        "local-good-better-best-pricing"
+      ]
+    },
+    {
+      "id": "local-crm-automation",
+      "title": "Local CRM and Automation Setup",
+      "filename": "local-crm-automation.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "90e9048662a2640a0f7ef77a9db3620a3b2365a3ac079e5609a715d6d9de43b1",
+      "sizeBytes": 2820,
+      "artifactPath": "products/local-crm-automation.md",
+      "pluginPath": "plugins/local-crm-automation",
+      "pluginName": "apex-local-crm-automation",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/local-crm-automation"
+      ],
+      "skillNames": [
+        "local-crm-automation"
+      ]
+    },
+    {
+      "id": "local-retention-referral",
+      "title": "Local Retention and Referral System",
+      "filename": "local-retention-referral.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "81e3344e97e676802e37e146554235c86a3bd8f2c6869e8a9261d8e18f648f96",
+      "sizeBytes": 2619,
+      "artifactPath": "products/local-retention-referral.md",
+      "pluginPath": "plugins/local-retention-referral",
+      "pluginName": "apex-local-retention-referral",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/local-retention-referral"
+      ],
+      "skillNames": [
+        "local-retention-referral"
+      ]
+    },
+    {
+      "id": "local-negative-review-response",
+      "title": "Negative Review Response Handler",
+      "filename": "local-negative-review-response.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "9632364ae38e4bdfe676343939413b34f19eeacebb6a8c775cc554fb24cceaf1",
+      "sizeBytes": 2713,
+      "artifactPath": "products/local-negative-review-response.md",
+      "pluginPath": "plugins/local-negative-review-response",
+      "pluginName": "apex-local-negative-review-response",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/local-negative-review-response"
+      ],
+      "skillNames": [
+        "local-negative-review-response"
+      ]
+    },
+    {
+      "id": "marketplace-listing-optimizer",
+      "title": "Marketplace Listing Optimizer",
+      "filename": "marketplace-listing-optimizer.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "d81d41fe513b2fe9f2ff9b6d7c05e7a0847126ad89c138f52c5119db672aee32",
+      "sizeBytes": 2965,
+      "artifactPath": "products/marketplace-listing-optimizer.md",
+      "pluginPath": "plugins/marketplace-listing-optimizer",
+      "pluginName": "apex-marketplace-listing-optimizer",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/marketplace-listing-optimizer"
+      ],
+      "skillNames": [
+        "marketplace-listing-optimizer"
+      ]
+    },
+    {
+      "id": "marketplace-pricing-comps",
+      "title": "Marketplace Pricing Comps",
+      "filename": "marketplace-pricing-comps.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "03030ea986c1e730a2359fb90a3024474ba588afd46ff7a2648dfb2ae9234f29",
+      "sizeBytes": 2811,
+      "artifactPath": "products/marketplace-pricing-comps.md",
+      "pluginPath": "plugins/marketplace-pricing-comps",
+      "pluginName": "apex-marketplace-pricing-comps",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/marketplace-pricing-comps"
+      ],
+      "skillNames": [
+        "marketplace-pricing-comps"
+      ]
+    },
+    {
+      "id": "marketplace-photo-coach",
+      "title": "Marketplace Photo Coach",
+      "filename": "marketplace-photo-coach.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "d1de655c1199959a2a0679058123781a569c85ef85432303651611b89f1af0f9",
+      "sizeBytes": 2731,
+      "artifactPath": "products/marketplace-photo-coach.md",
+      "pluginPath": "plugins/marketplace-photo-coach",
+      "pluginName": "apex-marketplace-photo-coach",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/marketplace-photo-coach"
+      ],
+      "skillNames": [
+        "marketplace-photo-coach"
+      ]
+    },
+    {
+      "id": "marketplace-negotiation-scripts",
+      "title": "Marketplace Negotiation Scripts",
+      "filename": "marketplace-negotiation-scripts.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "716989c2f6b34eb14ffae9563f8123022d98467fd7a0b7fad69ea35bf1cacc98",
+      "sizeBytes": 2689,
+      "artifactPath": "products/marketplace-negotiation-scripts.md",
+      "pluginPath": "plugins/marketplace-negotiation-scripts",
+      "pluginName": "apex-marketplace-negotiation-scripts",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/marketplace-negotiation-scripts"
+      ],
+      "skillNames": [
+        "marketplace-negotiation-scripts"
+      ]
+    },
+    {
+      "id": "marketplace-scam-safety",
+      "title": "Marketplace Scam and Safety Guard",
+      "filename": "marketplace-scam-safety.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "ca7b6b22ec6ff9a96a8f40417beaaecab6be588c281d5422b620af8023efdbaa",
+      "sizeBytes": 2841,
+      "artifactPath": "products/marketplace-scam-safety.md",
+      "pluginPath": "plugins/marketplace-scam-safety",
+      "pluginName": "apex-marketplace-scam-safety",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/marketplace-scam-safety"
+      ],
+      "skillNames": [
+        "marketplace-scam-safety"
+      ]
+    },
+    {
+      "id": "appliance-inspection-guide",
+      "title": "Used Appliance Inspection Guide",
+      "filename": "appliance-inspection-guide.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "165bab983bd1d822c09deb6504ff85d5ff270e7cb11dd1d8de67916e785e4ef4",
+      "sizeBytes": 2813,
+      "artifactPath": "products/appliance-inspection-guide.md",
+      "pluginPath": "plugins/appliance-inspection-guide",
+      "pluginName": "apex-appliance-inspection-guide",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/appliance-inspection-guide"
+      ],
+      "skillNames": [
+        "appliance-inspection-guide"
+      ]
+    },
+    {
+      "id": "appliance-repair-triage",
+      "title": "Appliance Repair Triage",
+      "filename": "appliance-repair-triage.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "cbc8260be55b9d723431901e3fe68878f9fdabd2cfccb73e8cced56ab690a089",
+      "sizeBytes": 2774,
+      "artifactPath": "products/appliance-repair-triage.md",
+      "pluginPath": "plugins/appliance-repair-triage",
+      "pluginName": "apex-appliance-repair-triage",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/appliance-repair-triage"
+      ],
+      "skillNames": [
+        "appliance-repair-triage"
+      ]
+    },
+    {
+      "id": "appliance-age-recall-checker",
+      "title": "Appliance Age and Recall Checker",
+      "filename": "appliance-age-recall-checker.md",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "2e74c4042e4808ca0012c02d153ced0edf6c9e336bafc9cbbac24875a368183b",
+      "sizeBytes": 2782,
+      "artifactPath": "products/appliance-age-recall-checker.md",
+      "pluginPath": "plugins/appliance-age-recall-checker",
+      "pluginName": "apex-appliance-age-recall-checker",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/appliance-age-recall-checker"
+      ],
+      "skillNames": [
+        "appliance-age-recall-checker"
+      ]
+    },
+    {
+      "id": "steve-jobs-design",
+      "title": "The Craft Lens",
+      "filename": "the-craft-lens.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "f9e263473d1f8a818bb498e310201591a5077931ee8e8bee60e6790e133f4f6c",
+      "sizeBytes": 5301,
+      "artifactPath": "products/the-craft-lens.md",
+      "pluginPath": "plugins/steve-jobs-design",
+      "pluginName": "apex-steve-jobs-design",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/steve-jobs-design"
+      ],
+      "skillNames": [
+        "the-craft-lens"
+      ]
+    },
+    {
+      "id": "first-principles-thinking",
+      "title": "First Principles Reasoner",
+      "filename": "first-principles-thinking.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "6e0ae8011da4a4e68642abad64cf5ded8bd8904849c9190766998b57860d1545",
+      "sizeBytes": 5180,
+      "artifactPath": "products/first-principles-thinking.md",
+      "pluginPath": "plugins/first-principles-thinking",
+      "pluginName": "apex-first-principles-thinking",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/first-principles-thinking"
+      ],
+      "skillNames": [
+        "first-principles-thinking"
+      ]
+    },
+    {
+      "id": "competitor-pain-intelligence",
+      "title": "Competitor Pain Intelligence",
+      "filename": "competitor-pain-intelligence.md",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "91ed31c0e2a097b58d901d1bf0304f4888c1744edc1ce9b4363ca6804bd93773",
+      "sizeBytes": 5399,
+      "artifactPath": "products/competitor-pain-intelligence.md",
+      "pluginPath": "plugins/competitor-pain-intelligence",
+      "pluginName": "apex-competitor-pain-intelligence",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/competitor-pain-intelligence"
+      ],
+      "skillNames": [
+        "competitor-pain-intelligence"
+      ]
+    },
+    {
+      "id": "context-vault",
+      "title": "Personal Context Vault",
+      "filename": "context-vault-pack.zip",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "66e2c86ff38e0d1848b52c91ecc40fe0abd77e5524a90395a0c1f33748a7b91c",
+      "sizeBytes": 19187,
+      "artifactPath": "products/context-vault-pack.zip",
+      "pluginPath": "plugins/context-vault",
+      "pluginName": "apex-context-vault",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/ai-handoff-brief-builder",
+        "./payload/blocker-snag-triage",
+        "./payload/context-vault-architect",
+        "./payload/guided-brain-dump-capture",
+        "./payload/personal-operating-system-map",
+        "./payload/project-context-captain",
+        "./payload/vault-ingestion-router",
+        "./payload/weekly-context-review"
+      ],
+      "skillNames": [
+        "ai-handoff-brief-builder",
+        "blocker-snag-triage",
+        "context-vault-architect",
+        "guided-brain-dump-capture",
+        "personal-operating-system-map",
+        "project-context-captain",
+        "vault-ingestion-router",
+        "weekly-context-review"
+      ]
+    },
+    {
+      "id": "brand-voice-engine",
+      "title": "Brand Voice Engine",
+      "filename": "brand-voice-engine.zip",
+      "kind": "catalog",
+      "hidden": true,
+      "sha256": "2f43327f190b9863474bd13be6e2b11c9f8bb31064a22c05164c652c0f570d54",
+      "sizeBytes": 10133,
+      "artifactPath": "products/brand-voice-engine.zip",
+      "pluginPath": "plugins/brand-voice-engine",
+      "pluginName": "apex-brand-voice-engine",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload"
+      ],
+      "skillNames": [
+        "brand-voice-engine"
+      ]
+    },
+    {
+      "id": "tweet-builder",
+      "title": "Tweet Builder",
+      "filename": "tweet-builder.zip",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "65a235d2b953223bc54befd211bad3df16b3dfd2b8df3761abf6619caa1a693c",
+      "sizeBytes": 6822,
+      "artifactPath": "products/tweet-builder.zip",
+      "pluginPath": "plugins/tweet-builder",
+      "pluginName": "apex-tweet-builder",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload"
+      ],
+      "skillNames": [
+        "perfect-tweet-socratic"
+      ]
+    },
+    {
+      "id": "reducer-lens",
+      "title": "The Reducer Lens",
+      "filename": "reducer-lens.zip",
+      "kind": "catalog",
+      "hidden": false,
+      "sha256": "480b37e46adaf0d72385ffafc518360e937e247d8c63ad1a6d47fdf83458ba45",
+      "sizeBytes": 37157,
+      "artifactPath": "products/reducer-lens.zip",
+      "pluginPath": "plugins/reducer-lens",
+      "pluginName": "apex-reducer-lens",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/reducer-lens"
+      ],
+      "skillNames": [
+        "reducer-lens"
+      ]
+    },
+    {
+      "id": "aeo-and-geo",
+      "title": "AEO and GEO",
+      "filename": "aeo-and-geo.zip",
+      "kind": "extra",
+      "sha256": "9ed2d5365c25fd3ad697704a7bde2488117f3f17d81967390ac1fa6f0a02a26a",
+      "sizeBytes": 29729,
+      "artifactPath": "products/aeo-and-geo.zip",
+      "pluginPath": "plugins/aeo-and-geo",
+      "pluginName": "apex-aeo-and-geo",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload"
+      ],
+      "skillNames": [
+        "aeo-and-geo"
+      ]
+    },
+    {
+      "id": "seo-keyword-research",
+      "title": "Keyword Research",
+      "filename": "seo-keyword-research.md",
+      "kind": "extra",
+      "sha256": "634fd90f220cf9476ee656cea4ba38066d18ab444f6c5b8ee7f18f9597648157",
+      "sizeBytes": 5055,
+      "artifactPath": "products/seo-keyword-research.md",
+      "pluginPath": "plugins/seo-keyword-research",
+      "pluginName": "apex-seo-keyword-research",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/seo-keyword-research"
+      ],
+      "skillNames": [
+        "seo-keyword-research"
+      ]
+    },
+    {
+      "id": "seo-longtail-keywords",
+      "title": "Long-tail Keyword Research",
+      "filename": "seo-longtail-keywords.md",
+      "kind": "extra",
+      "sha256": "bd58256772f10151c492e2a0b52b32236e34036747c2a7bdd0f29c2b9cee5c6a",
+      "sizeBytes": 4486,
+      "artifactPath": "products/seo-longtail-keywords.md",
+      "pluginPath": "plugins/seo-longtail-keywords",
+      "pluginName": "apex-seo-longtail-keywords",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/seo-longtail-keywords"
+      ],
+      "skillNames": [
+        "seo-longtail-keywords"
+      ]
+    },
+    {
+      "id": "seo-bing-places",
+      "title": "Bing Places",
+      "filename": "seo-bing-places.md",
+      "kind": "extra",
+      "sha256": "317f51b19535f0bc875742921d4c6f4799bfeca2437c40df78db88661aa1f039",
+      "sizeBytes": 7874,
+      "artifactPath": "products/seo-bing-places.md",
+      "pluginPath": "plugins/seo-bing-places",
+      "pluginName": "apex-seo-bing-places",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/seo-bing-places"
+      ],
+      "skillNames": [
+        "seo-bing-places"
+      ]
+    },
+    {
+      "id": "seo-search-console",
+      "title": "Search Console Analysis",
+      "filename": "seo-search-console.md",
+      "kind": "extra",
+      "sha256": "371c22c0c177a1db8726ef5eb9753ee7989b0175822c0847ab80cc5dc67fe9e1",
+      "sizeBytes": 3844,
+      "artifactPath": "products/seo-search-console.md",
+      "pluginPath": "plugins/seo-search-console",
+      "pluginName": "apex-seo-search-console",
+      "license": "MIT",
+      "skillPaths": [
+        "./payload/seo-search-console"
+      ],
+      "skillNames": [
+        "seo-search-console"
+      ]
+    }
+  ],
+  "payloads": [
+    {
+      "productId": "browser-automation",
+      "sourceMember": "Browser-Automation-Agent.md",
+      "path": "plugins/browser-automation/payload/browser-automation/SKILL.md",
+      "sha256": "4ff35822f793cb3017f2cdcaca035e036dfbb5e26f0735dbfa5dd0419cb2aca5",
+      "sizeBytes": 2378
+    },
+    {
+      "productId": "project-closeout",
+      "sourceMember": "Project-Closeout-Handoff.md",
+      "path": "plugins/project-closeout/payload/project-closeout/SKILL.md",
+      "sha256": "1768a46e86ce661dd50890ed915c7c622b3d8a05bb7ec954b62be2f59505c080",
+      "sizeBytes": 2168
+    },
+    {
+      "productId": "skill-creator",
+      "sourceMember": "SKILL.md",
+      "path": "plugins/skill-creator/payload/SKILL.md",
+      "sha256": "6fa5d91545a6b127f23e19dff8e411502b563d329a2bdcd9327c86548549d233",
+      "sizeBytes": 9642
+    },
+    {
+      "productId": "content-repurposing-engine",
+      "sourceMember": "references/platform-specs.md",
+      "path": "plugins/content-repurposing-engine/payload/references/platform-specs.md",
+      "sha256": "b727ba947ed83bc9d126724d8e9c5a0e25ea858245b96213dc2a25fe2feba5b9",
+      "sizeBytes": 2442
+    },
+    {
+      "productId": "content-repurposing-engine",
+      "sourceMember": "references/voice-samples.md",
+      "path": "plugins/content-repurposing-engine/payload/references/voice-samples.md",
+      "sha256": "cf69235b7a60c4af56f4c90bc9ba157aa1a19f69146bc09e45365f027a749223",
+      "sizeBytes": 802
+    },
+    {
+      "productId": "content-repurposing-engine",
+      "sourceMember": "SKILL.md",
+      "path": "plugins/content-repurposing-engine/payload/SKILL.md",
+      "sha256": "b7f5aeb5462f4b4c11a9b7729985bf3f11e964fd4c3fde151fa5d1d7275a6f83",
+      "sizeBytes": 9981
+    },
+    {
+      "productId": "anti-slop",
+      "sourceMember": "SKILL.md",
+      "path": "plugins/anti-slop/payload/SKILL.md",
+      "sha256": "0a0a75c95e0d68ba9c4ded656b00553f9386e77886cfd3ec1ffd3fe5b2092f1c",
+      "sizeBytes": 14767
+    },
+    {
+      "productId": "anti-slop",
+      "sourceMember": "references/voice-calibration.md",
+      "path": "plugins/anti-slop/payload/references/voice-calibration.md",
+      "sha256": "0c45bf266a8f05ee9aa53720125a2b44a0cf046c01a71d574aa56df68458816e",
+      "sizeBytes": 2936
+    },
+    {
+      "productId": "anti-slop",
+      "sourceMember": "references/slop-dictionary.md",
+      "path": "plugins/anti-slop/payload/references/slop-dictionary.md",
+      "sha256": "5891421de9ad4cd80b0d87fe7c437ecd33f104faed00fd35a5eabd3da3504e6e",
+      "sizeBytes": 6850
+    },
+    {
+      "productId": "upwork-hunter",
+      "sourceMember": "Upwork-Automated-Lead-Hunter.md",
+      "path": "plugins/upwork-hunter/payload/upwork-hunter/SKILL.md",
+      "sha256": "80e9062a7e58b14bd557622c9393990af14951b7d4aca8eb2845d6449fb14583",
+      "sizeBytes": 2083
+    },
+    {
+      "productId": "website-landlord",
+      "sourceMember": "Website-Landlord-SEO-Playbook.md",
+      "path": "plugins/website-landlord/payload/website-landlord/SKILL.md",
+      "sha256": "5c955557f3b39e37296d8ae64da99b7c1b1409c2b52c66281129049e67bacaee",
+      "sizeBytes": 2144
+    },
+    {
+      "productId": "seo-keyword-fix",
+      "sourceMember": "SEO-Keyword-Fix-Pipeline.md",
+      "path": "plugins/seo-keyword-fix/payload/seo-keyword-fix/SKILL.md",
+      "sha256": "da4fd0c00318af845532bb66ee24260a0758fabd6296648d2d50573cd4b21372",
+      "sizeBytes": 6099
+    },
+    {
+      "productId": "yt-content-engine",
+      "sourceMember": "YouTube-to-Content-Engine.md",
+      "path": "plugins/yt-content-engine/payload/yt-content-engine/SKILL.md",
+      "sha256": "77af17d1a274201aeb21d4fd96f606bad3485226d86d87118272b677ee2d65c2",
+      "sizeBytes": 1901
+    },
+    {
+      "productId": "local-audit",
+      "sourceMember": "Local-Business-AI-Audit.md",
+      "path": "plugins/local-audit/payload/local-audit/SKILL.md",
+      "sha256": "560131c296641e5ef52b4c19a3a36a8d8dc01d6d5cf32d1d71ef5c38bf45b256",
+      "sizeBytes": 1775
+    },
+    {
+      "productId": "podcast-wisdom",
+      "sourceMember": "Podcast-Wisdom-Extractor.md",
+      "path": "plugins/podcast-wisdom/payload/podcast-wisdom/SKILL.md",
+      "sha256": "3ade5b49894e98a94d8dbf9c925b64a8e456ff0fd2c18b5a2b0f199dcc2c26d0",
+      "sizeBytes": 1939
+    },
+    {
+      "productId": "copywriting-mastery",
+      "sourceMember": "Copywriting-Mastery.md",
+      "path": "plugins/copywriting-mastery/payload/copywriting-mastery/SKILL.md",
+      "sha256": "8230cb0001166b785e8b61582ea6752cb2cfb1d733610b5a85a015ac7fb4fee8",
+      "sizeBytes": 2139
+    },
+    {
+      "productId": "product-naming",
+      "sourceMember": "Product-Naming-Strategist.md",
+      "path": "plugins/product-naming/payload/product-naming/SKILL.md",
+      "sha256": "1c9338101e3c47c1c504f3d9e6a9b98c33445e4e0a2ec3504cfba22b12cedc1a",
+      "sizeBytes": 2091
+    },
+    {
+      "productId": "web-design-foundations",
+      "sourceMember": "Web-Design-Foundations.md",
+      "path": "plugins/web-design-foundations/payload/web-design-foundations/SKILL.md",
+      "sha256": "897b17bfdb91f483ac1060fb219a91214674583c903f05e2bdcde03122055fd7",
+      "sizeBytes": 2186
+    },
+    {
+      "productId": "asset-generator",
+      "sourceMember": "App-Asset-Prompt-Generator.md",
+      "path": "plugins/asset-generator/payload/asset-generator/SKILL.md",
+      "sha256": "07f8cf792c3bee11f2a6fa203e3affe7a06f12245ad4bb3a80443d318c496e31",
+      "sizeBytes": 2596
+    },
+    {
+      "productId": "ecommerce-listing",
+      "sourceMember": "E-commerce-Listing-Optimizer.md",
+      "path": "plugins/ecommerce-listing/payload/ecommerce-listing/SKILL.md",
+      "sha256": "cfce7f7618931c0e40a43c18f12aae1dd6b662b092b869390cbe6337a004f083",
+      "sizeBytes": 2513
+    },
+    {
+      "productId": "claude-context-hygiene",
+      "sourceMember": "claude-context-hygiene.md",
+      "path": "plugins/claude-context-hygiene/payload/claude-context-hygiene/SKILL.md",
+      "sha256": "00999a95311ad9c1017e276721e4cf2688f84a80bb04f25b31edeef5e9a2b31e",
+      "sizeBytes": 3163
+    },
+    {
+      "productId": "claude-session-handoff",
+      "sourceMember": "claude-session-handoff.md",
+      "path": "plugins/claude-session-handoff/payload/claude-session-handoff/SKILL.md",
+      "sha256": "f2023b0b90f723bcaa03f458bb47a1983c566b657a6d0529d19cc96f9ffa74a2",
+      "sizeBytes": 2596
+    },
+    {
+      "productId": "claude-fail-loud",
+      "sourceMember": "claude-fail-loud.md",
+      "path": "plugins/claude-fail-loud/payload/claude-fail-loud/SKILL.md",
+      "sha256": "192ae9bbe5f5244fd2fcc341fc5422907e8cff1e67cb8b2b5b0bd951229bc269",
+      "sizeBytes": 2874
+    },
+    {
+      "productId": "claude-hook-setup",
+      "sourceMember": "claude-hook-setup.md",
+      "path": "plugins/claude-hook-setup/payload/claude-hook-setup/SKILL.md",
+      "sha256": "5982b4098b810897a6cbdcd9d19cea0defed2f592feb5569797fd9d33056f5f6",
+      "sizeBytes": 2734
+    },
+    {
+      "productId": "claude-mcp-setup",
+      "sourceMember": "claude-mcp-setup.md",
+      "path": "plugins/claude-mcp-setup/payload/claude-mcp-setup/SKILL.md",
+      "sha256": "6a236bff43d548d55a3af8cee0f87202b92780e535bab2fae4c273a5c032f010",
+      "sizeBytes": 2857
+    },
+    {
+      "productId": "claude-mcp-server-builder",
+      "sourceMember": "claude-mcp-server-builder.md",
+      "path": "plugins/claude-mcp-server-builder/payload/claude-mcp-server-builder/SKILL.md",
+      "sha256": "1ae54454cee59c19afb1c70a3a23da766ee56b5d5a877dc1b29f8f16da20f680",
+      "sizeBytes": 2711
+    },
+    {
+      "productId": "claude-worktree-parallel-setup",
+      "sourceMember": "claude-worktree-parallel-setup.md",
+      "path": "plugins/claude-worktree-parallel-setup/payload/claude-worktree-parallel-setup/SKILL.md",
+      "sha256": "6aa03920a9c84fd8448f7c98a63060c48035c735d3eadf50daa5dc96ad596f93",
+      "sizeBytes": 2658
+    },
+    {
+      "productId": "claude-pr-review",
+      "sourceMember": "claude-pr-review.md",
+      "path": "plugins/claude-pr-review/payload/claude-pr-review/SKILL.md",
+      "sha256": "2d469af2611d8ed763a8d1f7e7c42e961303980e9d5ff81fe62acb458a6b92d2",
+      "sizeBytes": 2632
+    },
+    {
+      "productId": "claude-cost-optimizer",
+      "sourceMember": "claude-cost-optimizer.md",
+      "path": "plugins/claude-cost-optimizer/payload/claude-cost-optimizer/SKILL.md",
+      "sha256": "6e74de63bc4cc491ca2ebb8a93503a333b0a795d58728d7f114491be569f15a1",
+      "sizeBytes": 2739
+    },
+    {
+      "productId": "saas-validate-before-build",
+      "sourceMember": "saas-validate-before-build.md",
+      "path": "plugins/saas-validate-before-build/payload/saas-validate-before-build/SKILL.md",
+      "sha256": "f802281539c7038f9caf9c3b520c0e874e677290b86adbde46c394efcdfaae65",
+      "sizeBytes": 2832
+    },
+    {
+      "productId": "saas-customer-interviews",
+      "sourceMember": "saas-customer-interviews.md",
+      "path": "plugins/saas-customer-interviews/payload/saas-customer-interviews/SKILL.md",
+      "sha256": "52f815dd6f11fa34fe8627de5aeb86e62dbca85919a58557f3d36b1551b5e67a",
+      "sizeBytes": 2750
+    },
+    {
+      "productId": "saas-landing-page",
+      "sourceMember": "saas-landing-page.md",
+      "path": "plugins/saas-landing-page/payload/saas-landing-page/SKILL.md",
+      "sha256": "d50456afe7f66a64314c62b4810958afdf719b80ce5b2182ef29a82e89c8afee",
+      "sizeBytes": 2677
+    },
+    {
+      "productId": "saas-pricing-strategy",
+      "sourceMember": "saas-pricing-strategy.md",
+      "path": "plugins/saas-pricing-strategy/payload/saas-pricing-strategy/SKILL.md",
+      "sha256": "cb5ed85b87dd3f4be7ac4c8f2e4d844203e7cf6c47671782598ed1cd27082ebf",
+      "sizeBytes": 2786
+    },
+    {
+      "productId": "saas-activation-analytics",
+      "sourceMember": "saas-activation-analytics.md",
+      "path": "plugins/saas-activation-analytics/payload/saas-activation-analytics/SKILL.md",
+      "sha256": "620a2ae3f6dcf664b16c656794d498c9561d9186ffcb112ed85f203264e1aca2",
+      "sizeBytes": 2768
+    },
+    {
+      "productId": "saas-onboarding-flow",
+      "sourceMember": "saas-onboarding-flow.md",
+      "path": "plugins/saas-onboarding-flow/payload/saas-onboarding-flow/SKILL.md",
+      "sha256": "296e990662917d134a2df08503f989939598e11099a32c009035b9dff70cbb17",
+      "sizeBytes": 2604
+    },
+    {
+      "productId": "saas-stripe-setup",
+      "sourceMember": "saas-stripe-setup.md",
+      "path": "plugins/saas-stripe-setup/payload/saas-stripe-setup/SKILL.md",
+      "sha256": "84192ec02d2bcd1a850c1bd36565f910ae7a31c71c9be713274339cbb9fd0930",
+      "sizeBytes": 2875
+    },
+    {
+      "productId": "saas-mvp-stack",
+      "sourceMember": "saas-mvp-stack.md",
+      "path": "plugins/saas-mvp-stack/payload/saas-mvp-stack/SKILL.md",
+      "sha256": "0eae350673f015ef6cda14c592704030179d8fd37065e6de13ddfe8c3af45e79",
+      "sizeBytes": 2915
+    },
+    {
+      "productId": "saas-pmf-engine",
+      "sourceMember": "saas-pmf-engine.md",
+      "path": "plugins/saas-pmf-engine/payload/saas-pmf-engine/SKILL.md",
+      "sha256": "ed14531853df32e4b715c206f97075121b407a6aca869e3383f9246d74604fef",
+      "sizeBytes": 2657
+    },
+    {
+      "productId": "saas-launch-playbook",
+      "sourceMember": "saas-launch-playbook.md",
+      "path": "plugins/saas-launch-playbook/payload/saas-launch-playbook/SKILL.md",
+      "sha256": "f1a7122b91d6dd7041945b2832e139337bd8d25b994805ea26afcc18ebdcc78a",
+      "sizeBytes": 2769
+    },
+    {
+      "productId": "saas-aso",
+      "sourceMember": "saas-aso.md",
+      "path": "plugins/saas-aso/payload/saas-aso/SKILL.md",
+      "sha256": "7068274ceef1db545cbd606001be2f5bdb222d5b4e6ecf641713b72e09d0605a",
+      "sizeBytes": 2788
+    },
+    {
+      "productId": "saas-founder-notes",
+      "sourceMember": "saas-founder-notes.md",
+      "path": "plugins/saas-founder-notes/payload/saas-founder-notes/SKILL.md",
+      "sha256": "4998bf3b20128e0f6ee3647e4eaab933e007271929bb7fa608470f09ff01dce8",
+      "sizeBytes": 2654
+    },
+    {
+      "productId": "local-gbp-optimizer",
+      "sourceMember": "local-gbp-optimizer.md",
+      "path": "plugins/local-gbp-optimizer/payload/local-gbp-optimizer/SKILL.md",
+      "sha256": "3f8559cca37437fbec51a2023a78c7ed16a68fa813948abd7a1fd9cf96f7fa49",
+      "sizeBytes": 7834
+    },
+    {
+      "productId": "local-missed-call-textback",
+      "sourceMember": "local-missed-call-textback.md",
+      "path": "plugins/local-missed-call-textback/payload/local-missed-call-textback/SKILL.md",
+      "sha256": "06dd1326d77758ec5ef6913fc7d67a257a907564e7de263090f9d6f34d35ed44",
+      "sizeBytes": 2682
+    },
+    {
+      "productId": "local-lead-followup-sequence",
+      "sourceMember": "local-lead-followup-sequence.md",
+      "path": "plugins/local-lead-followup-sequence/payload/local-lead-followup-sequence/SKILL.md",
+      "sha256": "c0e278b4402fa0544964c73dfb2c6eeba9811c6d3ef19857993d730bf2073ee9",
+      "sizeBytes": 2668
+    },
+    {
+      "productId": "local-quote-followup",
+      "sourceMember": "local-quote-followup.md",
+      "path": "plugins/local-quote-followup/payload/local-quote-followup/SKILL.md",
+      "sha256": "45f8fc3b5cfc8f2d6ce13b86dde890505ebb072c3f2071f07e2d95f49489afd7",
+      "sizeBytes": 2645
+    },
+    {
+      "productId": "local-review-generation",
+      "sourceMember": "local-review-generation.md",
+      "path": "plugins/local-review-generation/payload/local-review-generation/SKILL.md",
+      "sha256": "edb1e569d4fa44e4adf8d0007715c2bc6a89737f56555777b34d971827be3b69",
+      "sizeBytes": 2738
+    },
+    {
+      "productId": "local-b2b-property-manager-outreach",
+      "sourceMember": "local-b2b-property-manager-outreach.md",
+      "path": "plugins/local-b2b-property-manager-outreach/payload/local-b2b-property-manager-outreach/SKILL.md",
+      "sha256": "f0ca87699d1fcea88e5f5379a201fcc6d7e82bf3b33f8f30fe2b42976aa94cda",
+      "sizeBytes": 2968
+    },
+    {
+      "productId": "local-good-better-best-pricing",
+      "sourceMember": "local-good-better-best-pricing.md",
+      "path": "plugins/local-good-better-best-pricing/payload/local-good-better-best-pricing/SKILL.md",
+      "sha256": "e58d91f3a529a4fde4545ad7910ac26984ac4ca111b7f9d254eeb21aa81486f3",
+      "sizeBytes": 2774
+    },
+    {
+      "productId": "local-crm-automation",
+      "sourceMember": "local-crm-automation.md",
+      "path": "plugins/local-crm-automation/payload/local-crm-automation/SKILL.md",
+      "sha256": "90e9048662a2640a0f7ef77a9db3620a3b2365a3ac079e5609a715d6d9de43b1",
+      "sizeBytes": 2820
+    },
+    {
+      "productId": "local-retention-referral",
+      "sourceMember": "local-retention-referral.md",
+      "path": "plugins/local-retention-referral/payload/local-retention-referral/SKILL.md",
+      "sha256": "81e3344e97e676802e37e146554235c86a3bd8f2c6869e8a9261d8e18f648f96",
+      "sizeBytes": 2619
+    },
+    {
+      "productId": "local-negative-review-response",
+      "sourceMember": "local-negative-review-response.md",
+      "path": "plugins/local-negative-review-response/payload/local-negative-review-response/SKILL.md",
+      "sha256": "9632364ae38e4bdfe676343939413b34f19eeacebb6a8c775cc554fb24cceaf1",
+      "sizeBytes": 2713
+    },
+    {
+      "productId": "marketplace-listing-optimizer",
+      "sourceMember": "marketplace-listing-optimizer.md",
+      "path": "plugins/marketplace-listing-optimizer/payload/marketplace-listing-optimizer/SKILL.md",
+      "sha256": "d81d41fe513b2fe9f2ff9b6d7c05e7a0847126ad89c138f52c5119db672aee32",
+      "sizeBytes": 2965
+    },
+    {
+      "productId": "marketplace-pricing-comps",
+      "sourceMember": "marketplace-pricing-comps.md",
+      "path": "plugins/marketplace-pricing-comps/payload/marketplace-pricing-comps/SKILL.md",
+      "sha256": "03030ea986c1e730a2359fb90a3024474ba588afd46ff7a2648dfb2ae9234f29",
+      "sizeBytes": 2811
+    },
+    {
+      "productId": "marketplace-photo-coach",
+      "sourceMember": "marketplace-photo-coach.md",
+      "path": "plugins/marketplace-photo-coach/payload/marketplace-photo-coach/SKILL.md",
+      "sha256": "d1de655c1199959a2a0679058123781a569c85ef85432303651611b89f1af0f9",
+      "sizeBytes": 2731
+    },
+    {
+      "productId": "marketplace-negotiation-scripts",
+      "sourceMember": "marketplace-negotiation-scripts.md",
+      "path": "plugins/marketplace-negotiation-scripts/payload/marketplace-negotiation-scripts/SKILL.md",
+      "sha256": "716989c2f6b34eb14ffae9563f8123022d98467fd7a0b7fad69ea35bf1cacc98",
+      "sizeBytes": 2689
+    },
+    {
+      "productId": "marketplace-scam-safety",
+      "sourceMember": "marketplace-scam-safety.md",
+      "path": "plugins/marketplace-scam-safety/payload/marketplace-scam-safety/SKILL.md",
+      "sha256": "ca7b6b22ec6ff9a96a8f40417beaaecab6be588c281d5422b620af8023efdbaa",
+      "sizeBytes": 2841
+    },
+    {
+      "productId": "appliance-inspection-guide",
+      "sourceMember": "appliance-inspection-guide.md",
+      "path": "plugins/appliance-inspection-guide/payload/appliance-inspection-guide/SKILL.md",
+      "sha256": "165bab983bd1d822c09deb6504ff85d5ff270e7cb11dd1d8de67916e785e4ef4",
+      "sizeBytes": 2813
+    },
+    {
+      "productId": "appliance-repair-triage",
+      "sourceMember": "appliance-repair-triage.md",
+      "path": "plugins/appliance-repair-triage/payload/appliance-repair-triage/SKILL.md",
+      "sha256": "cbc8260be55b9d723431901e3fe68878f9fdabd2cfccb73e8cced56ab690a089",
+      "sizeBytes": 2774
+    },
+    {
+      "productId": "appliance-age-recall-checker",
+      "sourceMember": "appliance-age-recall-checker.md",
+      "path": "plugins/appliance-age-recall-checker/payload/appliance-age-recall-checker/SKILL.md",
+      "sha256": "2e74c4042e4808ca0012c02d153ced0edf6c9e336bafc9cbbac24875a368183b",
+      "sizeBytes": 2782
+    },
+    {
+      "productId": "steve-jobs-design",
+      "sourceMember": "the-craft-lens.md",
+      "path": "plugins/steve-jobs-design/payload/steve-jobs-design/SKILL.md",
+      "sha256": "f9e263473d1f8a818bb498e310201591a5077931ee8e8bee60e6790e133f4f6c",
+      "sizeBytes": 5301
+    },
+    {
+      "productId": "first-principles-thinking",
+      "sourceMember": "first-principles-thinking.md",
+      "path": "plugins/first-principles-thinking/payload/first-principles-thinking/SKILL.md",
+      "sha256": "6e0ae8011da4a4e68642abad64cf5ded8bd8904849c9190766998b57860d1545",
+      "sizeBytes": 5180
+    },
+    {
+      "productId": "competitor-pain-intelligence",
+      "sourceMember": "competitor-pain-intelligence.md",
+      "path": "plugins/competitor-pain-intelligence/payload/competitor-pain-intelligence/SKILL.md",
+      "sha256": "91ed31c0e2a097b58d901d1bf0304f4888c1744edc1ce9b4363ca6804bd93773",
+      "sizeBytes": 5399
+    },
+    {
+      "productId": "context-vault",
+      "sourceMember": "README.md",
+      "path": "plugins/context-vault/payload/README.md",
+      "sha256": "9ead6daeee7c40dbf084653566f23fabb871314f113b69ee5009f4774dc88eaf",
+      "sizeBytes": 1394
+    },
+    {
+      "productId": "context-vault",
+      "sourceMember": "ai-handoff-brief-builder/SKILL.md",
+      "path": "plugins/context-vault/payload/ai-handoff-brief-builder/SKILL.md",
+      "sha256": "ad1df6362111aa3c50d452e34cc070d6a74f83f97f9c633ff871922798249762",
+      "sizeBytes": 3417
+    },
+    {
+      "productId": "context-vault",
+      "sourceMember": "blocker-snag-triage/SKILL.md",
+      "path": "plugins/context-vault/payload/blocker-snag-triage/SKILL.md",
+      "sha256": "39397672f724465b0f7e04be0ac45e3b75988b547d0e302f5c5e078296cbc20d",
+      "sizeBytes": 3336
+    },
+    {
+      "productId": "context-vault",
+      "sourceMember": "context-vault-architect/SKILL.md",
+      "path": "plugins/context-vault/payload/context-vault-architect/SKILL.md",
+      "sha256": "3ebd9cd9a37506ecb249fd5a15c784af46ede2cac58b656995807d0fb5e32383",
+      "sizeBytes": 4541
+    },
+    {
+      "productId": "context-vault",
+      "sourceMember": "guided-brain-dump-capture/SKILL.md",
+      "path": "plugins/context-vault/payload/guided-brain-dump-capture/SKILL.md",
+      "sha256": "f4ffd19d582f7e69c8b522090f3294f495b43e72f799cc10812f767c06c43f4c",
+      "sizeBytes": 3506
+    },
+    {
+      "productId": "context-vault",
+      "sourceMember": "personal-operating-system-map/SKILL.md",
+      "path": "plugins/context-vault/payload/personal-operating-system-map/SKILL.md",
+      "sha256": "ac82026248776e25d24eb9a8822f44136d821cae86b4adba31be32e6b70770f5",
+      "sizeBytes": 3316
+    },
+    {
+      "productId": "context-vault",
+      "sourceMember": "project-context-captain/SKILL.md",
+      "path": "plugins/context-vault/payload/project-context-captain/SKILL.md",
+      "sha256": "a14ee85a402562e56660ccf087a60e0f834c00e65fe20225d3c3c907c808c111",
+      "sizeBytes": 3440
+    },
+    {
+      "productId": "context-vault",
+      "sourceMember": "vault-ingestion-router/SKILL.md",
+      "path": "plugins/context-vault/payload/vault-ingestion-router/SKILL.md",
+      "sha256": "36ad895977542a5102627bcdb627af658ba297540079e3ee4012108dc87b3bdf",
+      "sizeBytes": 3178
+    },
+    {
+      "productId": "context-vault",
+      "sourceMember": "weekly-context-review/SKILL.md",
+      "path": "plugins/context-vault/payload/weekly-context-review/SKILL.md",
+      "sha256": "25abbbf02e75fa23c61bcb508b2b8ee9c6531f9a4cf3f34ae3818d9e92e664d9",
+      "sizeBytes": 3190
+    },
+    {
+      "productId": "context-vault",
+      "sourceMember": "context-vault-architect/scripts/bootstrap_context_vault.py",
+      "path": "plugins/context-vault/payload/context-vault-architect/scripts/bootstrap_context_vault.py",
+      "sha256": "a3dbe4356bb39af51460ce0e62ab6e6924465b15cf640cc84f8b5ec3eb0ba672",
+      "sizeBytes": 5118
+    },
+    {
+      "productId": "context-vault",
+      "sourceMember": "_shared/scripts/bootstrap_context_vault.py",
+      "path": "plugins/context-vault/payload/_shared/scripts/bootstrap_context_vault.py",
+      "sha256": "a3dbe4356bb39af51460ce0e62ab6e6924465b15cf640cc84f8b5ec3eb0ba672",
+      "sizeBytes": 5118
+    },
+    {
+      "productId": "brand-voice-engine",
+      "sourceMember": "README.md",
+      "path": "plugins/brand-voice-engine/payload/README.md",
+      "sha256": "2a9f4285a662e1109d6736d8ee7e75486b6385ccb104d974ca2e82720c53ae2c",
+      "sizeBytes": 2956
+    },
+    {
+      "productId": "brand-voice-engine",
+      "sourceMember": "SKILL.md",
+      "path": "plugins/brand-voice-engine/payload/SKILL.md",
+      "sha256": "4cad4cd4c56f5b6b5f0ff4db3f93c0bff38670f157fb5ee4b68e8f702e1bbad1",
+      "sizeBytes": 19827
+    },
+    {
+      "productId": "tweet-builder",
+      "sourceMember": "SKILL.md",
+      "path": "plugins/tweet-builder/payload/SKILL.md",
+      "sha256": "f43313efdc27f4ba260804389a665fb8a5a387bd120444c91d182337e1cdb2ea",
+      "sizeBytes": 6537
+    },
+    {
+      "productId": "tweet-builder",
+      "sourceMember": "references/playbook.md",
+      "path": "plugins/tweet-builder/payload/references/playbook.md",
+      "sha256": "e7146ca924fb3fc76c125d8aa4f0bc2b3160c9b67076b2fa40da0d3b895566ca",
+      "sizeBytes": 6951
+    },
+    {
+      "productId": "reducer-lens",
+      "sourceMember": "reducer-lens/SKILL.md",
+      "path": "plugins/reducer-lens/payload/reducer-lens/SKILL.md",
+      "sha256": "5b1dd5b7df971808b73d76403856ac93a9faafc61fd39045be4e6f90fa31aa2a",
+      "sizeBytes": 10715
+    },
+    {
+      "productId": "reducer-lens",
+      "sourceMember": "reducer-lens/references/case-studies-and-sources.md",
+      "path": "plugins/reducer-lens/payload/reducer-lens/references/case-studies-and-sources.md",
+      "sha256": "8406a3cb215996163e7002ae7d305a6fd620e2a7172ab58bd77cff243a3fa7d8",
+      "sizeBytes": 10374
+    },
+    {
+      "productId": "reducer-lens",
+      "sourceMember": "reducer-lens/references/producer-modes-and-prompts.md",
+      "path": "plugins/reducer-lens/payload/reducer-lens/references/producer-modes-and-prompts.md",
+      "sha256": "df215f34f841cb833fa9e1130e90f1e92f96d93fc9827eaf02a442b06092ce56",
+      "sizeBytes": 7745
+    },
+    {
+      "productId": "reducer-lens",
+      "sourceMember": "reducer-lens/references/reducer-tools.md",
+      "path": "plugins/reducer-lens/payload/reducer-lens/references/reducer-tools.md",
+      "sha256": "0318742744ec8d06969035747c5e848b1f16e889753f3a3a5953f85ec0a796e3",
+      "sizeBytes": 7367
+    },
+    {
+      "productId": "reducer-lens",
+      "sourceMember": "reducer-lens/references/rick-rubin-creative-process-research.pplx.md",
+      "path": "plugins/reducer-lens/payload/reducer-lens/references/rick-rubin-creative-process-research.pplx.md",
+      "sha256": "90d271016550ac78435948d79c91e0135feb679b743bead3ea2562cb2557376a",
+      "sizeBytes": 50834
+    },
+    {
+      "productId": "reducer-lens",
+      "sourceMember": "reducer-lens/references/rubin-operating-system.md",
+      "path": "plugins/reducer-lens/payload/reducer-lens/references/rubin-operating-system.md",
+      "sha256": "67169bfad19254860cc2d900df93eadd1af6cca3aa77ef29c04bc26b6cf2adb0",
+      "sizeBytes": 11017
+    },
+    {
+      "productId": "aeo-and-geo",
+      "sourceMember": "LICENSE",
+      "path": "plugins/aeo-and-geo/payload/LICENSE",
+      "sha256": "d9a7a8f636d71f7f03ab86b032224c5d1b3b866fe949285f81f36c60c805d30e",
+      "sizeBytes": 1073
+    },
+    {
+      "productId": "aeo-and-geo",
+      "sourceMember": "README.md",
+      "path": "plugins/aeo-and-geo/payload/README.md",
+      "sha256": "2f37427fb0f3f1ef3e6c0cbc24a0f5d88a2cb45a1fc897a36877736aa9439a82",
+      "sizeBytes": 615
+    },
+    {
+      "productId": "aeo-and-geo",
+      "sourceMember": "SKILL.md",
+      "path": "plugins/aeo-and-geo/payload/SKILL.md",
+      "sha256": "1ab00e76552373dcd92da1ffad92a2e461583fcd9ab6cb44e56c488acbb82a04",
+      "sizeBytes": 18198
+    },
+    {
+      "productId": "aeo-and-geo",
+      "sourceMember": "_shared/execution-standard.md",
+      "path": "plugins/aeo-and-geo/payload/_shared/execution-standard.md",
+      "sha256": "f6b33f52fbc413e64c87ca0b5ac411b10120051b15597e46c7d2b7301938e8cb",
+      "sizeBytes": 1406
+    },
+    {
+      "productId": "aeo-and-geo",
+      "sourceMember": "reference/evidence.md",
+      "path": "plugins/aeo-and-geo/payload/reference/evidence.md",
+      "sha256": "9439dcb820d0599031ba0662228faa0d19de4d16179b2251b1f746eeaeef5249",
+      "sizeBytes": 4112
+    },
+    {
+      "productId": "aeo-and-geo",
+      "sourceMember": "related-skills/local-gbp-optimizer/SKILL.md",
+      "path": "plugins/aeo-and-geo/payload/related-skills/local-gbp-optimizer/SKILL.md",
+      "sha256": "3f8559cca37437fbec51a2023a78c7ed16a68fa813948abd7a1fd9cf96f7fa49",
+      "sizeBytes": 7834
+    },
+    {
+      "productId": "aeo-and-geo",
+      "sourceMember": "related-skills/seo-bing-places/SKILL.md",
+      "path": "plugins/aeo-and-geo/payload/related-skills/seo-bing-places/SKILL.md",
+      "sha256": "317f51b19535f0bc875742921d4c6f4799bfeca2437c40df78db88661aa1f039",
+      "sizeBytes": 7874
+    },
+    {
+      "productId": "aeo-and-geo",
+      "sourceMember": "related-skills/seo-keyword-research/SKILL.md",
+      "path": "plugins/aeo-and-geo/payload/related-skills/seo-keyword-research/SKILL.md",
+      "sha256": "634fd90f220cf9476ee656cea4ba38066d18ab444f6c5b8ee7f18f9597648157",
+      "sizeBytes": 5055
+    },
+    {
+      "productId": "aeo-and-geo",
+      "sourceMember": "related-skills/seo-longtail-keywords/SKILL.md",
+      "path": "plugins/aeo-and-geo/payload/related-skills/seo-longtail-keywords/SKILL.md",
+      "sha256": "bd58256772f10151c492e2a0b52b32236e34036747c2a7bdd0f29c2b9cee5c6a",
+      "sizeBytes": 4486
+    },
+    {
+      "productId": "aeo-and-geo",
+      "sourceMember": "related-skills/seo-search-console/SKILL.md",
+      "path": "plugins/aeo-and-geo/payload/related-skills/seo-search-console/SKILL.md",
+      "sha256": "371c22c0c177a1db8726ef5eb9753ee7989b0175822c0847ab80cc5dc67fe9e1",
+      "sizeBytes": 3844
+    },
+    {
+      "productId": "aeo-and-geo",
+      "sourceMember": "scripts/audit.py",
+      "path": "plugins/aeo-and-geo/payload/scripts/audit.py",
+      "sha256": "82162e7490b1ed1bc8334b6162d7cc8f42c8f3c8a05ebcc79a118690f127e16a",
+      "sizeBytes": 6405
+    },
+    {
+      "productId": "seo-keyword-research",
+      "sourceMember": "seo-keyword-research.md",
+      "path": "plugins/seo-keyword-research/payload/seo-keyword-research/SKILL.md",
+      "sha256": "634fd90f220cf9476ee656cea4ba38066d18ab444f6c5b8ee7f18f9597648157",
+      "sizeBytes": 5055
+    },
+    {
+      "productId": "seo-longtail-keywords",
+      "sourceMember": "seo-longtail-keywords.md",
+      "path": "plugins/seo-longtail-keywords/payload/seo-longtail-keywords/SKILL.md",
+      "sha256": "bd58256772f10151c492e2a0b52b32236e34036747c2a7bdd0f29c2b9cee5c6a",
+      "sizeBytes": 4486
+    },
+    {
+      "productId": "seo-bing-places",
+      "sourceMember": "seo-bing-places.md",
+      "path": "plugins/seo-bing-places/payload/seo-bing-places/SKILL.md",
+      "sha256": "317f51b19535f0bc875742921d4c6f4799bfeca2437c40df78db88661aa1f039",
+      "sizeBytes": 7874
+    },
+    {
+      "productId": "seo-search-console",
+      "sourceMember": "seo-search-console.md",
+      "path": "plugins/seo-search-console/payload/seo-search-console/SKILL.md",
+      "sha256": "371c22c0c177a1db8726ef5eb9753ee7989b0175822c0847ab80cc5dc67fe9e1",
+      "sizeBytes": 3844
+    }
+  ]
+}

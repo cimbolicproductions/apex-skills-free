@@ -1,0 +1,12 @@
+{
+  "name": "apex-saas-aso",
+  "version": "1.0.0",
+  "description": "App Store Optimization",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/saas-aso"
+  ]
+}

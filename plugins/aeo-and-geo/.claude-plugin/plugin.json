@@ -1,0 +1,12 @@
+{
+  "name": "apex-aeo-and-geo",
+  "version": "1.0.0",
+  "description": "AEO and GEO",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload"
+  ]
+}

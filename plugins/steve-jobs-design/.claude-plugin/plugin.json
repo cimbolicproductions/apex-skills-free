@@ -1,0 +1,12 @@
+{
+  "name": "apex-steve-jobs-design",
+  "version": "1.0.0",
+  "description": "The Craft Lens",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/steve-jobs-design"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "apex-local-good-better-best-pricing",
+  "version": "1.0.0",
+  "description": "Good-Better-Best Local Pricing",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/local-good-better-best-pricing"
+  ]
+}

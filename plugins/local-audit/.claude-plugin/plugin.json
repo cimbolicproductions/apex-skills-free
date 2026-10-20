@@ -1,0 +1,12 @@
+{
+  "name": "apex-local-audit",
+  "version": "1.0.0",
+  "description": "B2B Automation Auditor",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
+  "skills": [
+    "./payload/local-audit"
+  ]
+}

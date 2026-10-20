@@ -1,0 +1,12 @@
+{
+  "name": "apex-appliance-inspection-guide",
+  "version": "1.0.0",
+  "description": "Used Appliance Inspection Guide",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/appliance-inspection-guide"
+  ]
+}

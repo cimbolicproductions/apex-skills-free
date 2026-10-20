@@ -1,0 +1,12 @@
+{
+  "name": "apex-anti-slop",
+  "version": "1.0.0",
+  "description": "Slop Killer",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload"
+  ]
+}

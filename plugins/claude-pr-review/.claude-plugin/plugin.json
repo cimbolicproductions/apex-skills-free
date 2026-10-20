@@ -1,0 +1,12 @@
+{
+  "name": "apex-pr-review",
+  "version": "1.0.0",
+  "description": "Claude PR Review",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/claude-pr-review"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "apex-saas-onboarding-flow",
+  "version": "1.0.0",
+  "description": "SaaS Onboarding Flow",
+  "author": {
+    "name": "Apex Skills"
+  },
+  "license": "MIT",
+  "skills": [
+    "./payload/saas-onboarding-flow"
+  ]
+}
