@@ -56,7 +56,7 @@ Then use `/apex-anti-slop:anti-slop` with a draft. With GitHub SSH access set up
 
 [START-HERE.md](START-HERE.md) walks through a first skill. [CATALOG.md](CATALOG.md) lists every skill with its download links.
 
-The install copies in `desktop/` and `plugins/` change only the name and description lines that the Claude apps require. Thirteen older skills had no name or description, so they now have one. Nine skill names started with `claude`, a word the apps do not allow in skill names, so those names drop it: `claude-session-handoff` is now `session-handoff`. The instructions themselves are unchanged. [PROVENANCE.json](PROVENANCE.json) records every change.
+The install copies in `desktop/` and `plugins/` change only the name and description lines that the Claude apps require. Thirteen older skills had no name or description, so they now have one. Nine skill names started with `claude`, a word the apps do not allow in skill names, so those names drop it: `claude-session-handoff` is now `session-handoff`. The Brand Voice Engine guide now tells you to start Claude Code with plain `claude` instead of turning off its approval prompts. The skill instructions themselves are unchanged. [PROVENANCE.json](PROVENANCE.json) records every change.
 
 ## Files and licenses
 

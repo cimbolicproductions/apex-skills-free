@@ -4,7 +4,7 @@ Each row is one product from the free bundle. Packs can contain several skills.
 
 - **Claude desktop app or claude.ai:** download a skill from the Desktop upload column, then go to **Customize > Skills**, click **+**, choose **Create skill**, then **Upload a skill**. On Pro, Max, Team or Enterprise you can instead add the whole marketplace once. See [START HERE](START-HERE.md).
 - **Claude Code:** add this marketplace, then run `/plugin install <plugin>@apex-skills-free`.
-- **Original download:** the untouched file from the Apex free bundle. The install copies add only the name and description fields the apps require.
+- **Original download:** the untouched file from the Apex free bundle. The install copies add only the name and description fields the apps require, plus one install-step fix in the Brand Voice Engine guide.
 
 | Product | Desktop upload | Claude Code plugin | Skills | Original download |
 | --- | --- | --- | --- | --- |

@@ -81,6 +81,16 @@ PACK_DESCRIPTIONS = {
     "context-vault": "Eight skills for building and maintaining a personal context vault: folder setup, guided brain dumps, project pages, blocker triage, weekly reviews, AI handoff briefs, a personal operating system map and routing for new notes.",
 }
 
+# Install-copy text fixes, keyed by (product, member). Each applies only while
+# the original still holds the old text exactly once; otherwise the build fails
+# so an obsolete fix gets removed. MIT products only.
+CONTENT_FIXES = {
+    ("brand-voice-engine", "README.md"): (
+        b"2. Open Claude Code in your terminal: `claude --dangerously-skip-permissions`",
+        b"2. Open Claude Code in your terminal: `claude`",
+    ),
+}
+
 DESKTOP_DIR = "desktop"
 ZIP_DATE = (2000, 1, 1, 0, 0, 0)
 
@@ -245,6 +255,7 @@ def prepare(source):
     payloads = []
     archives = []
     all_skills = set()
+    applied_fixes = set()
     catalog = [
         "# All 67 skill files and packs",
         "",
@@ -252,7 +263,7 @@ def prepare(source):
         "",
         "- **Claude desktop app or claude.ai:** download a skill from the Desktop upload column, then go to **Customize > Skills**, click **+**, choose **Create skill**, then **Upload a skill**. On Pro, Max, Team or Enterprise you can instead add the whole marketplace once. See [START HERE](START-HERE.md).",
         "- **Claude Code:** add this marketplace, then run `/plugin install <plugin>@apex-skills-free`.",
-        "- **Original download:** the untouched file from the Apex free bundle. The install copies add only the name and description fields the apps require.",
+        "- **Original download:** the untouched file from the Apex free bundle. The install copies add only the name and description fields the apps require, plus one install-step fix in the Brand Voice Engine guide.",
         "",
         "| Product | Desktop upload | Claude Code plugin | Skills | Original download |",
         "| --- | --- | --- | --- | --- |",
@@ -302,10 +313,18 @@ def prepare(source):
             path = destination(member)
             skill = next((s for s in skills.values() if s["member"] == member), None)
             installed = skill["content"] if skill else content
+            change = skill["change"] if skill else "none"
+            fix = CONTENT_FIXES.get((product_id, member))
+            if fix:
+                require(not skill and license_id == "MIT", f"Text fix target must be an MIT support file: {member}")
+                require(content.count(fix[0]) == 1, f"Text fix for {product_id}/{member} is obsolete")
+                installed = content.replace(fix[0], fix[1])
+                change = "install-step-fixed"
+                applied_fixes.add((product_id, member))
             require(path not in generated, f"Install path collision: {path}")
             generated[path] = installed
             install_bytes[path] = installed
-            payloads.append({"productId": product_id, "sourceMember": member if is_pack else filename, "path": path, "sha256": digest(installed), "sizeBytes": len(installed), "sourceSha256": digest(content), "change": skill["change"] if skill else "none"})
+            payloads.append({"productId": product_id, "sourceMember": member if is_pack else filename, "path": path, "sha256": digest(installed), "sizeBytes": len(installed), "sourceSha256": digest(content), "change": change})
 
         name = plugin_name(product_id)
         ordered = sorted(skills.values(), key=lambda s: s["name"])
@@ -334,6 +353,7 @@ def prepare(source):
     require(len({p["name"] for p in plugins}) == PRODUCT_COUNT, "Plugin name collision")
     require({p["id"] for p in products if p["license"] == APEX_LICENSE} == LEGACY_PRODUCTS, "License scope differs from approved legacy inventory")
     require(set(RENAMED_SKILLS.values()) <= all_skills, "A skill rename no longer applies")
+    require(applied_fixes == set(CONTENT_FIXES), "A text fix no longer applies")
     generated[".claude-plugin/marketplace.json"] = json_bytes({"name": "apex-skills-free", "owner": {"name": "Apex Skills"}, "metadata": {"description": "67 free AI agent skill files and packs", "version": PLUGIN_VERSION}, "plugins": plugins})
     generated["CATALOG.md"] = ("\n".join(catalog) + "\n").encode("utf-8")
     generated["PROVENANCE.json"] = json_bytes({
@@ -344,7 +364,7 @@ def prepare(source):
         "productCount": PRODUCT_COUNT,
         "registeredWorkflowCount": len(all_skills),
         "pathNormalization": "ZIP backslashes become forward slashes. Install copies place each skill in plugins/<product>/skills/<name>/ and pack-level files at the plugin root.",
-        "installChanges": "products/ holds the original bytes. In install copies, frontmatter-added means a name, description and license header was placed before the unchanged original text; name-changed and description-shortened edit only that one frontmatter line. Every other file keeps its source bytes (sourceSha256).",
+        "installChanges": "products/ holds the original bytes. In install copies, frontmatter-added means a name, description and license header was placed before the unchanged original text; name-changed and description-shortened edit only that one frontmatter line; install-step-fixed replaces one install line in a guide (CONTENT_FIXES in scripts/build_bundle.py). Every other file keeps its source bytes (sourceSha256).",
         "products": products,
         "payloads": payloads,
         "desktopArchives": archives,

@@ -18,7 +18,7 @@ All three channel skills read the brand voice document as their single source of
 ### Option A: One-prompt install (Claude Code, recommended)
 
 1. Save `SKILL.md` from this zip anywhere on your computer.
-2. Open Claude Code in your terminal: `claude --dangerously-skip-permissions`
+2. Open Claude Code in your terminal: `claude`
 3. Paste this prompt:
 
 > *Please install the skill from `~/Downloads/SKILL.md` (or wherever you saved it) into my Claude Code skills folder at `~/.claude/skills/brand-voice-engine/SKILL.md`. After installing, briefly tell me how to start.*
