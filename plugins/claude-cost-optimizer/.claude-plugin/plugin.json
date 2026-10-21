@@ -1,12 +1,10 @@
 {
   "name": "apex-cost-optimizer",
-  "version": "1.0.0",
-  "description": "Claude Code Cost Optimizer",
+  "displayName": "Claude Code Cost Optimizer",
+  "version": "1.1.0",
+  "description": "Use when Claude Code token usage, model spend, MCP overhead, subagent cost, or long-running agent loops seem high. Produces a cost and context reduction plan.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/claude-cost-optimizer"
-  ]
+  "license": "MIT"
 }

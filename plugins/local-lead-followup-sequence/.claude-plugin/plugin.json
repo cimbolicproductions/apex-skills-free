@@ -1,12 +1,10 @@
 {
   "name": "apex-local-lead-followup-sequence",
-  "version": "1.0.0",
-  "description": "Local Lead Follow-Up Sequence",
+  "displayName": "Local Lead Follow-Up Sequence",
+  "version": "1.1.0",
+  "description": "Use when writing new lead SMS/email follow-up for local service inquiries, speed-to-lead automation, no-response nurturing, booking prompts, or inbound lead conversion workflows.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/local-lead-followup-sequence"
-  ]
+  "license": "MIT"
 }

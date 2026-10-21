@@ -1,12 +1,10 @@
 {
   "name": "apex-marketplace-listing-optimizer",
-  "version": "1.0.0",
-  "description": "Marketplace Listing Optimizer",
+  "displayName": "Marketplace Listing Optimizer",
+  "version": "1.1.0",
+  "description": "Use when creating or improving listings for eBay, Facebook Marketplace, Craigslist, OfferUp, Mercari, or local resale, including titles, descriptions, item specifics, flaws, pickup terms, and relisting.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/marketplace-listing-optimizer"
-  ]
+  "license": "MIT"
 }

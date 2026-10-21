@@ -1,12 +1,10 @@
 {
   "name": "apex-steve-jobs-design",
-  "version": "1.0.0",
-  "description": "The Craft Lens",
+  "displayName": "The Craft Lens",
+  "version": "1.1.0",
+  "description": "Apply an uncompromising design-craft philosophy - the one Steve Jobs made famous - to any product, website, app, or business. Use when the user says \"design like Jobs\", \"design like Steve Jobs\", \"redesign this homepage\", \"is this UX clean?\", \"audit my app's design\", or asks for radical simplicity, intuitive UX, beautiful typography, or empathy-first product critique. Always confirms before applying - this is an opinionated, uncompromising style.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/steve-jobs-design"
-  ]
+  "license": "MIT"
 }

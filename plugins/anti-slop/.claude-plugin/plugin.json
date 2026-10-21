@@ -1,12 +1,10 @@
 {
   "name": "apex-anti-slop",
-  "version": "1.0.0",
-  "description": "Slop Killer",
+  "displayName": "Slop Killer",
+  "version": "1.1.0",
+  "description": "Scan any AI-generated text for tell-tale slop words, hedge phrases, em-dash overuse, sycophancy, rule-of-three structure, staccato fragment crutch, and generic AI cadence - then run a holistic vibe check and rewrite cleanly in the user's voice. Use when the user says 'remove the slop', 'make this sound human', 'this sounds like AI', 'kill the fluff', 'clean this up', 'detect AI slop', or pastes a draft and asks for a human pass. Outputs a flagged report + a clean rewrite.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload"
-  ]
+  "license": "MIT"
 }

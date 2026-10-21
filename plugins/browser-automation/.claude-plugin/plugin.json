@@ -1,12 +1,10 @@
 {
   "name": "apex-browser-automation",
-  "version": "1.0.0",
-  "description": "Browser Automation Scripter",
+  "displayName": "Browser Automation Scripter",
+  "version": "1.1.0",
+  "description": "Turns a plain-English browser task, such as renaming a Vercel project or downloading invoices from a dashboard, into a step-by-step JSON script an autonomous browser agent can run. Use when the user wants to automate a repetitive website task or needs browser steps for Playwright, Puppeteer or a browser agent.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-  "skills": [
-    "./payload/browser-automation"
-  ]
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0"
 }

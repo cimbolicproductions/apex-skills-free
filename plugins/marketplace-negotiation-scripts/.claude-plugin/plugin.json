@@ -1,12 +1,10 @@
 {
   "name": "apex-marketplace-negotiation-scripts",
-  "version": "1.0.0",
-  "description": "Marketplace Negotiation Scripts",
+  "displayName": "Marketplace Negotiation Scripts",
+  "version": "1.1.0",
+  "description": "Use when handling lowball offers, buyer questions, holds, no-shows, delivery requests, local pickup scheduling, deposits, bundles, and negotiation on Facebook Marketplace, Craigslist, OfferUp, or eBay.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/marketplace-negotiation-scripts"
-  ]
+  "license": "MIT"
 }

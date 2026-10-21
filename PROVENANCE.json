@@ -1,11 +1,12 @@
 {
-  "formatVersion": 1,
+  "formatVersion": 2,
   "sourceUrl": "https://apexskills.dev/api/free-bundle",
   "sourceSha256": "25f4b3cfe105525d0261181f15eef61ce697aa47e0aa4a3d9bae6f4327f5700e",
   "sourceSizeBytes": 227143,
   "productCount": 67,
   "registeredWorkflowCount": 74,
-  "pathNormalization": "ZIP backslashes become forward slashes; file bytes are unchanged.",
+  "pathNormalization": "ZIP backslashes become forward slashes. Install copies place each skill in plugins/<product>/skills/<name>/ and pack-level files at the plugin root.",
+  "installChanges": "products/ holds the original bytes. In install copies, frontmatter-added means a name, description and license header was placed before the unchanged original text; name-changed and description-shortened edit only that one frontmatter line. Every other file keeps its source bytes (sourceSha256).",
   "products": [
     {
       "id": "browser-automation",
@@ -19,11 +20,14 @@
       "pluginPath": "plugins/browser-automation",
       "pluginName": "apex-browser-automation",
       "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-      "skillPaths": [
-        "./payload/browser-automation"
-      ],
       "skillNames": [
         "browser-automation"
+      ],
+      "originalSkillNames": [
+        null
+      ],
+      "desktopArchives": [
+        "desktop/browser-automation.zip"
       ]
     },
     {
@@ -38,11 +42,14 @@
       "pluginPath": "plugins/project-closeout",
       "pluginName": "apex-project-closeout",
       "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-      "skillPaths": [
-        "./payload/project-closeout"
-      ],
       "skillNames": [
         "project-closeout"
+      ],
+      "originalSkillNames": [
+        null
+      ],
+      "desktopArchives": [
+        "desktop/project-closeout.zip"
       ]
     },
     {
@@ -57,11 +64,14 @@
       "pluginPath": "plugins/skill-creator",
       "pluginName": "apex-skill-creator",
       "license": "MIT",
-      "skillPaths": [
-        "./payload"
-      ],
       "skillNames": [
         "skill-creator"
+      ],
+      "originalSkillNames": [
+        "skill-creator"
+      ],
+      "desktopArchives": [
+        "desktop/skill-creator.zip"
       ]
     },
     {
@@ -76,11 +86,14 @@
       "pluginPath": "plugins/content-repurposing-engine",
       "pluginName": "apex-content-repurposing-engine",
       "license": "MIT",
-      "skillPaths": [
-        "./payload"
-      ],
       "skillNames": [
         "content-repurposing-engine"
+      ],
+      "originalSkillNames": [
+        "content-repurposing-engine"
+      ],
+      "desktopArchives": [
+        "desktop/content-repurposing-engine.zip"
       ]
     },
     {
@@ -95,11 +108,14 @@
       "pluginPath": "plugins/anti-slop",
       "pluginName": "apex-anti-slop",
       "license": "MIT",
-      "skillPaths": [
-        "./payload"
-      ],
       "skillNames": [
         "anti-slop"
+      ],
+      "originalSkillNames": [
+        "anti-slop"
+      ],
+      "desktopArchives": [
+        "desktop/anti-slop.zip"
       ]
     },
     {
@@ -114,11 +130,14 @@
       "pluginPath": "plugins/upwork-hunter",
       "pluginName": "apex-upwork-hunter",
       "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-      "skillPaths": [
-        "./payload/upwork-hunter"
-      ],
       "skillNames": [
         "upwork-hunter"
+      ],
+      "originalSkillNames": [
+        null
+      ],
+      "desktopArchives": [
+        "desktop/upwork-hunter.zip"
       ]
     },
     {
@@ -133,11 +152,14 @@
       "pluginPath": "plugins/website-landlord",
       "pluginName": "apex-website-landlord",
       "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-      "skillPaths": [
-        "./payload/website-landlord"
-      ],
       "skillNames": [
         "website-landlord"
+      ],
+      "originalSkillNames": [
+        null
+      ],
+      "desktopArchives": [
+        "desktop/website-landlord.zip"
       ]
     },
     {
@@ -152,11 +174,14 @@
       "pluginPath": "plugins/seo-keyword-fix",
       "pluginName": "apex-seo-keyword-fix",
       "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-      "skillPaths": [
-        "./payload/seo-keyword-fix"
-      ],
       "skillNames": [
         "seo-keyword-fix"
+      ],
+      "originalSkillNames": [
+        null
+      ],
+      "desktopArchives": [
+        "desktop/seo-keyword-fix.zip"
       ]
     },
     {
@@ -171,11 +196,14 @@
       "pluginPath": "plugins/yt-content-engine",
       "pluginName": "apex-yt-content-engine",
       "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-      "skillPaths": [
-        "./payload/yt-content-engine"
-      ],
       "skillNames": [
         "yt-content-engine"
+      ],
+      "originalSkillNames": [
+        null
+      ],
+      "desktopArchives": [
+        "desktop/yt-content-engine.zip"
       ]
     },
     {
@@ -190,11 +218,14 @@
       "pluginPath": "plugins/local-audit",
       "pluginName": "apex-local-audit",
       "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-      "skillPaths": [
-        "./payload/local-audit"
-      ],
       "skillNames": [
         "local-audit"
+      ],
+      "originalSkillNames": [
+        null
+      ],
+      "desktopArchives": [
+        "desktop/local-audit.zip"
       ]
     },
     {
@@ -209,11 +240,14 @@
       "pluginPath": "plugins/podcast-wisdom",
       "pluginName": "apex-podcast-wisdom",
       "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-      "skillPaths": [
-        "./payload/podcast-wisdom"
-      ],
       "skillNames": [
         "podcast-wisdom"
+      ],
+      "originalSkillNames": [
+        null
+      ],
+      "desktopArchives": [
+        "desktop/podcast-wisdom.zip"
       ]
     },
     {
@@ -228,11 +262,14 @@
       "pluginPath": "plugins/copywriting-mastery",
       "pluginName": "apex-copywriting-mastery",
       "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-      "skillPaths": [
-        "./payload/copywriting-mastery"
-      ],
       "skillNames": [
         "copywriting-mastery"
+      ],
+      "originalSkillNames": [
+        null
+      ],
+      "desktopArchives": [
+        "desktop/copywriting-mastery.zip"
       ]
     },
     {
@@ -247,11 +284,14 @@
       "pluginPath": "plugins/product-naming",
       "pluginName": "apex-product-naming",
       "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-      "skillPaths": [
-        "./payload/product-naming"
-      ],
       "skillNames": [
         "product-naming"
+      ],
+      "originalSkillNames": [
+        null
+      ],
+      "desktopArchives": [
+        "desktop/product-naming.zip"
       ]
     },
     {
@@ -266,11 +306,14 @@
       "pluginPath": "plugins/web-design-foundations",
       "pluginName": "apex-web-design-foundations",
       "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-      "skillPaths": [
-        "./payload/web-design-foundations"
-      ],
       "skillNames": [
         "web-design-foundations"
+      ],
+      "originalSkillNames": [
+        null
+      ],
+      "desktopArchives": [
+        "desktop/web-design-foundations.zip"
       ]
     },
     {
@@ -285,11 +328,14 @@
       "pluginPath": "plugins/asset-generator",
       "pluginName": "apex-asset-generator",
       "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-      "skillPaths": [
-        "./payload/asset-generator"
-      ],
       "skillNames": [
         "asset-generator"
+      ],
+      "originalSkillNames": [
+        null
+      ],
+      "desktopArchives": [
+        "desktop/asset-generator.zip"
       ]
     },
     {
@@ -304,11 +350,14 @@
       "pluginPath": "plugins/ecommerce-listing",
       "pluginName": "apex-ecommerce-listing",
       "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-      "skillPaths": [
-        "./payload/ecommerce-listing"
-      ],
       "skillNames": [
         "ecommerce-listing"
+      ],
+      "originalSkillNames": [
+        null
+      ],
+      "desktopArchives": [
+        "desktop/ecommerce-listing.zip"
       ]
     },
     {
@@ -323,11 +372,14 @@
       "pluginPath": "plugins/claude-context-hygiene",
       "pluginName": "apex-context-hygiene",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/claude-context-hygiene"
-      ],
       "skillNames": [
+        "context-hygiene"
+      ],
+      "originalSkillNames": [
         "claude-context-hygiene"
+      ],
+      "desktopArchives": [
+        "desktop/context-hygiene.zip"
       ]
     },
     {
@@ -342,11 +394,14 @@
       "pluginPath": "plugins/claude-session-handoff",
       "pluginName": "apex-session-handoff",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/claude-session-handoff"
-      ],
       "skillNames": [
+        "session-handoff"
+      ],
+      "originalSkillNames": [
         "claude-session-handoff"
+      ],
+      "desktopArchives": [
+        "desktop/session-handoff.zip"
       ]
     },
     {
@@ -361,11 +416,14 @@
       "pluginPath": "plugins/claude-fail-loud",
       "pluginName": "apex-fail-loud",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/claude-fail-loud"
-      ],
       "skillNames": [
+        "fail-loud"
+      ],
+      "originalSkillNames": [
         "claude-fail-loud"
+      ],
+      "desktopArchives": [
+        "desktop/fail-loud.zip"
       ]
     },
     {
@@ -380,11 +438,14 @@
       "pluginPath": "plugins/claude-hook-setup",
       "pluginName": "apex-hook-setup",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/claude-hook-setup"
-      ],
       "skillNames": [
+        "hook-setup"
+      ],
+      "originalSkillNames": [
         "claude-hook-setup"
+      ],
+      "desktopArchives": [
+        "desktop/hook-setup.zip"
       ]
     },
     {
@@ -399,11 +460,14 @@
       "pluginPath": "plugins/claude-mcp-setup",
       "pluginName": "apex-mcp-setup",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/claude-mcp-setup"
-      ],
       "skillNames": [
+        "mcp-setup"
+      ],
+      "originalSkillNames": [
         "claude-mcp-setup"
+      ],
+      "desktopArchives": [
+        "desktop/mcp-setup.zip"
       ]
     },
     {
@@ -418,11 +482,14 @@
       "pluginPath": "plugins/claude-mcp-server-builder",
       "pluginName": "apex-mcp-server-builder",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/claude-mcp-server-builder"
-      ],
       "skillNames": [
+        "mcp-server-builder"
+      ],
+      "originalSkillNames": [
         "claude-mcp-server-builder"
+      ],
+      "desktopArchives": [
+        "desktop/mcp-server-builder.zip"
       ]
     },
     {
@@ -437,11 +504,14 @@
       "pluginPath": "plugins/claude-worktree-parallel-setup",
       "pluginName": "apex-worktree-parallel-setup",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/claude-worktree-parallel-setup"
-      ],
       "skillNames": [
+        "worktree-parallel-setup"
+      ],
+      "originalSkillNames": [
         "claude-worktree-parallel-setup"
+      ],
+      "desktopArchives": [
+        "desktop/worktree-parallel-setup.zip"
       ]
     },
     {
@@ -456,11 +526,14 @@
       "pluginPath": "plugins/claude-pr-review",
       "pluginName": "apex-pr-review",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/claude-pr-review"
-      ],
       "skillNames": [
+        "pr-review"
+      ],
+      "originalSkillNames": [
         "claude-pr-review"
+      ],
+      "desktopArchives": [
+        "desktop/pr-review.zip"
       ]
     },
     {
@@ -475,11 +548,14 @@
       "pluginPath": "plugins/claude-cost-optimizer",
       "pluginName": "apex-cost-optimizer",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/claude-cost-optimizer"
-      ],
       "skillNames": [
+        "cost-optimizer"
+      ],
+      "originalSkillNames": [
         "claude-cost-optimizer"
+      ],
+      "desktopArchives": [
+        "desktop/cost-optimizer.zip"
       ]
     },
     {
@@ -494,11 +570,14 @@
       "pluginPath": "plugins/saas-validate-before-build",
       "pluginName": "apex-saas-validate-before-build",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/saas-validate-before-build"
-      ],
       "skillNames": [
         "saas-validate-before-build"
+      ],
+      "originalSkillNames": [
+        "saas-validate-before-build"
+      ],
+      "desktopArchives": [
+        "desktop/saas-validate-before-build.zip"
       ]
     },
     {
@@ -513,11 +592,14 @@
       "pluginPath": "plugins/saas-customer-interviews",
       "pluginName": "apex-saas-customer-interviews",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/saas-customer-interviews"
-      ],
       "skillNames": [
         "saas-customer-interviews"
+      ],
+      "originalSkillNames": [
+        "saas-customer-interviews"
+      ],
+      "desktopArchives": [
+        "desktop/saas-customer-interviews.zip"
       ]
     },
     {
@@ -532,11 +614,14 @@
       "pluginPath": "plugins/saas-landing-page",
       "pluginName": "apex-saas-landing-page",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/saas-landing-page"
-      ],
       "skillNames": [
         "saas-landing-page"
+      ],
+      "originalSkillNames": [
+        "saas-landing-page"
+      ],
+      "desktopArchives": [
+        "desktop/saas-landing-page.zip"
       ]
     },
     {
@@ -551,11 +636,14 @@
       "pluginPath": "plugins/saas-pricing-strategy",
       "pluginName": "apex-saas-pricing-strategy",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/saas-pricing-strategy"
-      ],
       "skillNames": [
         "saas-pricing-strategy"
+      ],
+      "originalSkillNames": [
+        "saas-pricing-strategy"
+      ],
+      "desktopArchives": [
+        "desktop/saas-pricing-strategy.zip"
       ]
     },
     {
@@ -570,11 +658,14 @@
       "pluginPath": "plugins/saas-activation-analytics",
       "pluginName": "apex-saas-activation-analytics",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/saas-activation-analytics"
-      ],
       "skillNames": [
         "saas-activation-analytics"
+      ],
+      "originalSkillNames": [
+        "saas-activation-analytics"
+      ],
+      "desktopArchives": [
+        "desktop/saas-activation-analytics.zip"
       ]
     },
     {
@@ -589,11 +680,14 @@
       "pluginPath": "plugins/saas-onboarding-flow",
       "pluginName": "apex-saas-onboarding-flow",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/saas-onboarding-flow"
-      ],
       "skillNames": [
         "saas-onboarding-flow"
+      ],
+      "originalSkillNames": [
+        "saas-onboarding-flow"
+      ],
+      "desktopArchives": [
+        "desktop/saas-onboarding-flow.zip"
       ]
     },
     {
@@ -608,11 +702,14 @@
       "pluginPath": "plugins/saas-stripe-setup",
       "pluginName": "apex-saas-stripe-setup",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/saas-stripe-setup"
-      ],
       "skillNames": [
         "saas-stripe-setup"
+      ],
+      "originalSkillNames": [
+        "saas-stripe-setup"
+      ],
+      "desktopArchives": [
+        "desktop/saas-stripe-setup.zip"
       ]
     },
     {
@@ -627,11 +724,14 @@
       "pluginPath": "plugins/saas-mvp-stack",
       "pluginName": "apex-saas-mvp-stack",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/saas-mvp-stack"
-      ],
       "skillNames": [
         "saas-mvp-stack"
+      ],
+      "originalSkillNames": [
+        "saas-mvp-stack"
+      ],
+      "desktopArchives": [
+        "desktop/saas-mvp-stack.zip"
       ]
     },
     {
@@ -646,11 +746,14 @@
       "pluginPath": "plugins/saas-pmf-engine",
       "pluginName": "apex-saas-pmf-engine",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/saas-pmf-engine"
-      ],
       "skillNames": [
         "saas-pmf-engine"
+      ],
+      "originalSkillNames": [
+        "saas-pmf-engine"
+      ],
+      "desktopArchives": [
+        "desktop/saas-pmf-engine.zip"
       ]
     },
     {
@@ -665,11 +768,14 @@
       "pluginPath": "plugins/saas-launch-playbook",
       "pluginName": "apex-saas-launch-playbook",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/saas-launch-playbook"
-      ],
       "skillNames": [
         "saas-launch-playbook"
+      ],
+      "originalSkillNames": [
+        "saas-launch-playbook"
+      ],
+      "desktopArchives": [
+        "desktop/saas-launch-playbook.zip"
       ]
     },
     {
@@ -684,11 +790,14 @@
       "pluginPath": "plugins/saas-aso",
       "pluginName": "apex-saas-aso",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/saas-aso"
-      ],
       "skillNames": [
         "saas-aso"
+      ],
+      "originalSkillNames": [
+        "saas-aso"
+      ],
+      "desktopArchives": [
+        "desktop/saas-aso.zip"
       ]
     },
     {
@@ -703,11 +812,14 @@
       "pluginPath": "plugins/saas-founder-notes",
       "pluginName": "apex-saas-founder-notes",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/saas-founder-notes"
-      ],
       "skillNames": [
         "saas-founder-notes"
+      ],
+      "originalSkillNames": [
+        "saas-founder-notes"
+      ],
+      "desktopArchives": [
+        "desktop/saas-founder-notes.zip"
       ]
     },
     {
@@ -722,11 +834,14 @@
       "pluginPath": "plugins/local-gbp-optimizer",
       "pluginName": "apex-local-gbp-optimizer",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/local-gbp-optimizer"
-      ],
       "skillNames": [
         "local-gbp-optimizer"
+      ],
+      "originalSkillNames": [
+        "local-gbp-optimizer"
+      ],
+      "desktopArchives": [
+        "desktop/local-gbp-optimizer.zip"
       ]
     },
     {
@@ -741,11 +856,14 @@
       "pluginPath": "plugins/local-missed-call-textback",
       "pluginName": "apex-local-missed-call-textback",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/local-missed-call-textback"
-      ],
       "skillNames": [
         "local-missed-call-textback"
+      ],
+      "originalSkillNames": [
+        "local-missed-call-textback"
+      ],
+      "desktopArchives": [
+        "desktop/local-missed-call-textback.zip"
       ]
     },
     {
@@ -760,11 +878,14 @@
       "pluginPath": "plugins/local-lead-followup-sequence",
       "pluginName": "apex-local-lead-followup-sequence",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/local-lead-followup-sequence"
-      ],
       "skillNames": [
         "local-lead-followup-sequence"
+      ],
+      "originalSkillNames": [
+        "local-lead-followup-sequence"
+      ],
+      "desktopArchives": [
+        "desktop/local-lead-followup-sequence.zip"
       ]
     },
     {
@@ -779,11 +900,14 @@
       "pluginPath": "plugins/local-quote-followup",
       "pluginName": "apex-local-quote-followup",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/local-quote-followup"
-      ],
       "skillNames": [
         "local-quote-followup"
+      ],
+      "originalSkillNames": [
+        "local-quote-followup"
+      ],
+      "desktopArchives": [
+        "desktop/local-quote-followup.zip"
       ]
     },
     {
@@ -798,11 +922,14 @@
       "pluginPath": "plugins/local-review-generation",
       "pluginName": "apex-local-review-generation",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/local-review-generation"
-      ],
       "skillNames": [
         "local-review-generation"
+      ],
+      "originalSkillNames": [
+        "local-review-generation"
+      ],
+      "desktopArchives": [
+        "desktop/local-review-generation.zip"
       ]
     },
     {
@@ -817,11 +944,14 @@
       "pluginPath": "plugins/local-b2b-property-manager-outreach",
       "pluginName": "apex-local-b2b-property-manager-outreach",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/local-b2b-property-manager-outreach"
-      ],
       "skillNames": [
         "local-b2b-property-manager-outreach"
+      ],
+      "originalSkillNames": [
+        "local-b2b-property-manager-outreach"
+      ],
+      "desktopArchives": [
+        "desktop/local-b2b-property-manager-outreach.zip"
       ]
     },
     {
@@ -836,11 +966,14 @@
       "pluginPath": "plugins/local-good-better-best-pricing",
       "pluginName": "apex-local-good-better-best-pricing",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/local-good-better-best-pricing"
-      ],
       "skillNames": [
         "local-good-better-best-pricing"
+      ],
+      "originalSkillNames": [
+        "local-good-better-best-pricing"
+      ],
+      "desktopArchives": [
+        "desktop/local-good-better-best-pricing.zip"
       ]
     },
     {
@@ -855,11 +988,14 @@
       "pluginPath": "plugins/local-crm-automation",
       "pluginName": "apex-local-crm-automation",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/local-crm-automation"
-      ],
       "skillNames": [
         "local-crm-automation"
+      ],
+      "originalSkillNames": [
+        "local-crm-automation"
+      ],
+      "desktopArchives": [
+        "desktop/local-crm-automation.zip"
       ]
     },
     {
@@ -874,11 +1010,14 @@
       "pluginPath": "plugins/local-retention-referral",
       "pluginName": "apex-local-retention-referral",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/local-retention-referral"
-      ],
       "skillNames": [
         "local-retention-referral"
+      ],
+      "originalSkillNames": [
+        "local-retention-referral"
+      ],
+      "desktopArchives": [
+        "desktop/local-retention-referral.zip"
       ]
     },
     {
@@ -893,11 +1032,14 @@
       "pluginPath": "plugins/local-negative-review-response",
       "pluginName": "apex-local-negative-review-response",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/local-negative-review-response"
-      ],
       "skillNames": [
         "local-negative-review-response"
+      ],
+      "originalSkillNames": [
+        "local-negative-review-response"
+      ],
+      "desktopArchives": [
+        "desktop/local-negative-review-response.zip"
       ]
     },
     {
@@ -912,11 +1054,14 @@
       "pluginPath": "plugins/marketplace-listing-optimizer",
       "pluginName": "apex-marketplace-listing-optimizer",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/marketplace-listing-optimizer"
-      ],
       "skillNames": [
         "marketplace-listing-optimizer"
+      ],
+      "originalSkillNames": [
+        "marketplace-listing-optimizer"
+      ],
+      "desktopArchives": [
+        "desktop/marketplace-listing-optimizer.zip"
       ]
     },
     {
@@ -931,11 +1076,14 @@
       "pluginPath": "plugins/marketplace-pricing-comps",
       "pluginName": "apex-marketplace-pricing-comps",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/marketplace-pricing-comps"
-      ],
       "skillNames": [
         "marketplace-pricing-comps"
+      ],
+      "originalSkillNames": [
+        "marketplace-pricing-comps"
+      ],
+      "desktopArchives": [
+        "desktop/marketplace-pricing-comps.zip"
       ]
     },
     {
@@ -950,11 +1098,14 @@
       "pluginPath": "plugins/marketplace-photo-coach",
       "pluginName": "apex-marketplace-photo-coach",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/marketplace-photo-coach"
-      ],
       "skillNames": [
         "marketplace-photo-coach"
+      ],
+      "originalSkillNames": [
+        "marketplace-photo-coach"
+      ],
+      "desktopArchives": [
+        "desktop/marketplace-photo-coach.zip"
       ]
     },
     {
@@ -969,11 +1120,14 @@
       "pluginPath": "plugins/marketplace-negotiation-scripts",
       "pluginName": "apex-marketplace-negotiation-scripts",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/marketplace-negotiation-scripts"
-      ],
       "skillNames": [
         "marketplace-negotiation-scripts"
+      ],
+      "originalSkillNames": [
+        "marketplace-negotiation-scripts"
+      ],
+      "desktopArchives": [
+        "desktop/marketplace-negotiation-scripts.zip"
       ]
     },
     {
@@ -988,11 +1142,14 @@
       "pluginPath": "plugins/marketplace-scam-safety",
       "pluginName": "apex-marketplace-scam-safety",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/marketplace-scam-safety"
-      ],
       "skillNames": [
         "marketplace-scam-safety"
+      ],
+      "originalSkillNames": [
+        "marketplace-scam-safety"
+      ],
+      "desktopArchives": [
+        "desktop/marketplace-scam-safety.zip"
       ]
     },
     {
@@ -1007,11 +1164,14 @@
       "pluginPath": "plugins/appliance-inspection-guide",
       "pluginName": "apex-appliance-inspection-guide",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/appliance-inspection-guide"
-      ],
       "skillNames": [
         "appliance-inspection-guide"
+      ],
+      "originalSkillNames": [
+        "appliance-inspection-guide"
+      ],
+      "desktopArchives": [
+        "desktop/appliance-inspection-guide.zip"
       ]
     },
     {
@@ -1026,11 +1186,14 @@
       "pluginPath": "plugins/appliance-repair-triage",
       "pluginName": "apex-appliance-repair-triage",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/appliance-repair-triage"
-      ],
       "skillNames": [
         "appliance-repair-triage"
+      ],
+      "originalSkillNames": [
+        "appliance-repair-triage"
+      ],
+      "desktopArchives": [
+        "desktop/appliance-repair-triage.zip"
       ]
     },
     {
@@ -1045,11 +1208,14 @@
       "pluginPath": "plugins/appliance-age-recall-checker",
       "pluginName": "apex-appliance-age-recall-checker",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/appliance-age-recall-checker"
-      ],
       "skillNames": [
         "appliance-age-recall-checker"
+      ],
+      "originalSkillNames": [
+        "appliance-age-recall-checker"
+      ],
+      "desktopArchives": [
+        "desktop/appliance-age-recall-checker.zip"
       ]
     },
     {
@@ -1064,11 +1230,14 @@
       "pluginPath": "plugins/steve-jobs-design",
       "pluginName": "apex-steve-jobs-design",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/steve-jobs-design"
-      ],
       "skillNames": [
         "the-craft-lens"
+      ],
+      "originalSkillNames": [
+        "the-craft-lens"
+      ],
+      "desktopArchives": [
+        "desktop/the-craft-lens.zip"
       ]
     },
     {
@@ -1083,11 +1252,14 @@
       "pluginPath": "plugins/first-principles-thinking",
       "pluginName": "apex-first-principles-thinking",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/first-principles-thinking"
-      ],
       "skillNames": [
         "first-principles-thinking"
+      ],
+      "originalSkillNames": [
+        "first-principles-thinking"
+      ],
+      "desktopArchives": [
+        "desktop/first-principles-thinking.zip"
       ]
     },
     {
@@ -1102,11 +1274,14 @@
       "pluginPath": "plugins/competitor-pain-intelligence",
       "pluginName": "apex-competitor-pain-intelligence",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/competitor-pain-intelligence"
-      ],
       "skillNames": [
         "competitor-pain-intelligence"
+      ],
+      "originalSkillNames": [
+        "competitor-pain-intelligence"
+      ],
+      "desktopArchives": [
+        "desktop/competitor-pain-intelligence.zip"
       ]
     },
     {
@@ -1121,16 +1296,6 @@
       "pluginPath": "plugins/context-vault",
       "pluginName": "apex-context-vault",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/ai-handoff-brief-builder",
-        "./payload/blocker-snag-triage",
-        "./payload/context-vault-architect",
-        "./payload/guided-brain-dump-capture",
-        "./payload/personal-operating-system-map",
-        "./payload/project-context-captain",
-        "./payload/vault-ingestion-router",
-        "./payload/weekly-context-review"
-      ],
       "skillNames": [
         "ai-handoff-brief-builder",
         "blocker-snag-triage",
@@ -1140,6 +1305,26 @@
         "project-context-captain",
         "vault-ingestion-router",
         "weekly-context-review"
+      ],
+      "originalSkillNames": [
+        "ai-handoff-brief-builder",
+        "blocker-snag-triage",
+        "context-vault-architect",
+        "guided-brain-dump-capture",
+        "personal-operating-system-map",
+        "project-context-captain",
+        "vault-ingestion-router",
+        "weekly-context-review"
+      ],
+      "desktopArchives": [
+        "desktop/ai-handoff-brief-builder.zip",
+        "desktop/blocker-snag-triage.zip",
+        "desktop/context-vault-architect.zip",
+        "desktop/guided-brain-dump-capture.zip",
+        "desktop/personal-operating-system-map.zip",
+        "desktop/project-context-captain.zip",
+        "desktop/vault-ingestion-router.zip",
+        "desktop/weekly-context-review.zip"
       ]
     },
     {
@@ -1154,11 +1339,14 @@
       "pluginPath": "plugins/brand-voice-engine",
       "pluginName": "apex-brand-voice-engine",
       "license": "MIT",
-      "skillPaths": [
-        "./payload"
-      ],
       "skillNames": [
         "brand-voice-engine"
+      ],
+      "originalSkillNames": [
+        "brand-voice-engine"
+      ],
+      "desktopArchives": [
+        "desktop/brand-voice-engine.zip"
       ]
     },
     {
@@ -1173,11 +1361,14 @@
       "pluginPath": "plugins/tweet-builder",
       "pluginName": "apex-tweet-builder",
       "license": "MIT",
-      "skillPaths": [
-        "./payload"
-      ],
       "skillNames": [
         "perfect-tweet-socratic"
+      ],
+      "originalSkillNames": [
+        "perfect-tweet-socratic"
+      ],
+      "desktopArchives": [
+        "desktop/perfect-tweet-socratic.zip"
       ]
     },
     {
@@ -1192,11 +1383,14 @@
       "pluginPath": "plugins/reducer-lens",
       "pluginName": "apex-reducer-lens",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/reducer-lens"
-      ],
       "skillNames": [
         "reducer-lens"
+      ],
+      "originalSkillNames": [
+        "reducer-lens"
+      ],
+      "desktopArchives": [
+        "desktop/reducer-lens.zip"
       ]
     },
     {
@@ -1210,11 +1404,14 @@
       "pluginPath": "plugins/aeo-and-geo",
       "pluginName": "apex-aeo-and-geo",
       "license": "MIT",
-      "skillPaths": [
-        "./payload"
-      ],
       "skillNames": [
         "aeo-and-geo"
+      ],
+      "originalSkillNames": [
+        "aeo-and-geo"
+      ],
+      "desktopArchives": [
+        "desktop/aeo-and-geo.zip"
       ]
     },
     {
@@ -1228,11 +1425,14 @@
       "pluginPath": "plugins/seo-keyword-research",
       "pluginName": "apex-seo-keyword-research",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/seo-keyword-research"
-      ],
       "skillNames": [
         "seo-keyword-research"
+      ],
+      "originalSkillNames": [
+        "seo-keyword-research"
+      ],
+      "desktopArchives": [
+        "desktop/seo-keyword-research.zip"
       ]
     },
     {
@@ -1246,11 +1446,14 @@
       "pluginPath": "plugins/seo-longtail-keywords",
       "pluginName": "apex-seo-longtail-keywords",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/seo-longtail-keywords"
-      ],
       "skillNames": [
         "seo-longtail-keywords"
+      ],
+      "originalSkillNames": [
+        "seo-longtail-keywords"
+      ],
+      "desktopArchives": [
+        "desktop/seo-longtail-keywords.zip"
       ]
     },
     {
@@ -1264,11 +1467,14 @@
       "pluginPath": "plugins/seo-bing-places",
       "pluginName": "apex-seo-bing-places",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/seo-bing-places"
-      ],
       "skillNames": [
         "seo-bing-places"
+      ],
+      "originalSkillNames": [
+        "seo-bing-places"
+      ],
+      "desktopArchives": [
+        "desktop/seo-bing-places.zip"
       ]
     },
     {
@@ -1282,11 +1488,14 @@
       "pluginPath": "plugins/seo-search-console",
       "pluginName": "apex-seo-search-console",
       "license": "MIT",
-      "skillPaths": [
-        "./payload/seo-search-console"
-      ],
       "skillNames": [
         "seo-search-console"
+      ],
+      "originalSkillNames": [
+        "seo-search-console"
+      ],
+      "desktopArchives": [
+        "desktop/seo-search-console.zip"
       ]
     }
   ],
@@ -1294,688 +1503,1478 @@
     {
       "productId": "browser-automation",
       "sourceMember": "Browser-Automation-Agent.md",
-      "path": "plugins/browser-automation/payload/browser-automation/SKILL.md",
-      "sha256": "4ff35822f793cb3017f2cdcaca035e036dfbb5e26f0735dbfa5dd0419cb2aca5",
-      "sizeBytes": 2378
+      "path": "plugins/browser-automation/skills/browser-automation/SKILL.md",
+      "sha256": "2ea361d1fe49797f3c0c1cdd00a865a60343da23a6065079e5c7f689f60cf11c",
+      "sizeBytes": 2788,
+      "sourceSha256": "4ff35822f793cb3017f2cdcaca035e036dfbb5e26f0735dbfa5dd0419cb2aca5",
+      "change": "frontmatter-added"
     },
     {
       "productId": "project-closeout",
       "sourceMember": "Project-Closeout-Handoff.md",
-      "path": "plugins/project-closeout/payload/project-closeout/SKILL.md",
-      "sha256": "1768a46e86ce661dd50890ed915c7c622b3d8a05bb7ec954b62be2f59505c080",
-      "sizeBytes": 2168
+      "path": "plugins/project-closeout/skills/project-closeout/SKILL.md",
+      "sha256": "25b9826134dc0188b798cfbb5727064ad5e97aea6ee678554a8c4838fe244def",
+      "sizeBytes": 2544,
+      "sourceSha256": "1768a46e86ce661dd50890ed915c7c622b3d8a05bb7ec954b62be2f59505c080",
+      "change": "frontmatter-added"
     },
     {
       "productId": "skill-creator",
       "sourceMember": "SKILL.md",
-      "path": "plugins/skill-creator/payload/SKILL.md",
+      "path": "plugins/skill-creator/skills/skill-creator/SKILL.md",
       "sha256": "6fa5d91545a6b127f23e19dff8e411502b563d329a2bdcd9327c86548549d233",
-      "sizeBytes": 9642
+      "sizeBytes": 9642,
+      "sourceSha256": "6fa5d91545a6b127f23e19dff8e411502b563d329a2bdcd9327c86548549d233",
+      "change": "none"
     },
     {
       "productId": "content-repurposing-engine",
       "sourceMember": "references/platform-specs.md",
-      "path": "plugins/content-repurposing-engine/payload/references/platform-specs.md",
+      "path": "plugins/content-repurposing-engine/skills/content-repurposing-engine/references/platform-specs.md",
       "sha256": "b727ba947ed83bc9d126724d8e9c5a0e25ea858245b96213dc2a25fe2feba5b9",
-      "sizeBytes": 2442
+      "sizeBytes": 2442,
+      "sourceSha256": "b727ba947ed83bc9d126724d8e9c5a0e25ea858245b96213dc2a25fe2feba5b9",
+      "change": "none"
     },
     {
       "productId": "content-repurposing-engine",
       "sourceMember": "references/voice-samples.md",
-      "path": "plugins/content-repurposing-engine/payload/references/voice-samples.md",
+      "path": "plugins/content-repurposing-engine/skills/content-repurposing-engine/references/voice-samples.md",
       "sha256": "cf69235b7a60c4af56f4c90bc9ba157aa1a19f69146bc09e45365f027a749223",
-      "sizeBytes": 802
+      "sizeBytes": 802,
+      "sourceSha256": "cf69235b7a60c4af56f4c90bc9ba157aa1a19f69146bc09e45365f027a749223",
+      "change": "none"
     },
     {
       "productId": "content-repurposing-engine",
       "sourceMember": "SKILL.md",
-      "path": "plugins/content-repurposing-engine/payload/SKILL.md",
+      "path": "plugins/content-repurposing-engine/skills/content-repurposing-engine/SKILL.md",
       "sha256": "b7f5aeb5462f4b4c11a9b7729985bf3f11e964fd4c3fde151fa5d1d7275a6f83",
-      "sizeBytes": 9981
+      "sizeBytes": 9981,
+      "sourceSha256": "b7f5aeb5462f4b4c11a9b7729985bf3f11e964fd4c3fde151fa5d1d7275a6f83",
+      "change": "none"
     },
     {
       "productId": "anti-slop",
       "sourceMember": "SKILL.md",
-      "path": "plugins/anti-slop/payload/SKILL.md",
+      "path": "plugins/anti-slop/skills/anti-slop/SKILL.md",
       "sha256": "0a0a75c95e0d68ba9c4ded656b00553f9386e77886cfd3ec1ffd3fe5b2092f1c",
-      "sizeBytes": 14767
+      "sizeBytes": 14767,
+      "sourceSha256": "0a0a75c95e0d68ba9c4ded656b00553f9386e77886cfd3ec1ffd3fe5b2092f1c",
+      "change": "none"
     },
     {
       "productId": "anti-slop",
       "sourceMember": "references/voice-calibration.md",
-      "path": "plugins/anti-slop/payload/references/voice-calibration.md",
+      "path": "plugins/anti-slop/skills/anti-slop/references/voice-calibration.md",
       "sha256": "0c45bf266a8f05ee9aa53720125a2b44a0cf046c01a71d574aa56df68458816e",
-      "sizeBytes": 2936
+      "sizeBytes": 2936,
+      "sourceSha256": "0c45bf266a8f05ee9aa53720125a2b44a0cf046c01a71d574aa56df68458816e",
+      "change": "none"
     },
     {
       "productId": "anti-slop",
       "sourceMember": "references/slop-dictionary.md",
-      "path": "plugins/anti-slop/payload/references/slop-dictionary.md",
+      "path": "plugins/anti-slop/skills/anti-slop/references/slop-dictionary.md",
       "sha256": "5891421de9ad4cd80b0d87fe7c437ecd33f104faed00fd35a5eabd3da3504e6e",
-      "sizeBytes": 6850
+      "sizeBytes": 6850,
+      "sourceSha256": "5891421de9ad4cd80b0d87fe7c437ecd33f104faed00fd35a5eabd3da3504e6e",
+      "change": "none"
     },
     {
       "productId": "upwork-hunter",
       "sourceMember": "Upwork-Automated-Lead-Hunter.md",
-      "path": "plugins/upwork-hunter/payload/upwork-hunter/SKILL.md",
-      "sha256": "80e9062a7e58b14bd557622c9393990af14951b7d4aca8eb2845d6449fb14583",
-      "sizeBytes": 2083
+      "path": "plugins/upwork-hunter/skills/upwork-hunter/SKILL.md",
+      "sha256": "484e9fc623e33bb2448eec4c470b169923976a663d044fa2eb9931c5eecca81b",
+      "sizeBytes": 2444,
+      "sourceSha256": "80e9062a7e58b14bd557622c9393990af14951b7d4aca8eb2845d6449fb14583",
+      "change": "frontmatter-added"
     },
     {
       "productId": "website-landlord",
       "sourceMember": "Website-Landlord-SEO-Playbook.md",
-      "path": "plugins/website-landlord/payload/website-landlord/SKILL.md",
-      "sha256": "5c955557f3b39e37296d8ae64da99b7c1b1409c2b52c66281129049e67bacaee",
-      "sizeBytes": 2144
+      "path": "plugins/website-landlord/skills/website-landlord/SKILL.md",
+      "sha256": "5aa1e8b93054b49b823d9ecd98bfb0ae4067574f45cd02cb01d1f5c6d0ef1067",
+      "sizeBytes": 2530,
+      "sourceSha256": "5c955557f3b39e37296d8ae64da99b7c1b1409c2b52c66281129049e67bacaee",
+      "change": "frontmatter-added"
     },
     {
       "productId": "seo-keyword-fix",
       "sourceMember": "SEO-Keyword-Fix-Pipeline.md",
-      "path": "plugins/seo-keyword-fix/payload/seo-keyword-fix/SKILL.md",
-      "sha256": "da4fd0c00318af845532bb66ee24260a0758fabd6296648d2d50573cd4b21372",
-      "sizeBytes": 6099
+      "path": "plugins/seo-keyword-fix/skills/seo-keyword-fix/SKILL.md",
+      "sha256": "aa042062e2169fc2635afcce7459592fc295a9b0bd8ca78fa453dd4ef9ba2122",
+      "sizeBytes": 6557,
+      "sourceSha256": "da4fd0c00318af845532bb66ee24260a0758fabd6296648d2d50573cd4b21372",
+      "change": "frontmatter-added"
     },
     {
       "productId": "yt-content-engine",
       "sourceMember": "YouTube-to-Content-Engine.md",
-      "path": "plugins/yt-content-engine/payload/yt-content-engine/SKILL.md",
-      "sha256": "77af17d1a274201aeb21d4fd96f606bad3485226d86d87118272b677ee2d65c2",
-      "sizeBytes": 1901
+      "path": "plugins/yt-content-engine/skills/yt-content-engine/SKILL.md",
+      "sha256": "0bdb08c613ec6ed67d360863f4a6666b85d24ff874ed3dff8e498828d5aaf412",
+      "sizeBytes": 2258,
+      "sourceSha256": "77af17d1a274201aeb21d4fd96f606bad3485226d86d87118272b677ee2d65c2",
+      "change": "frontmatter-added"
     },
     {
       "productId": "local-audit",
       "sourceMember": "Local-Business-AI-Audit.md",
-      "path": "plugins/local-audit/payload/local-audit/SKILL.md",
-      "sha256": "560131c296641e5ef52b4c19a3a36a8d8dc01d6d5cf32d1d71ef5c38bf45b256",
-      "sizeBytes": 1775
+      "path": "plugins/local-audit/skills/local-audit/SKILL.md",
+      "sha256": "81d2f4d3be9b1daee9e3885918922905238df5bea21583cde77bf63554d763a1",
+      "sizeBytes": 2151,
+      "sourceSha256": "560131c296641e5ef52b4c19a3a36a8d8dc01d6d5cf32d1d71ef5c38bf45b256",
+      "change": "frontmatter-added"
     },
     {
       "productId": "podcast-wisdom",
       "sourceMember": "Podcast-Wisdom-Extractor.md",
-      "path": "plugins/podcast-wisdom/payload/podcast-wisdom/SKILL.md",
-      "sha256": "3ade5b49894e98a94d8dbf9c925b64a8e456ff0fd2c18b5a2b0f199dcc2c26d0",
-      "sizeBytes": 1939
+      "path": "plugins/podcast-wisdom/skills/podcast-wisdom/SKILL.md",
+      "sha256": "3aa94dc6d529e84b8e8c0047e389d2e7a0b95c01e3f1486dfdd73ba9e8c6987d",
+      "sizeBytes": 2311,
+      "sourceSha256": "3ade5b49894e98a94d8dbf9c925b64a8e456ff0fd2c18b5a2b0f199dcc2c26d0",
+      "change": "frontmatter-added"
     },
     {
       "productId": "copywriting-mastery",
       "sourceMember": "Copywriting-Mastery.md",
-      "path": "plugins/copywriting-mastery/payload/copywriting-mastery/SKILL.md",
-      "sha256": "8230cb0001166b785e8b61582ea6752cb2cfb1d733610b5a85a015ac7fb4fee8",
-      "sizeBytes": 2139
+      "path": "plugins/copywriting-mastery/skills/copywriting-mastery/SKILL.md",
+      "sha256": "22dc67abbb62b9a2438ddb24eb4ea59dae90c0d458b6d3d1db649aea166d66c1",
+      "sizeBytes": 2531,
+      "sourceSha256": "8230cb0001166b785e8b61582ea6752cb2cfb1d733610b5a85a015ac7fb4fee8",
+      "change": "frontmatter-added"
     },
     {
       "productId": "product-naming",
       "sourceMember": "Product-Naming-Strategist.md",
-      "path": "plugins/product-naming/payload/product-naming/SKILL.md",
-      "sha256": "1c9338101e3c47c1c504f3d9e6a9b98c33445e4e0a2ec3504cfba22b12cedc1a",
-      "sizeBytes": 2091
+      "path": "plugins/product-naming/skills/product-naming/SKILL.md",
+      "sha256": "104422ac6d10429d383157a2ccfebce97f4787263cdc1b7eb84993b2e406dcc8",
+      "sizeBytes": 2409,
+      "sourceSha256": "1c9338101e3c47c1c504f3d9e6a9b98c33445e4e0a2ec3504cfba22b12cedc1a",
+      "change": "frontmatter-added"
     },
     {
       "productId": "web-design-foundations",
       "sourceMember": "Web-Design-Foundations.md",
-      "path": "plugins/web-design-foundations/payload/web-design-foundations/SKILL.md",
-      "sha256": "897b17bfdb91f483ac1060fb219a91214674583c903f05e2bdcde03122055fd7",
-      "sizeBytes": 2186
+      "path": "plugins/web-design-foundations/skills/web-design-foundations/SKILL.md",
+      "sha256": "f5ba8a7ed0ae6d5cd5296960e62d56a3d1e5bbeb5cb8cd34312dcc6bc0de819b",
+      "sizeBytes": 2532,
+      "sourceSha256": "897b17bfdb91f483ac1060fb219a91214674583c903f05e2bdcde03122055fd7",
+      "change": "frontmatter-added"
     },
     {
       "productId": "asset-generator",
       "sourceMember": "App-Asset-Prompt-Generator.md",
-      "path": "plugins/asset-generator/payload/asset-generator/SKILL.md",
-      "sha256": "07f8cf792c3bee11f2a6fa203e3affe7a06f12245ad4bb3a80443d318c496e31",
-      "sizeBytes": 2596
+      "path": "plugins/asset-generator/skills/asset-generator/SKILL.md",
+      "sha256": "08c3c5c3f26bf2444df3bd9a9e617708df52f7cca6de9b1257d4b0b19015a8d7",
+      "sizeBytes": 3003,
+      "sourceSha256": "07f8cf792c3bee11f2a6fa203e3affe7a06f12245ad4bb3a80443d318c496e31",
+      "change": "frontmatter-added"
     },
     {
       "productId": "ecommerce-listing",
       "sourceMember": "E-commerce-Listing-Optimizer.md",
-      "path": "plugins/ecommerce-listing/payload/ecommerce-listing/SKILL.md",
-      "sha256": "cfce7f7618931c0e40a43c18f12aae1dd6b662b092b869390cbe6337a004f083",
-      "sizeBytes": 2513
+      "path": "plugins/ecommerce-listing/skills/ecommerce-listing/SKILL.md",
+      "sha256": "addcdfd547ab9bd45ac421e18a6f61bc5cd60b9bd71d7a44a510703071d7620d",
+      "sizeBytes": 2859,
+      "sourceSha256": "cfce7f7618931c0e40a43c18f12aae1dd6b662b092b869390cbe6337a004f083",
+      "change": "frontmatter-added"
     },
     {
       "productId": "claude-context-hygiene",
       "sourceMember": "claude-context-hygiene.md",
-      "path": "plugins/claude-context-hygiene/payload/claude-context-hygiene/SKILL.md",
-      "sha256": "00999a95311ad9c1017e276721e4cf2688f84a80bb04f25b31edeef5e9a2b31e",
-      "sizeBytes": 3163
+      "path": "plugins/claude-context-hygiene/skills/context-hygiene/SKILL.md",
+      "sha256": "7b5dc0657e4031ab1b98288c37f942e6d5db5ff80def5e29892a4aab069ca85c",
+      "sizeBytes": 3156,
+      "sourceSha256": "00999a95311ad9c1017e276721e4cf2688f84a80bb04f25b31edeef5e9a2b31e",
+      "change": "name-changed"
     },
     {
       "productId": "claude-session-handoff",
       "sourceMember": "claude-session-handoff.md",
-      "path": "plugins/claude-session-handoff/payload/claude-session-handoff/SKILL.md",
-      "sha256": "f2023b0b90f723bcaa03f458bb47a1983c566b657a6d0529d19cc96f9ffa74a2",
-      "sizeBytes": 2596
+      "path": "plugins/claude-session-handoff/skills/session-handoff/SKILL.md",
+      "sha256": "c7392ddf048c032493135e39bbd21adf11e312bd9b0d9d5f13ee0239ce33b7f1",
+      "sizeBytes": 2589,
+      "sourceSha256": "f2023b0b90f723bcaa03f458bb47a1983c566b657a6d0529d19cc96f9ffa74a2",
+      "change": "name-changed"
     },
     {
       "productId": "claude-fail-loud",
       "sourceMember": "claude-fail-loud.md",
-      "path": "plugins/claude-fail-loud/payload/claude-fail-loud/SKILL.md",
-      "sha256": "192ae9bbe5f5244fd2fcc341fc5422907e8cff1e67cb8b2b5b0bd951229bc269",
-      "sizeBytes": 2874
+      "path": "plugins/claude-fail-loud/skills/fail-loud/SKILL.md",
+      "sha256": "94eb1ee27490a3d8108f3cf1ecacc491152f7cc6d23b56d5513c372aeae60faf",
+      "sizeBytes": 2867,
+      "sourceSha256": "192ae9bbe5f5244fd2fcc341fc5422907e8cff1e67cb8b2b5b0bd951229bc269",
+      "change": "name-changed"
     },
     {
       "productId": "claude-hook-setup",
       "sourceMember": "claude-hook-setup.md",
-      "path": "plugins/claude-hook-setup/payload/claude-hook-setup/SKILL.md",
-      "sha256": "5982b4098b810897a6cbdcd9d19cea0defed2f592feb5569797fd9d33056f5f6",
-      "sizeBytes": 2734
+      "path": "plugins/claude-hook-setup/skills/hook-setup/SKILL.md",
+      "sha256": "e9e65d3aa79d834f7e6446fb56b589611b4921a0e84766a851e1681d9b1b6f7d",
+      "sizeBytes": 2727,
+      "sourceSha256": "5982b4098b810897a6cbdcd9d19cea0defed2f592feb5569797fd9d33056f5f6",
+      "change": "name-changed"
     },
     {
       "productId": "claude-mcp-setup",
       "sourceMember": "claude-mcp-setup.md",
-      "path": "plugins/claude-mcp-setup/payload/claude-mcp-setup/SKILL.md",
-      "sha256": "6a236bff43d548d55a3af8cee0f87202b92780e535bab2fae4c273a5c032f010",
-      "sizeBytes": 2857
+      "path": "plugins/claude-mcp-setup/skills/mcp-setup/SKILL.md",
+      "sha256": "0aafadb61eb570fc3e855e5428306648dbd5514a88b8d2f57529f2d098114a2f",
+      "sizeBytes": 2850,
+      "sourceSha256": "6a236bff43d548d55a3af8cee0f87202b92780e535bab2fae4c273a5c032f010",
+      "change": "name-changed"
     },
     {
       "productId": "claude-mcp-server-builder",
       "sourceMember": "claude-mcp-server-builder.md",
-      "path": "plugins/claude-mcp-server-builder/payload/claude-mcp-server-builder/SKILL.md",
-      "sha256": "1ae54454cee59c19afb1c70a3a23da766ee56b5d5a877dc1b29f8f16da20f680",
-      "sizeBytes": 2711
+      "path": "plugins/claude-mcp-server-builder/skills/mcp-server-builder/SKILL.md",
+      "sha256": "2b9c1c9fcff61cbf9ae0d82a181da6f3387187637fd824ac500f207f816ea40f",
+      "sizeBytes": 2704,
+      "sourceSha256": "1ae54454cee59c19afb1c70a3a23da766ee56b5d5a877dc1b29f8f16da20f680",
+      "change": "name-changed"
     },
     {
       "productId": "claude-worktree-parallel-setup",
       "sourceMember": "claude-worktree-parallel-setup.md",
-      "path": "plugins/claude-worktree-parallel-setup/payload/claude-worktree-parallel-setup/SKILL.md",
-      "sha256": "6aa03920a9c84fd8448f7c98a63060c48035c735d3eadf50daa5dc96ad596f93",
-      "sizeBytes": 2658
+      "path": "plugins/claude-worktree-parallel-setup/skills/worktree-parallel-setup/SKILL.md",
+      "sha256": "3787bb984085cc3ba8d688aeefd727ac75c946955603d73e5ccf5b8098b6c3fd",
+      "sizeBytes": 2651,
+      "sourceSha256": "6aa03920a9c84fd8448f7c98a63060c48035c735d3eadf50daa5dc96ad596f93",
+      "change": "name-changed"
     },
     {
       "productId": "claude-pr-review",
       "sourceMember": "claude-pr-review.md",
-      "path": "plugins/claude-pr-review/payload/claude-pr-review/SKILL.md",
-      "sha256": "2d469af2611d8ed763a8d1f7e7c42e961303980e9d5ff81fe62acb458a6b92d2",
-      "sizeBytes": 2632
+      "path": "plugins/claude-pr-review/skills/pr-review/SKILL.md",
+      "sha256": "cdb81725b233cee1a48a6da19d68280f914810d1086cb6d31a9ef9e32aff60b5",
+      "sizeBytes": 2625,
+      "sourceSha256": "2d469af2611d8ed763a8d1f7e7c42e961303980e9d5ff81fe62acb458a6b92d2",
+      "change": "name-changed"
     },
     {
       "productId": "claude-cost-optimizer",
       "sourceMember": "claude-cost-optimizer.md",
-      "path": "plugins/claude-cost-optimizer/payload/claude-cost-optimizer/SKILL.md",
-      "sha256": "6e74de63bc4cc491ca2ebb8a93503a333b0a795d58728d7f114491be569f15a1",
-      "sizeBytes": 2739
+      "path": "plugins/claude-cost-optimizer/skills/cost-optimizer/SKILL.md",
+      "sha256": "f6b4aa90e3e1981e2591eb3cd7d75dff07ad97c2244af0241dd86915b67e5943",
+      "sizeBytes": 2732,
+      "sourceSha256": "6e74de63bc4cc491ca2ebb8a93503a333b0a795d58728d7f114491be569f15a1",
+      "change": "name-changed"
     },
     {
       "productId": "saas-validate-before-build",
       "sourceMember": "saas-validate-before-build.md",
-      "path": "plugins/saas-validate-before-build/payload/saas-validate-before-build/SKILL.md",
+      "path": "plugins/saas-validate-before-build/skills/saas-validate-before-build/SKILL.md",
       "sha256": "f802281539c7038f9caf9c3b520c0e874e677290b86adbde46c394efcdfaae65",
-      "sizeBytes": 2832
+      "sizeBytes": 2832,
+      "sourceSha256": "f802281539c7038f9caf9c3b520c0e874e677290b86adbde46c394efcdfaae65",
+      "change": "none"
     },
     {
       "productId": "saas-customer-interviews",
       "sourceMember": "saas-customer-interviews.md",
-      "path": "plugins/saas-customer-interviews/payload/saas-customer-interviews/SKILL.md",
+      "path": "plugins/saas-customer-interviews/skills/saas-customer-interviews/SKILL.md",
       "sha256": "52f815dd6f11fa34fe8627de5aeb86e62dbca85919a58557f3d36b1551b5e67a",
-      "sizeBytes": 2750
+      "sizeBytes": 2750,
+      "sourceSha256": "52f815dd6f11fa34fe8627de5aeb86e62dbca85919a58557f3d36b1551b5e67a",
+      "change": "none"
     },
     {
       "productId": "saas-landing-page",
       "sourceMember": "saas-landing-page.md",
-      "path": "plugins/saas-landing-page/payload/saas-landing-page/SKILL.md",
+      "path": "plugins/saas-landing-page/skills/saas-landing-page/SKILL.md",
       "sha256": "d50456afe7f66a64314c62b4810958afdf719b80ce5b2182ef29a82e89c8afee",
-      "sizeBytes": 2677
+      "sizeBytes": 2677,
+      "sourceSha256": "d50456afe7f66a64314c62b4810958afdf719b80ce5b2182ef29a82e89c8afee",
+      "change": "none"
     },
     {
       "productId": "saas-pricing-strategy",
       "sourceMember": "saas-pricing-strategy.md",
-      "path": "plugins/saas-pricing-strategy/payload/saas-pricing-strategy/SKILL.md",
+      "path": "plugins/saas-pricing-strategy/skills/saas-pricing-strategy/SKILL.md",
       "sha256": "cb5ed85b87dd3f4be7ac4c8f2e4d844203e7cf6c47671782598ed1cd27082ebf",
-      "sizeBytes": 2786
+      "sizeBytes": 2786,
+      "sourceSha256": "cb5ed85b87dd3f4be7ac4c8f2e4d844203e7cf6c47671782598ed1cd27082ebf",
+      "change": "none"
     },
     {
       "productId": "saas-activation-analytics",
       "sourceMember": "saas-activation-analytics.md",
-      "path": "plugins/saas-activation-analytics/payload/saas-activation-analytics/SKILL.md",
+      "path": "plugins/saas-activation-analytics/skills/saas-activation-analytics/SKILL.md",
       "sha256": "620a2ae3f6dcf664b16c656794d498c9561d9186ffcb112ed85f203264e1aca2",
-      "sizeBytes": 2768
+      "sizeBytes": 2768,
+      "sourceSha256": "620a2ae3f6dcf664b16c656794d498c9561d9186ffcb112ed85f203264e1aca2",
+      "change": "none"
     },
     {
       "productId": "saas-onboarding-flow",
       "sourceMember": "saas-onboarding-flow.md",
-      "path": "plugins/saas-onboarding-flow/payload/saas-onboarding-flow/SKILL.md",
+      "path": "plugins/saas-onboarding-flow/skills/saas-onboarding-flow/SKILL.md",
       "sha256": "296e990662917d134a2df08503f989939598e11099a32c009035b9dff70cbb17",
-      "sizeBytes": 2604
+      "sizeBytes": 2604,
+      "sourceSha256": "296e990662917d134a2df08503f989939598e11099a32c009035b9dff70cbb17",
+      "change": "none"
     },
     {
       "productId": "saas-stripe-setup",
       "sourceMember": "saas-stripe-setup.md",
-      "path": "plugins/saas-stripe-setup/payload/saas-stripe-setup/SKILL.md",
+      "path": "plugins/saas-stripe-setup/skills/saas-stripe-setup/SKILL.md",
       "sha256": "84192ec02d2bcd1a850c1bd36565f910ae7a31c71c9be713274339cbb9fd0930",
-      "sizeBytes": 2875
+      "sizeBytes": 2875,
+      "sourceSha256": "84192ec02d2bcd1a850c1bd36565f910ae7a31c71c9be713274339cbb9fd0930",
+      "change": "none"
     },
     {
       "productId": "saas-mvp-stack",
       "sourceMember": "saas-mvp-stack.md",
-      "path": "plugins/saas-mvp-stack/payload/saas-mvp-stack/SKILL.md",
+      "path": "plugins/saas-mvp-stack/skills/saas-mvp-stack/SKILL.md",
       "sha256": "0eae350673f015ef6cda14c592704030179d8fd37065e6de13ddfe8c3af45e79",
-      "sizeBytes": 2915
+      "sizeBytes": 2915,
+      "sourceSha256": "0eae350673f015ef6cda14c592704030179d8fd37065e6de13ddfe8c3af45e79",
+      "change": "none"
     },
     {
       "productId": "saas-pmf-engine",
       "sourceMember": "saas-pmf-engine.md",
-      "path": "plugins/saas-pmf-engine/payload/saas-pmf-engine/SKILL.md",
+      "path": "plugins/saas-pmf-engine/skills/saas-pmf-engine/SKILL.md",
       "sha256": "ed14531853df32e4b715c206f97075121b407a6aca869e3383f9246d74604fef",
-      "sizeBytes": 2657
+      "sizeBytes": 2657,
+      "sourceSha256": "ed14531853df32e4b715c206f97075121b407a6aca869e3383f9246d74604fef",
+      "change": "none"
     },
     {
       "productId": "saas-launch-playbook",
       "sourceMember": "saas-launch-playbook.md",
-      "path": "plugins/saas-launch-playbook/payload/saas-launch-playbook/SKILL.md",
+      "path": "plugins/saas-launch-playbook/skills/saas-launch-playbook/SKILL.md",
       "sha256": "f1a7122b91d6dd7041945b2832e139337bd8d25b994805ea26afcc18ebdcc78a",
-      "sizeBytes": 2769
+      "sizeBytes": 2769,
+      "sourceSha256": "f1a7122b91d6dd7041945b2832e139337bd8d25b994805ea26afcc18ebdcc78a",
+      "change": "none"
     },
     {
       "productId": "saas-aso",
       "sourceMember": "saas-aso.md",
-      "path": "plugins/saas-aso/payload/saas-aso/SKILL.md",
+      "path": "plugins/saas-aso/skills/saas-aso/SKILL.md",
       "sha256": "7068274ceef1db545cbd606001be2f5bdb222d5b4e6ecf641713b72e09d0605a",
-      "sizeBytes": 2788
+      "sizeBytes": 2788,
+      "sourceSha256": "7068274ceef1db545cbd606001be2f5bdb222d5b4e6ecf641713b72e09d0605a",
+      "change": "none"
     },
     {
       "productId": "saas-founder-notes",
       "sourceMember": "saas-founder-notes.md",
-      "path": "plugins/saas-founder-notes/payload/saas-founder-notes/SKILL.md",
+      "path": "plugins/saas-founder-notes/skills/saas-founder-notes/SKILL.md",
       "sha256": "4998bf3b20128e0f6ee3647e4eaab933e007271929bb7fa608470f09ff01dce8",
-      "sizeBytes": 2654
+      "sizeBytes": 2654,
+      "sourceSha256": "4998bf3b20128e0f6ee3647e4eaab933e007271929bb7fa608470f09ff01dce8",
+      "change": "none"
     },
     {
       "productId": "local-gbp-optimizer",
       "sourceMember": "local-gbp-optimizer.md",
-      "path": "plugins/local-gbp-optimizer/payload/local-gbp-optimizer/SKILL.md",
+      "path": "plugins/local-gbp-optimizer/skills/local-gbp-optimizer/SKILL.md",
       "sha256": "3f8559cca37437fbec51a2023a78c7ed16a68fa813948abd7a1fd9cf96f7fa49",
-      "sizeBytes": 7834
+      "sizeBytes": 7834,
+      "sourceSha256": "3f8559cca37437fbec51a2023a78c7ed16a68fa813948abd7a1fd9cf96f7fa49",
+      "change": "none"
     },
     {
       "productId": "local-missed-call-textback",
       "sourceMember": "local-missed-call-textback.md",
-      "path": "plugins/local-missed-call-textback/payload/local-missed-call-textback/SKILL.md",
+      "path": "plugins/local-missed-call-textback/skills/local-missed-call-textback/SKILL.md",
       "sha256": "06dd1326d77758ec5ef6913fc7d67a257a907564e7de263090f9d6f34d35ed44",
-      "sizeBytes": 2682
+      "sizeBytes": 2682,
+      "sourceSha256": "06dd1326d77758ec5ef6913fc7d67a257a907564e7de263090f9d6f34d35ed44",
+      "change": "none"
     },
     {
       "productId": "local-lead-followup-sequence",
       "sourceMember": "local-lead-followup-sequence.md",
-      "path": "plugins/local-lead-followup-sequence/payload/local-lead-followup-sequence/SKILL.md",
+      "path": "plugins/local-lead-followup-sequence/skills/local-lead-followup-sequence/SKILL.md",
       "sha256": "c0e278b4402fa0544964c73dfb2c6eeba9811c6d3ef19857993d730bf2073ee9",
-      "sizeBytes": 2668
+      "sizeBytes": 2668,
+      "sourceSha256": "c0e278b4402fa0544964c73dfb2c6eeba9811c6d3ef19857993d730bf2073ee9",
+      "change": "none"
     },
     {
       "productId": "local-quote-followup",
       "sourceMember": "local-quote-followup.md",
-      "path": "plugins/local-quote-followup/payload/local-quote-followup/SKILL.md",
+      "path": "plugins/local-quote-followup/skills/local-quote-followup/SKILL.md",
       "sha256": "45f8fc3b5cfc8f2d6ce13b86dde890505ebb072c3f2071f07e2d95f49489afd7",
-      "sizeBytes": 2645
+      "sizeBytes": 2645,
+      "sourceSha256": "45f8fc3b5cfc8f2d6ce13b86dde890505ebb072c3f2071f07e2d95f49489afd7",
+      "change": "none"
     },
     {
       "productId": "local-review-generation",
       "sourceMember": "local-review-generation.md",
-      "path": "plugins/local-review-generation/payload/local-review-generation/SKILL.md",
+      "path": "plugins/local-review-generation/skills/local-review-generation/SKILL.md",
       "sha256": "edb1e569d4fa44e4adf8d0007715c2bc6a89737f56555777b34d971827be3b69",
-      "sizeBytes": 2738
+      "sizeBytes": 2738,
+      "sourceSha256": "edb1e569d4fa44e4adf8d0007715c2bc6a89737f56555777b34d971827be3b69",
+      "change": "none"
     },
     {
       "productId": "local-b2b-property-manager-outreach",
       "sourceMember": "local-b2b-property-manager-outreach.md",
-      "path": "plugins/local-b2b-property-manager-outreach/payload/local-b2b-property-manager-outreach/SKILL.md",
+      "path": "plugins/local-b2b-property-manager-outreach/skills/local-b2b-property-manager-outreach/SKILL.md",
       "sha256": "f0ca87699d1fcea88e5f5379a201fcc6d7e82bf3b33f8f30fe2b42976aa94cda",
-      "sizeBytes": 2968
+      "sizeBytes": 2968,
+      "sourceSha256": "f0ca87699d1fcea88e5f5379a201fcc6d7e82bf3b33f8f30fe2b42976aa94cda",
+      "change": "none"
     },
     {
       "productId": "local-good-better-best-pricing",
       "sourceMember": "local-good-better-best-pricing.md",
-      "path": "plugins/local-good-better-best-pricing/payload/local-good-better-best-pricing/SKILL.md",
+      "path": "plugins/local-good-better-best-pricing/skills/local-good-better-best-pricing/SKILL.md",
       "sha256": "e58d91f3a529a4fde4545ad7910ac26984ac4ca111b7f9d254eeb21aa81486f3",
-      "sizeBytes": 2774
+      "sizeBytes": 2774,
+      "sourceSha256": "e58d91f3a529a4fde4545ad7910ac26984ac4ca111b7f9d254eeb21aa81486f3",
+      "change": "none"
     },
     {
       "productId": "local-crm-automation",
       "sourceMember": "local-crm-automation.md",
-      "path": "plugins/local-crm-automation/payload/local-crm-automation/SKILL.md",
+      "path": "plugins/local-crm-automation/skills/local-crm-automation/SKILL.md",
       "sha256": "90e9048662a2640a0f7ef77a9db3620a3b2365a3ac079e5609a715d6d9de43b1",
-      "sizeBytes": 2820
+      "sizeBytes": 2820,
+      "sourceSha256": "90e9048662a2640a0f7ef77a9db3620a3b2365a3ac079e5609a715d6d9de43b1",
+      "change": "none"
     },
     {
       "productId": "local-retention-referral",
       "sourceMember": "local-retention-referral.md",
-      "path": "plugins/local-retention-referral/payload/local-retention-referral/SKILL.md",
+      "path": "plugins/local-retention-referral/skills/local-retention-referral/SKILL.md",
       "sha256": "81e3344e97e676802e37e146554235c86a3bd8f2c6869e8a9261d8e18f648f96",
-      "sizeBytes": 2619
+      "sizeBytes": 2619,
+      "sourceSha256": "81e3344e97e676802e37e146554235c86a3bd8f2c6869e8a9261d8e18f648f96",
+      "change": "none"
     },
     {
       "productId": "local-negative-review-response",
       "sourceMember": "local-negative-review-response.md",
-      "path": "plugins/local-negative-review-response/payload/local-negative-review-response/SKILL.md",
+      "path": "plugins/local-negative-review-response/skills/local-negative-review-response/SKILL.md",
       "sha256": "9632364ae38e4bdfe676343939413b34f19eeacebb6a8c775cc554fb24cceaf1",
-      "sizeBytes": 2713
+      "sizeBytes": 2713,
+      "sourceSha256": "9632364ae38e4bdfe676343939413b34f19eeacebb6a8c775cc554fb24cceaf1",
+      "change": "none"
     },
     {
       "productId": "marketplace-listing-optimizer",
       "sourceMember": "marketplace-listing-optimizer.md",
-      "path": "plugins/marketplace-listing-optimizer/payload/marketplace-listing-optimizer/SKILL.md",
+      "path": "plugins/marketplace-listing-optimizer/skills/marketplace-listing-optimizer/SKILL.md",
       "sha256": "d81d41fe513b2fe9f2ff9b6d7c05e7a0847126ad89c138f52c5119db672aee32",
-      "sizeBytes": 2965
+      "sizeBytes": 2965,
+      "sourceSha256": "d81d41fe513b2fe9f2ff9b6d7c05e7a0847126ad89c138f52c5119db672aee32",
+      "change": "none"
     },
     {
       "productId": "marketplace-pricing-comps",
       "sourceMember": "marketplace-pricing-comps.md",
-      "path": "plugins/marketplace-pricing-comps/payload/marketplace-pricing-comps/SKILL.md",
+      "path": "plugins/marketplace-pricing-comps/skills/marketplace-pricing-comps/SKILL.md",
       "sha256": "03030ea986c1e730a2359fb90a3024474ba588afd46ff7a2648dfb2ae9234f29",
-      "sizeBytes": 2811
+      "sizeBytes": 2811,
+      "sourceSha256": "03030ea986c1e730a2359fb90a3024474ba588afd46ff7a2648dfb2ae9234f29",
+      "change": "none"
     },
     {
       "productId": "marketplace-photo-coach",
       "sourceMember": "marketplace-photo-coach.md",
-      "path": "plugins/marketplace-photo-coach/payload/marketplace-photo-coach/SKILL.md",
+      "path": "plugins/marketplace-photo-coach/skills/marketplace-photo-coach/SKILL.md",
       "sha256": "d1de655c1199959a2a0679058123781a569c85ef85432303651611b89f1af0f9",
-      "sizeBytes": 2731
+      "sizeBytes": 2731,
+      "sourceSha256": "d1de655c1199959a2a0679058123781a569c85ef85432303651611b89f1af0f9",
+      "change": "none"
     },
     {
       "productId": "marketplace-negotiation-scripts",
       "sourceMember": "marketplace-negotiation-scripts.md",
-      "path": "plugins/marketplace-negotiation-scripts/payload/marketplace-negotiation-scripts/SKILL.md",
+      "path": "plugins/marketplace-negotiation-scripts/skills/marketplace-negotiation-scripts/SKILL.md",
       "sha256": "716989c2f6b34eb14ffae9563f8123022d98467fd7a0b7fad69ea35bf1cacc98",
-      "sizeBytes": 2689
+      "sizeBytes": 2689,
+      "sourceSha256": "716989c2f6b34eb14ffae9563f8123022d98467fd7a0b7fad69ea35bf1cacc98",
+      "change": "none"
     },
     {
       "productId": "marketplace-scam-safety",
       "sourceMember": "marketplace-scam-safety.md",
-      "path": "plugins/marketplace-scam-safety/payload/marketplace-scam-safety/SKILL.md",
+      "path": "plugins/marketplace-scam-safety/skills/marketplace-scam-safety/SKILL.md",
       "sha256": "ca7b6b22ec6ff9a96a8f40417beaaecab6be588c281d5422b620af8023efdbaa",
-      "sizeBytes": 2841
+      "sizeBytes": 2841,
+      "sourceSha256": "ca7b6b22ec6ff9a96a8f40417beaaecab6be588c281d5422b620af8023efdbaa",
+      "change": "none"
     },
     {
       "productId": "appliance-inspection-guide",
       "sourceMember": "appliance-inspection-guide.md",
-      "path": "plugins/appliance-inspection-guide/payload/appliance-inspection-guide/SKILL.md",
+      "path": "plugins/appliance-inspection-guide/skills/appliance-inspection-guide/SKILL.md",
       "sha256": "165bab983bd1d822c09deb6504ff85d5ff270e7cb11dd1d8de67916e785e4ef4",
-      "sizeBytes": 2813
+      "sizeBytes": 2813,
+      "sourceSha256": "165bab983bd1d822c09deb6504ff85d5ff270e7cb11dd1d8de67916e785e4ef4",
+      "change": "none"
     },
     {
       "productId": "appliance-repair-triage",
       "sourceMember": "appliance-repair-triage.md",
-      "path": "plugins/appliance-repair-triage/payload/appliance-repair-triage/SKILL.md",
+      "path": "plugins/appliance-repair-triage/skills/appliance-repair-triage/SKILL.md",
       "sha256": "cbc8260be55b9d723431901e3fe68878f9fdabd2cfccb73e8cced56ab690a089",
-      "sizeBytes": 2774
+      "sizeBytes": 2774,
+      "sourceSha256": "cbc8260be55b9d723431901e3fe68878f9fdabd2cfccb73e8cced56ab690a089",
+      "change": "none"
     },
     {
       "productId": "appliance-age-recall-checker",
       "sourceMember": "appliance-age-recall-checker.md",
-      "path": "plugins/appliance-age-recall-checker/payload/appliance-age-recall-checker/SKILL.md",
+      "path": "plugins/appliance-age-recall-checker/skills/appliance-age-recall-checker/SKILL.md",
       "sha256": "2e74c4042e4808ca0012c02d153ced0edf6c9e336bafc9cbbac24875a368183b",
-      "sizeBytes": 2782
+      "sizeBytes": 2782,
+      "sourceSha256": "2e74c4042e4808ca0012c02d153ced0edf6c9e336bafc9cbbac24875a368183b",
+      "change": "none"
     },
     {
       "productId": "steve-jobs-design",
       "sourceMember": "the-craft-lens.md",
-      "path": "plugins/steve-jobs-design/payload/steve-jobs-design/SKILL.md",
+      "path": "plugins/steve-jobs-design/skills/the-craft-lens/SKILL.md",
       "sha256": "f9e263473d1f8a818bb498e310201591a5077931ee8e8bee60e6790e133f4f6c",
-      "sizeBytes": 5301
+      "sizeBytes": 5301,
+      "sourceSha256": "f9e263473d1f8a818bb498e310201591a5077931ee8e8bee60e6790e133f4f6c",
+      "change": "none"
     },
     {
       "productId": "first-principles-thinking",
       "sourceMember": "first-principles-thinking.md",
-      "path": "plugins/first-principles-thinking/payload/first-principles-thinking/SKILL.md",
+      "path": "plugins/first-principles-thinking/skills/first-principles-thinking/SKILL.md",
       "sha256": "6e0ae8011da4a4e68642abad64cf5ded8bd8904849c9190766998b57860d1545",
-      "sizeBytes": 5180
+      "sizeBytes": 5180,
+      "sourceSha256": "6e0ae8011da4a4e68642abad64cf5ded8bd8904849c9190766998b57860d1545",
+      "change": "none"
     },
     {
       "productId": "competitor-pain-intelligence",
       "sourceMember": "competitor-pain-intelligence.md",
-      "path": "plugins/competitor-pain-intelligence/payload/competitor-pain-intelligence/SKILL.md",
+      "path": "plugins/competitor-pain-intelligence/skills/competitor-pain-intelligence/SKILL.md",
       "sha256": "91ed31c0e2a097b58d901d1bf0304f4888c1744edc1ce9b4363ca6804bd93773",
-      "sizeBytes": 5399
+      "sizeBytes": 5399,
+      "sourceSha256": "91ed31c0e2a097b58d901d1bf0304f4888c1744edc1ce9b4363ca6804bd93773",
+      "change": "none"
     },
     {
       "productId": "context-vault",
       "sourceMember": "README.md",
-      "path": "plugins/context-vault/payload/README.md",
+      "path": "plugins/context-vault/README.md",
       "sha256": "9ead6daeee7c40dbf084653566f23fabb871314f113b69ee5009f4774dc88eaf",
-      "sizeBytes": 1394
+      "sizeBytes": 1394,
+      "sourceSha256": "9ead6daeee7c40dbf084653566f23fabb871314f113b69ee5009f4774dc88eaf",
+      "change": "none"
     },
     {
       "productId": "context-vault",
       "sourceMember": "ai-handoff-brief-builder/SKILL.md",
-      "path": "plugins/context-vault/payload/ai-handoff-brief-builder/SKILL.md",
+      "path": "plugins/context-vault/skills/ai-handoff-brief-builder/SKILL.md",
       "sha256": "ad1df6362111aa3c50d452e34cc070d6a74f83f97f9c633ff871922798249762",
-      "sizeBytes": 3417
+      "sizeBytes": 3417,
+      "sourceSha256": "ad1df6362111aa3c50d452e34cc070d6a74f83f97f9c633ff871922798249762",
+      "change": "none"
     },
     {
       "productId": "context-vault",
       "sourceMember": "blocker-snag-triage/SKILL.md",
-      "path": "plugins/context-vault/payload/blocker-snag-triage/SKILL.md",
+      "path": "plugins/context-vault/skills/blocker-snag-triage/SKILL.md",
       "sha256": "39397672f724465b0f7e04be0ac45e3b75988b547d0e302f5c5e078296cbc20d",
-      "sizeBytes": 3336
+      "sizeBytes": 3336,
+      "sourceSha256": "39397672f724465b0f7e04be0ac45e3b75988b547d0e302f5c5e078296cbc20d",
+      "change": "none"
     },
     {
       "productId": "context-vault",
       "sourceMember": "context-vault-architect/SKILL.md",
-      "path": "plugins/context-vault/payload/context-vault-architect/SKILL.md",
+      "path": "plugins/context-vault/skills/context-vault-architect/SKILL.md",
       "sha256": "3ebd9cd9a37506ecb249fd5a15c784af46ede2cac58b656995807d0fb5e32383",
-      "sizeBytes": 4541
+      "sizeBytes": 4541,
+      "sourceSha256": "3ebd9cd9a37506ecb249fd5a15c784af46ede2cac58b656995807d0fb5e32383",
+      "change": "none"
     },
     {
       "productId": "context-vault",
       "sourceMember": "guided-brain-dump-capture/SKILL.md",
-      "path": "plugins/context-vault/payload/guided-brain-dump-capture/SKILL.md",
+      "path": "plugins/context-vault/skills/guided-brain-dump-capture/SKILL.md",
       "sha256": "f4ffd19d582f7e69c8b522090f3294f495b43e72f799cc10812f767c06c43f4c",
-      "sizeBytes": 3506
+      "sizeBytes": 3506,
+      "sourceSha256": "f4ffd19d582f7e69c8b522090f3294f495b43e72f799cc10812f767c06c43f4c",
+      "change": "none"
     },
     {
       "productId": "context-vault",
       "sourceMember": "personal-operating-system-map/SKILL.md",
-      "path": "plugins/context-vault/payload/personal-operating-system-map/SKILL.md",
+      "path": "plugins/context-vault/skills/personal-operating-system-map/SKILL.md",
       "sha256": "ac82026248776e25d24eb9a8822f44136d821cae86b4adba31be32e6b70770f5",
-      "sizeBytes": 3316
+      "sizeBytes": 3316,
+      "sourceSha256": "ac82026248776e25d24eb9a8822f44136d821cae86b4adba31be32e6b70770f5",
+      "change": "none"
     },
     {
       "productId": "context-vault",
       "sourceMember": "project-context-captain/SKILL.md",
-      "path": "plugins/context-vault/payload/project-context-captain/SKILL.md",
+      "path": "plugins/context-vault/skills/project-context-captain/SKILL.md",
       "sha256": "a14ee85a402562e56660ccf087a60e0f834c00e65fe20225d3c3c907c808c111",
-      "sizeBytes": 3440
+      "sizeBytes": 3440,
+      "sourceSha256": "a14ee85a402562e56660ccf087a60e0f834c00e65fe20225d3c3c907c808c111",
+      "change": "none"
     },
     {
       "productId": "context-vault",
       "sourceMember": "vault-ingestion-router/SKILL.md",
-      "path": "plugins/context-vault/payload/vault-ingestion-router/SKILL.md",
+      "path": "plugins/context-vault/skills/vault-ingestion-router/SKILL.md",
       "sha256": "36ad895977542a5102627bcdb627af658ba297540079e3ee4012108dc87b3bdf",
-      "sizeBytes": 3178
+      "sizeBytes": 3178,
+      "sourceSha256": "36ad895977542a5102627bcdb627af658ba297540079e3ee4012108dc87b3bdf",
+      "change": "none"
     },
     {
       "productId": "context-vault",
       "sourceMember": "weekly-context-review/SKILL.md",
-      "path": "plugins/context-vault/payload/weekly-context-review/SKILL.md",
+      "path": "plugins/context-vault/skills/weekly-context-review/SKILL.md",
       "sha256": "25abbbf02e75fa23c61bcb508b2b8ee9c6531f9a4cf3f34ae3818d9e92e664d9",
-      "sizeBytes": 3190
+      "sizeBytes": 3190,
+      "sourceSha256": "25abbbf02e75fa23c61bcb508b2b8ee9c6531f9a4cf3f34ae3818d9e92e664d9",
+      "change": "none"
     },
     {
       "productId": "context-vault",
       "sourceMember": "context-vault-architect/scripts/bootstrap_context_vault.py",
-      "path": "plugins/context-vault/payload/context-vault-architect/scripts/bootstrap_context_vault.py",
+      "path": "plugins/context-vault/skills/context-vault-architect/scripts/bootstrap_context_vault.py",
       "sha256": "a3dbe4356bb39af51460ce0e62ab6e6924465b15cf640cc84f8b5ec3eb0ba672",
-      "sizeBytes": 5118
+      "sizeBytes": 5118,
+      "sourceSha256": "a3dbe4356bb39af51460ce0e62ab6e6924465b15cf640cc84f8b5ec3eb0ba672",
+      "change": "none"
     },
     {
       "productId": "context-vault",
       "sourceMember": "_shared/scripts/bootstrap_context_vault.py",
-      "path": "plugins/context-vault/payload/_shared/scripts/bootstrap_context_vault.py",
+      "path": "plugins/context-vault/_shared/scripts/bootstrap_context_vault.py",
       "sha256": "a3dbe4356bb39af51460ce0e62ab6e6924465b15cf640cc84f8b5ec3eb0ba672",
-      "sizeBytes": 5118
+      "sizeBytes": 5118,
+      "sourceSha256": "a3dbe4356bb39af51460ce0e62ab6e6924465b15cf640cc84f8b5ec3eb0ba672",
+      "change": "none"
     },
     {
       "productId": "brand-voice-engine",
       "sourceMember": "README.md",
-      "path": "plugins/brand-voice-engine/payload/README.md",
+      "path": "plugins/brand-voice-engine/skills/brand-voice-engine/README.md",
       "sha256": "2a9f4285a662e1109d6736d8ee7e75486b6385ccb104d974ca2e82720c53ae2c",
-      "sizeBytes": 2956
+      "sizeBytes": 2956,
+      "sourceSha256": "2a9f4285a662e1109d6736d8ee7e75486b6385ccb104d974ca2e82720c53ae2c",
+      "change": "none"
     },
     {
       "productId": "brand-voice-engine",
       "sourceMember": "SKILL.md",
-      "path": "plugins/brand-voice-engine/payload/SKILL.md",
-      "sha256": "4cad4cd4c56f5b6b5f0ff4db3f93c0bff38670f157fb5ee4b68e8f702e1bbad1",
-      "sizeBytes": 19827
+      "path": "plugins/brand-voice-engine/skills/brand-voice-engine/SKILL.md",
+      "sha256": "4ecc92778d7915b49725264e1075d4f018a2d586100db0742b1a1e21c5d41ade",
+      "sizeBytes": 19481,
+      "sourceSha256": "4cad4cd4c56f5b6b5f0ff4db3f93c0bff38670f157fb5ee4b68e8f702e1bbad1",
+      "change": "description-shortened"
     },
     {
       "productId": "tweet-builder",
       "sourceMember": "SKILL.md",
-      "path": "plugins/tweet-builder/payload/SKILL.md",
+      "path": "plugins/tweet-builder/skills/perfect-tweet-socratic/SKILL.md",
       "sha256": "f43313efdc27f4ba260804389a665fb8a5a387bd120444c91d182337e1cdb2ea",
-      "sizeBytes": 6537
+      "sizeBytes": 6537,
+      "sourceSha256": "f43313efdc27f4ba260804389a665fb8a5a387bd120444c91d182337e1cdb2ea",
+      "change": "none"
     },
     {
       "productId": "tweet-builder",
       "sourceMember": "references/playbook.md",
-      "path": "plugins/tweet-builder/payload/references/playbook.md",
+      "path": "plugins/tweet-builder/skills/perfect-tweet-socratic/references/playbook.md",
       "sha256": "e7146ca924fb3fc76c125d8aa4f0bc2b3160c9b67076b2fa40da0d3b895566ca",
-      "sizeBytes": 6951
+      "sizeBytes": 6951,
+      "sourceSha256": "e7146ca924fb3fc76c125d8aa4f0bc2b3160c9b67076b2fa40da0d3b895566ca",
+      "change": "none"
     },
     {
       "productId": "reducer-lens",
       "sourceMember": "reducer-lens/SKILL.md",
-      "path": "plugins/reducer-lens/payload/reducer-lens/SKILL.md",
+      "path": "plugins/reducer-lens/skills/reducer-lens/SKILL.md",
       "sha256": "5b1dd5b7df971808b73d76403856ac93a9faafc61fd39045be4e6f90fa31aa2a",
-      "sizeBytes": 10715
+      "sizeBytes": 10715,
+      "sourceSha256": "5b1dd5b7df971808b73d76403856ac93a9faafc61fd39045be4e6f90fa31aa2a",
+      "change": "none"
     },
     {
       "productId": "reducer-lens",
       "sourceMember": "reducer-lens/references/case-studies-and-sources.md",
-      "path": "plugins/reducer-lens/payload/reducer-lens/references/case-studies-and-sources.md",
+      "path": "plugins/reducer-lens/skills/reducer-lens/references/case-studies-and-sources.md",
       "sha256": "8406a3cb215996163e7002ae7d305a6fd620e2a7172ab58bd77cff243a3fa7d8",
-      "sizeBytes": 10374
+      "sizeBytes": 10374,
+      "sourceSha256": "8406a3cb215996163e7002ae7d305a6fd620e2a7172ab58bd77cff243a3fa7d8",
+      "change": "none"
     },
     {
       "productId": "reducer-lens",
       "sourceMember": "reducer-lens/references/producer-modes-and-prompts.md",
-      "path": "plugins/reducer-lens/payload/reducer-lens/references/producer-modes-and-prompts.md",
+      "path": "plugins/reducer-lens/skills/reducer-lens/references/producer-modes-and-prompts.md",
       "sha256": "df215f34f841cb833fa9e1130e90f1e92f96d93fc9827eaf02a442b06092ce56",
-      "sizeBytes": 7745
+      "sizeBytes": 7745,
+      "sourceSha256": "df215f34f841cb833fa9e1130e90f1e92f96d93fc9827eaf02a442b06092ce56",
+      "change": "none"
     },
     {
       "productId": "reducer-lens",
       "sourceMember": "reducer-lens/references/reducer-tools.md",
-      "path": "plugins/reducer-lens/payload/reducer-lens/references/reducer-tools.md",
+      "path": "plugins/reducer-lens/skills/reducer-lens/references/reducer-tools.md",
       "sha256": "0318742744ec8d06969035747c5e848b1f16e889753f3a3a5953f85ec0a796e3",
-      "sizeBytes": 7367
+      "sizeBytes": 7367,
+      "sourceSha256": "0318742744ec8d06969035747c5e848b1f16e889753f3a3a5953f85ec0a796e3",
+      "change": "none"
     },
     {
       "productId": "reducer-lens",
       "sourceMember": "reducer-lens/references/rick-rubin-creative-process-research.pplx.md",
-      "path": "plugins/reducer-lens/payload/reducer-lens/references/rick-rubin-creative-process-research.pplx.md",
+      "path": "plugins/reducer-lens/skills/reducer-lens/references/rick-rubin-creative-process-research.pplx.md",
       "sha256": "90d271016550ac78435948d79c91e0135feb679b743bead3ea2562cb2557376a",
-      "sizeBytes": 50834
+      "sizeBytes": 50834,
+      "sourceSha256": "90d271016550ac78435948d79c91e0135feb679b743bead3ea2562cb2557376a",
+      "change": "none"
     },
     {
       "productId": "reducer-lens",
       "sourceMember": "reducer-lens/references/rubin-operating-system.md",
-      "path": "plugins/reducer-lens/payload/reducer-lens/references/rubin-operating-system.md",
+      "path": "plugins/reducer-lens/skills/reducer-lens/references/rubin-operating-system.md",
       "sha256": "67169bfad19254860cc2d900df93eadd1af6cca3aa77ef29c04bc26b6cf2adb0",
-      "sizeBytes": 11017
+      "sizeBytes": 11017,
+      "sourceSha256": "67169bfad19254860cc2d900df93eadd1af6cca3aa77ef29c04bc26b6cf2adb0",
+      "change": "none"
     },
     {
       "productId": "aeo-and-geo",
       "sourceMember": "LICENSE",
-      "path": "plugins/aeo-and-geo/payload/LICENSE",
+      "path": "plugins/aeo-and-geo/skills/aeo-and-geo/LICENSE",
       "sha256": "d9a7a8f636d71f7f03ab86b032224c5d1b3b866fe949285f81f36c60c805d30e",
-      "sizeBytes": 1073
+      "sizeBytes": 1073,
+      "sourceSha256": "d9a7a8f636d71f7f03ab86b032224c5d1b3b866fe949285f81f36c60c805d30e",
+      "change": "none"
     },
     {
       "productId": "aeo-and-geo",
       "sourceMember": "README.md",
-      "path": "plugins/aeo-and-geo/payload/README.md",
+      "path": "plugins/aeo-and-geo/skills/aeo-and-geo/README.md",
       "sha256": "2f37427fb0f3f1ef3e6c0cbc24a0f5d88a2cb45a1fc897a36877736aa9439a82",
-      "sizeBytes": 615
+      "sizeBytes": 615,
+      "sourceSha256": "2f37427fb0f3f1ef3e6c0cbc24a0f5d88a2cb45a1fc897a36877736aa9439a82",
+      "change": "none"
     },
     {
       "productId": "aeo-and-geo",
       "sourceMember": "SKILL.md",
-      "path": "plugins/aeo-and-geo/payload/SKILL.md",
+      "path": "plugins/aeo-and-geo/skills/aeo-and-geo/SKILL.md",
       "sha256": "1ab00e76552373dcd92da1ffad92a2e461583fcd9ab6cb44e56c488acbb82a04",
-      "sizeBytes": 18198
+      "sizeBytes": 18198,
+      "sourceSha256": "1ab00e76552373dcd92da1ffad92a2e461583fcd9ab6cb44e56c488acbb82a04",
+      "change": "none"
     },
     {
       "productId": "aeo-and-geo",
       "sourceMember": "_shared/execution-standard.md",
-      "path": "plugins/aeo-and-geo/payload/_shared/execution-standard.md",
+      "path": "plugins/aeo-and-geo/skills/aeo-and-geo/_shared/execution-standard.md",
       "sha256": "f6b33f52fbc413e64c87ca0b5ac411b10120051b15597e46c7d2b7301938e8cb",
-      "sizeBytes": 1406
+      "sizeBytes": 1406,
+      "sourceSha256": "f6b33f52fbc413e64c87ca0b5ac411b10120051b15597e46c7d2b7301938e8cb",
+      "change": "none"
     },
     {
       "productId": "aeo-and-geo",
       "sourceMember": "reference/evidence.md",
-      "path": "plugins/aeo-and-geo/payload/reference/evidence.md",
+      "path": "plugins/aeo-and-geo/skills/aeo-and-geo/reference/evidence.md",
       "sha256": "9439dcb820d0599031ba0662228faa0d19de4d16179b2251b1f746eeaeef5249",
-      "sizeBytes": 4112
+      "sizeBytes": 4112,
+      "sourceSha256": "9439dcb820d0599031ba0662228faa0d19de4d16179b2251b1f746eeaeef5249",
+      "change": "none"
     },
     {
       "productId": "aeo-and-geo",
       "sourceMember": "related-skills/local-gbp-optimizer/SKILL.md",
-      "path": "plugins/aeo-and-geo/payload/related-skills/local-gbp-optimizer/SKILL.md",
+      "path": "plugins/aeo-and-geo/skills/aeo-and-geo/related-skills/local-gbp-optimizer/SKILL.md",
       "sha256": "3f8559cca37437fbec51a2023a78c7ed16a68fa813948abd7a1fd9cf96f7fa49",
-      "sizeBytes": 7834
+      "sizeBytes": 7834,
+      "sourceSha256": "3f8559cca37437fbec51a2023a78c7ed16a68fa813948abd7a1fd9cf96f7fa49",
+      "change": "none"
     },
     {
       "productId": "aeo-and-geo",
       "sourceMember": "related-skills/seo-bing-places/SKILL.md",
-      "path": "plugins/aeo-and-geo/payload/related-skills/seo-bing-places/SKILL.md",
+      "path": "plugins/aeo-and-geo/skills/aeo-and-geo/related-skills/seo-bing-places/SKILL.md",
       "sha256": "317f51b19535f0bc875742921d4c6f4799bfeca2437c40df78db88661aa1f039",
-      "sizeBytes": 7874
+      "sizeBytes": 7874,
+      "sourceSha256": "317f51b19535f0bc875742921d4c6f4799bfeca2437c40df78db88661aa1f039",
+      "change": "none"
     },
     {
       "productId": "aeo-and-geo",
       "sourceMember": "related-skills/seo-keyword-research/SKILL.md",
-      "path": "plugins/aeo-and-geo/payload/related-skills/seo-keyword-research/SKILL.md",
+      "path": "plugins/aeo-and-geo/skills/aeo-and-geo/related-skills/seo-keyword-research/SKILL.md",
       "sha256": "634fd90f220cf9476ee656cea4ba38066d18ab444f6c5b8ee7f18f9597648157",
-      "sizeBytes": 5055
+      "sizeBytes": 5055,
+      "sourceSha256": "634fd90f220cf9476ee656cea4ba38066d18ab444f6c5b8ee7f18f9597648157",
+      "change": "none"
     },
     {
       "productId": "aeo-and-geo",
       "sourceMember": "related-skills/seo-longtail-keywords/SKILL.md",
-      "path": "plugins/aeo-and-geo/payload/related-skills/seo-longtail-keywords/SKILL.md",
+      "path": "plugins/aeo-and-geo/skills/aeo-and-geo/related-skills/seo-longtail-keywords/SKILL.md",
       "sha256": "bd58256772f10151c492e2a0b52b32236e34036747c2a7bdd0f29c2b9cee5c6a",
-      "sizeBytes": 4486
+      "sizeBytes": 4486,
+      "sourceSha256": "bd58256772f10151c492e2a0b52b32236e34036747c2a7bdd0f29c2b9cee5c6a",
+      "change": "none"
     },
     {
       "productId": "aeo-and-geo",
       "sourceMember": "related-skills/seo-search-console/SKILL.md",
-      "path": "plugins/aeo-and-geo/payload/related-skills/seo-search-console/SKILL.md",
+      "path": "plugins/aeo-and-geo/skills/aeo-and-geo/related-skills/seo-search-console/SKILL.md",
       "sha256": "371c22c0c177a1db8726ef5eb9753ee7989b0175822c0847ab80cc5dc67fe9e1",
-      "sizeBytes": 3844
+      "sizeBytes": 3844,
+      "sourceSha256": "371c22c0c177a1db8726ef5eb9753ee7989b0175822c0847ab80cc5dc67fe9e1",
+      "change": "none"
     },
     {
       "productId": "aeo-and-geo",
       "sourceMember": "scripts/audit.py",
-      "path": "plugins/aeo-and-geo/payload/scripts/audit.py",
+      "path": "plugins/aeo-and-geo/skills/aeo-and-geo/scripts/audit.py",
       "sha256": "82162e7490b1ed1bc8334b6162d7cc8f42c8f3c8a05ebcc79a118690f127e16a",
-      "sizeBytes": 6405
+      "sizeBytes": 6405,
+      "sourceSha256": "82162e7490b1ed1bc8334b6162d7cc8f42c8f3c8a05ebcc79a118690f127e16a",
+      "change": "none"
     },
     {
       "productId": "seo-keyword-research",
       "sourceMember": "seo-keyword-research.md",
-      "path": "plugins/seo-keyword-research/payload/seo-keyword-research/SKILL.md",
+      "path": "plugins/seo-keyword-research/skills/seo-keyword-research/SKILL.md",
       "sha256": "634fd90f220cf9476ee656cea4ba38066d18ab444f6c5b8ee7f18f9597648157",
-      "sizeBytes": 5055
+      "sizeBytes": 5055,
+      "sourceSha256": "634fd90f220cf9476ee656cea4ba38066d18ab444f6c5b8ee7f18f9597648157",
+      "change": "none"
     },
     {
       "productId": "seo-longtail-keywords",
       "sourceMember": "seo-longtail-keywords.md",
-      "path": "plugins/seo-longtail-keywords/payload/seo-longtail-keywords/SKILL.md",
+      "path": "plugins/seo-longtail-keywords/skills/seo-longtail-keywords/SKILL.md",
       "sha256": "bd58256772f10151c492e2a0b52b32236e34036747c2a7bdd0f29c2b9cee5c6a",
-      "sizeBytes": 4486
+      "sizeBytes": 4486,
+      "sourceSha256": "bd58256772f10151c492e2a0b52b32236e34036747c2a7bdd0f29c2b9cee5c6a",
+      "change": "none"
     },
     {
       "productId": "seo-bing-places",
       "sourceMember": "seo-bing-places.md",
-      "path": "plugins/seo-bing-places/payload/seo-bing-places/SKILL.md",
+      "path": "plugins/seo-bing-places/skills/seo-bing-places/SKILL.md",
       "sha256": "317f51b19535f0bc875742921d4c6f4799bfeca2437c40df78db88661aa1f039",
-      "sizeBytes": 7874
+      "sizeBytes": 7874,
+      "sourceSha256": "317f51b19535f0bc875742921d4c6f4799bfeca2437c40df78db88661aa1f039",
+      "change": "none"
     },
     {
       "productId": "seo-search-console",
       "sourceMember": "seo-search-console.md",
-      "path": "plugins/seo-search-console/payload/seo-search-console/SKILL.md",
+      "path": "plugins/seo-search-console/skills/seo-search-console/SKILL.md",
       "sha256": "371c22c0c177a1db8726ef5eb9753ee7989b0175822c0847ab80cc5dc67fe9e1",
-      "sizeBytes": 3844
+      "sizeBytes": 3844,
+      "sourceSha256": "371c22c0c177a1db8726ef5eb9753ee7989b0175822c0847ab80cc5dc67fe9e1",
+      "change": "none"
+    }
+  ],
+  "desktopArchives": [
+    {
+      "skill": "browser-automation",
+      "productId": "browser-automation",
+      "path": "desktop/browser-automation.zip",
+      "sha256": "5b0352bd58710df37a21438c6e3a9913b000f65235c5e7bbf137c85cf0328f52",
+      "sizeBytes": 5987,
+      "files": 2
+    },
+    {
+      "skill": "project-closeout",
+      "productId": "project-closeout",
+      "path": "desktop/project-closeout.zip",
+      "sha256": "0938e92346b444840455cdef3912716198cfa25804179bc1d11380bd064b5f8a",
+      "sizeBytes": 5735,
+      "files": 2
+    },
+    {
+      "skill": "skill-creator",
+      "productId": "skill-creator",
+      "path": "desktop/skill-creator.zip",
+      "sha256": "d4a8d91b60c67b7e88962f354fb6bc7890f9f0b72408298403626c66e6ae4afe",
+      "sizeBytes": 11020,
+      "files": 2
+    },
+    {
+      "skill": "content-repurposing-engine",
+      "productId": "content-repurposing-engine",
+      "path": "desktop/content-repurposing-engine.zip",
+      "sha256": "1c9b50d4f7978b97108a9b5e7332c549f71c29b52d5345486edec8ab9bc33006",
+      "sizeBytes": 15025,
+      "files": 4
+    },
+    {
+      "skill": "anti-slop",
+      "productId": "anti-slop",
+      "path": "desktop/anti-slop.zip",
+      "sha256": "5fdaf6149556eb832e8347c92fe791b99f71d3967d2095b40c381fab8ecc3e29",
+      "sizeBytes": 26227,
+      "files": 4
+    },
+    {
+      "skill": "upwork-hunter",
+      "productId": "upwork-hunter",
+      "path": "desktop/upwork-hunter.zip",
+      "sha256": "0bee8ad10d8e617c56566b47b63d6b002e4da8e66a2c1d68113e3307246dae8b",
+      "sizeBytes": 5623,
+      "files": 2
+    },
+    {
+      "skill": "website-landlord",
+      "productId": "website-landlord",
+      "path": "desktop/website-landlord.zip",
+      "sha256": "aaf4e720a2d2b5f82877f14e2665246c30755ddc4496ad4c2f570d97bf7d5f0f",
+      "sizeBytes": 5721,
+      "files": 2
+    },
+    {
+      "skill": "seo-keyword-fix",
+      "productId": "seo-keyword-fix",
+      "path": "desktop/seo-keyword-fix.zip",
+      "sha256": "a9244ffe643249b7638d1d00c989bcc308c7a8856968db1aa2b439d31b5b6b00",
+      "sizeBytes": 9744,
+      "files": 2
+    },
+    {
+      "skill": "yt-content-engine",
+      "productId": "yt-content-engine",
+      "path": "desktop/yt-content-engine.zip",
+      "sha256": "06d5e7cb2e0b583268663bf6027eb476ce616285369bb02730f03a16a303c708",
+      "sizeBytes": 5453,
+      "files": 2
+    },
+    {
+      "skill": "local-audit",
+      "productId": "local-audit",
+      "path": "desktop/local-audit.zip",
+      "sha256": "4165a1fbf4b01ef4863736613793b09d742fe0fcc4e92ec3707cf2448407e7e3",
+      "sizeBytes": 5322,
+      "files": 2
+    },
+    {
+      "skill": "podcast-wisdom",
+      "productId": "podcast-wisdom",
+      "path": "desktop/podcast-wisdom.zip",
+      "sha256": "4da2edadee284c5c80c2ebe2341bbe91b4f3bf5aae1603806228de9922fbb83a",
+      "sizeBytes": 5494,
+      "files": 2
+    },
+    {
+      "skill": "copywriting-mastery",
+      "productId": "copywriting-mastery",
+      "path": "desktop/copywriting-mastery.zip",
+      "sha256": "bd8c6119619ff765bbc2edd18712c0dd9ab2e42671119e6f99d04c396c306a83",
+      "sizeBytes": 5734,
+      "files": 2
+    },
+    {
+      "skill": "product-naming",
+      "productId": "product-naming",
+      "path": "desktop/product-naming.zip",
+      "sha256": "10e26bdcd2f4bd15ee3e832f338bdb383ced2316c802e0d0509717a6c4aa5583",
+      "sizeBytes": 5592,
+      "files": 2
+    },
+    {
+      "skill": "web-design-foundations",
+      "productId": "web-design-foundations",
+      "path": "desktop/web-design-foundations.zip",
+      "sha256": "776924e4e74dfb05bf08dd2103d0688d0d34a6e5ff8f2a0db10995612a23cff7",
+      "sizeBytes": 5747,
+      "files": 2
+    },
+    {
+      "skill": "asset-generator",
+      "productId": "asset-generator",
+      "path": "desktop/asset-generator.zip",
+      "sha256": "9b9daf0371bfb0383e926c6d3de99767594f11a0f4b628d379efb62936823d42",
+      "sizeBytes": 6190,
+      "files": 2
+    },
+    {
+      "skill": "ecommerce-listing",
+      "productId": "ecommerce-listing",
+      "path": "desktop/ecommerce-listing.zip",
+      "sha256": "f7b2640c88df71a1b2665d562225daff6229e40ab98da4e327ab96c6a41335d3",
+      "sizeBytes": 6054,
+      "files": 2
+    },
+    {
+      "skill": "context-hygiene",
+      "productId": "claude-context-hygiene",
+      "path": "desktop/context-hygiene.zip",
+      "sha256": "c492fb6af3f949e03c16100b79c1fa01f1ddbb8351e65aa1f79861985ce27d1f",
+      "sizeBytes": 4542,
+      "files": 2
+    },
+    {
+      "skill": "session-handoff",
+      "productId": "claude-session-handoff",
+      "path": "desktop/session-handoff.zip",
+      "sha256": "09739de50c73aa56f4a98d57ef9e88acf628f9cf27af8a860c7bec0cae7c18f8",
+      "sizeBytes": 3975,
+      "files": 2
+    },
+    {
+      "skill": "fail-loud",
+      "productId": "claude-fail-loud",
+      "path": "desktop/fail-loud.zip",
+      "sha256": "525929870035273e631aa5737cf88cfcc67ed02edfa07e9374606bad33892cb5",
+      "sizeBytes": 4229,
+      "files": 2
+    },
+    {
+      "skill": "hook-setup",
+      "productId": "claude-hook-setup",
+      "path": "desktop/hook-setup.zip",
+      "sha256": "abd7bd58cefe494f7f2cc65f58698965e1744b1c187826f88479bae9e604b543",
+      "sizeBytes": 4093,
+      "files": 2
+    },
+    {
+      "skill": "mcp-setup",
+      "productId": "claude-mcp-setup",
+      "path": "desktop/mcp-setup.zip",
+      "sha256": "285d1c00f1afd86f7c43b74ae0d8f2b9ae0b216ec2428797f9b04cb657da6509",
+      "sizeBytes": 4212,
+      "files": 2
+    },
+    {
+      "skill": "mcp-server-builder",
+      "productId": "claude-mcp-server-builder",
+      "path": "desktop/mcp-server-builder.zip",
+      "sha256": "861945fa3021575b0d13c782eab967672018bdc7703368f131eaf69815482764",
+      "sizeBytes": 4102,
+      "files": 2
+    },
+    {
+      "skill": "worktree-parallel-setup",
+      "productId": "claude-worktree-parallel-setup",
+      "path": "desktop/worktree-parallel-setup.zip",
+      "sha256": "b5ac0c449a8f31ebbdd0a6c0e58a6b11dd59056465988a685ddca24e031fd1fe",
+      "sizeBytes": 4069,
+      "files": 2
+    },
+    {
+      "skill": "pr-review",
+      "productId": "claude-pr-review",
+      "path": "desktop/pr-review.zip",
+      "sha256": "de520b657617622c7801f66b285c516771d32b7b091a8b24eb802b579b746633",
+      "sizeBytes": 3987,
+      "files": 2
+    },
+    {
+      "skill": "cost-optimizer",
+      "productId": "claude-cost-optimizer",
+      "path": "desktop/cost-optimizer.zip",
+      "sha256": "1e959042882ca6607259e8de17def1f139cd03761ae08a6c2fc67271d3766414",
+      "sizeBytes": 4114,
+      "files": 2
+    },
+    {
+      "skill": "saas-validate-before-build",
+      "productId": "saas-validate-before-build",
+      "path": "desktop/saas-validate-before-build.zip",
+      "sha256": "748cdc9485423a2a169c6ffcc42716eb939f739086678fa2f7c84ae5ea0ad46c",
+      "sizeBytes": 4262,
+      "files": 2
+    },
+    {
+      "skill": "saas-customer-interviews",
+      "productId": "saas-customer-interviews",
+      "path": "desktop/saas-customer-interviews.zip",
+      "sha256": "7247f3f9c4dcbf97510c540edd08881243eea2e6665a9abcb129464f6342fc3d",
+      "sizeBytes": 4172,
+      "files": 2
+    },
+    {
+      "skill": "saas-landing-page",
+      "productId": "saas-landing-page",
+      "path": "desktop/saas-landing-page.zip",
+      "sha256": "4b2c18c4bc417efbcde6a465a55f7485b6f006055c86db5cbaafa2150f34579a",
+      "sizeBytes": 4071,
+      "files": 2
+    },
+    {
+      "skill": "saas-pricing-strategy",
+      "productId": "saas-pricing-strategy",
+      "path": "desktop/saas-pricing-strategy.zip",
+      "sha256": "464223fb4763404e35d87a206808835c15cf223d4f213192978d21af0c9912d7",
+      "sizeBytes": 4196,
+      "files": 2
+    },
+    {
+      "skill": "saas-activation-analytics",
+      "productId": "saas-activation-analytics",
+      "path": "desktop/saas-activation-analytics.zip",
+      "sha256": "a2f9c421b8111d3bf2a3fb6bb35b3060e2099cddad8eeb969e52a982ceaf2755",
+      "sizeBytes": 4194,
+      "files": 2
+    },
+    {
+      "skill": "saas-onboarding-flow",
+      "productId": "saas-onboarding-flow",
+      "path": "desktop/saas-onboarding-flow.zip",
+      "sha256": "ab0862784318366eeb60e265311405224c4573ae7327d0ba9a2a7125a26698f9",
+      "sizeBytes": 4010,
+      "files": 2
+    },
+    {
+      "skill": "saas-stripe-setup",
+      "productId": "saas-stripe-setup",
+      "path": "desktop/saas-stripe-setup.zip",
+      "sha256": "4974410828a5529e521ddee7a3e8176fa8050f8e603435f442697f471bedc695",
+      "sizeBytes": 4269,
+      "files": 2
+    },
+    {
+      "skill": "saas-mvp-stack",
+      "productId": "saas-mvp-stack",
+      "path": "desktop/saas-mvp-stack.zip",
+      "sha256": "abf1f29c9b595a5f643913e52dc7996c6544fae618b485fe70304f5aaa5128bb",
+      "sizeBytes": 4297,
+      "files": 2
+    },
+    {
+      "skill": "saas-pmf-engine",
+      "productId": "saas-pmf-engine",
+      "path": "desktop/saas-pmf-engine.zip",
+      "sha256": "d9a23c6008558f8a0c004188b54b82f2633811ae67a1f9d0609224ce97a7ad70",
+      "sizeBytes": 4043,
+      "files": 2
+    },
+    {
+      "skill": "saas-launch-playbook",
+      "productId": "saas-launch-playbook",
+      "path": "desktop/saas-launch-playbook.zip",
+      "sha256": "3015fbd149e470db6e579e88ec47288f66722d8cd523903600919cc5fbbd6e83",
+      "sizeBytes": 4175,
+      "files": 2
+    },
+    {
+      "skill": "saas-aso",
+      "productId": "saas-aso",
+      "path": "desktop/saas-aso.zip",
+      "sha256": "121653f1924bb0f151462332ecf0c0f5730109884125bd46fdfa5fc2b9e35639",
+      "sizeBytes": 4146,
+      "files": 2
+    },
+    {
+      "skill": "saas-founder-notes",
+      "productId": "saas-founder-notes",
+      "path": "desktop/saas-founder-notes.zip",
+      "sha256": "b7c775b896c4abdd63ff60999c346ba4f21213220c0b79388731721723cfed1b",
+      "sizeBytes": 4052,
+      "files": 2
+    },
+    {
+      "skill": "local-gbp-optimizer",
+      "productId": "local-gbp-optimizer",
+      "path": "desktop/local-gbp-optimizer.zip",
+      "sha256": "8521f60ada63de744acc43bfc4da4e103f40d993bbab844ce8aff06f5a24fa2f",
+      "sizeBytes": 9236,
+      "files": 2
+    },
+    {
+      "skill": "local-missed-call-textback",
+      "productId": "local-missed-call-textback",
+      "path": "desktop/local-missed-call-textback.zip",
+      "sha256": "0675f8d41cd250bde6734091a92b261df4dc5a2e0775b04d3880a8bade6dea17",
+      "sizeBytes": 4112,
+      "files": 2
+    },
+    {
+      "skill": "local-lead-followup-sequence",
+      "productId": "local-lead-followup-sequence",
+      "path": "desktop/local-lead-followup-sequence.zip",
+      "sha256": "510138f11fb1d4daba81da7c522cb2b6140581135d897d447bc4d732bc34f51b",
+      "sizeBytes": 4106,
+      "files": 2
+    },
+    {
+      "skill": "local-quote-followup",
+      "productId": "local-quote-followup",
+      "path": "desktop/local-quote-followup.zip",
+      "sha256": "1d4183e99002f1515b27286c8c0d053352a4368f99fbb1d736ae87a83a401af3",
+      "sizeBytes": 4051,
+      "files": 2
+    },
+    {
+      "skill": "local-review-generation",
+      "productId": "local-review-generation",
+      "path": "desktop/local-review-generation.zip",
+      "sha256": "dc153b7f05187320f619971f8397e5dae49f2bc90a549a9aef851f5c32d1032c",
+      "sizeBytes": 4156,
+      "files": 2
+    },
+    {
+      "skill": "local-b2b-property-manager-outreach",
+      "productId": "local-b2b-property-manager-outreach",
+      "path": "desktop/local-b2b-property-manager-outreach.zip",
+      "sha256": "09b0eb0ce60b6ecdbb957ed4380b216f6b1c2405fe837b44bfd43a563ef32aaa",
+      "sizeBytes": 4434,
+      "files": 2
+    },
+    {
+      "skill": "local-good-better-best-pricing",
+      "productId": "local-good-better-best-pricing",
+      "path": "desktop/local-good-better-best-pricing.zip",
+      "sha256": "845aebcd2a1e6389179e9c4ea44e63ac0a658a864a603e653c1901929be4958a",
+      "sizeBytes": 4220,
+      "files": 2
+    },
+    {
+      "skill": "local-crm-automation",
+      "productId": "local-crm-automation",
+      "path": "desktop/local-crm-automation.zip",
+      "sha256": "1ac6f0328ce05cc33198d8558ea84f306bcf635b550dca2d756134223496d48c",
+      "sizeBytes": 4226,
+      "files": 2
+    },
+    {
+      "skill": "local-retention-referral",
+      "productId": "local-retention-referral",
+      "path": "desktop/local-retention-referral.zip",
+      "sha256": "e0c5861ebadfccf444dcbf7e603325a7636b0657e447cc1eb1f42817a3665b00",
+      "sizeBytes": 4041,
+      "files": 2
+    },
+    {
+      "skill": "local-negative-review-response",
+      "productId": "local-negative-review-response",
+      "path": "desktop/local-negative-review-response.zip",
+      "sha256": "810f856cf701e2693df181c326e884d3f74c7cecd97a77230060c4489bfdf37d",
+      "sizeBytes": 4159,
+      "files": 2
+    },
+    {
+      "skill": "marketplace-listing-optimizer",
+      "productId": "marketplace-listing-optimizer",
+      "path": "desktop/marketplace-listing-optimizer.zip",
+      "sha256": "80ce3c693fac0a2003fc42166d24f1308713d748f2f16e2bd3af779a9d1b0f71",
+      "sizeBytes": 4407,
+      "files": 2
+    },
+    {
+      "skill": "marketplace-pricing-comps",
+      "productId": "marketplace-pricing-comps",
+      "path": "desktop/marketplace-pricing-comps.zip",
+      "sha256": "4a67b304c598df1620b0af4d73ce159b5097c4e673269b8fe7981b602299f5ab",
+      "sizeBytes": 4237,
+      "files": 2
+    },
+    {
+      "skill": "marketplace-photo-coach",
+      "productId": "marketplace-photo-coach",
+      "path": "desktop/marketplace-photo-coach.zip",
+      "sha256": "86375d109cc07b634fdb741b0b3ea036c370f356874d14f8ce203534bce5460a",
+      "sizeBytes": 4149,
+      "files": 2
+    },
+    {
+      "skill": "marketplace-negotiation-scripts",
+      "productId": "marketplace-negotiation-scripts",
+      "path": "desktop/marketplace-negotiation-scripts.zip",
+      "sha256": "9d6045fd74b06f88d9511d491553678ceb750ee7c8f67d5a2ddacc9a59aaa640",
+      "sizeBytes": 4139,
+      "files": 2
+    },
+    {
+      "skill": "marketplace-scam-safety",
+      "productId": "marketplace-scam-safety",
+      "path": "desktop/marketplace-scam-safety.zip",
+      "sha256": "8e0f990fb330cf93caa47c8e66915213f299b7d81b27e1791c15ba7f007f2c41",
+      "sizeBytes": 4259,
+      "files": 2
+    },
+    {
+      "skill": "appliance-inspection-guide",
+      "productId": "appliance-inspection-guide",
+      "path": "desktop/appliance-inspection-guide.zip",
+      "sha256": "411ef3429201f6515a32d40a82ecfe426d68a94536f0825d82433e003feb1235",
+      "sizeBytes": 4243,
+      "files": 2
+    },
+    {
+      "skill": "appliance-repair-triage",
+      "productId": "appliance-repair-triage",
+      "path": "desktop/appliance-repair-triage.zip",
+      "sha256": "431a2acb91c593eade30b62d66ea49f43803bd7e59c6c2d8715a8137aed4d110",
+      "sizeBytes": 4192,
+      "files": 2
+    },
+    {
+      "skill": "appliance-age-recall-checker",
+      "productId": "appliance-age-recall-checker",
+      "path": "desktop/appliance-age-recall-checker.zip",
+      "sha256": "8d2c0b34bbc0a5d68765552b1e5e5e07c4ed2f76db87f455ceee1c78f28b76f5",
+      "sizeBytes": 4220,
+      "files": 2
+    },
+    {
+      "skill": "the-craft-lens",
+      "productId": "steve-jobs-design",
+      "path": "desktop/the-craft-lens.zip",
+      "sha256": "1d8cdd5b848dd0384340e00b168ad798ead7cb9ec8beb40bd65db67b89d4e212",
+      "sizeBytes": 6683,
+      "files": 2
+    },
+    {
+      "skill": "first-principles-thinking",
+      "productId": "first-principles-thinking",
+      "path": "desktop/first-principles-thinking.zip",
+      "sha256": "01d00b05c7ae31af857a4220b25d0fc0bf3f1e8cc63b7b048b7fe951e96fb514",
+      "sizeBytes": 6606,
+      "files": 2
+    },
+    {
+      "skill": "competitor-pain-intelligence",
+      "productId": "competitor-pain-intelligence",
+      "path": "desktop/competitor-pain-intelligence.zip",
+      "sha256": "1772568617a2e666bb0fd84cf2e361d408af14121334b671eddd4ad19746966f",
+      "sizeBytes": 6837,
+      "files": 2
+    },
+    {
+      "skill": "ai-handoff-brief-builder",
+      "productId": "context-vault",
+      "path": "desktop/ai-handoff-brief-builder.zip",
+      "sha256": "495542c5861c156a7701adecafb5484c2c453792e05e38d42115acfa9e157282",
+      "sizeBytes": 4839,
+      "files": 2
+    },
+    {
+      "skill": "blocker-snag-triage",
+      "productId": "context-vault",
+      "path": "desktop/blocker-snag-triage.zip",
+      "sha256": "c108709de79e3dd916ee732323c6ece62406d95a901e8962497fabf8b5a782f4",
+      "sizeBytes": 4738,
+      "files": 2
+    },
+    {
+      "skill": "context-vault-architect",
+      "productId": "context-vault",
+      "path": "desktop/context-vault-architect.zip",
+      "sha256": "548c948aa521b4914f855ed2629e60167cc34f1bea19e873453a480b56a72533",
+      "sizeBytes": 11269,
+      "files": 3
+    },
+    {
+      "skill": "guided-brain-dump-capture",
+      "productId": "context-vault",
+      "path": "desktop/guided-brain-dump-capture.zip",
+      "sha256": "0c5ebd8fdc2486275bff86fb4bddd93e3daf7db418ea5caffff07a7580e9ceb8",
+      "sizeBytes": 4932,
+      "files": 2
+    },
+    {
+      "skill": "personal-operating-system-map",
+      "productId": "context-vault",
+      "path": "desktop/personal-operating-system-map.zip",
+      "sha256": "317517f795a7e35898754b27928369809293a8f6bc455c6d67579d693d807b14",
+      "sizeBytes": 4758,
+      "files": 2
+    },
+    {
+      "skill": "project-context-captain",
+      "productId": "context-vault",
+      "path": "desktop/project-context-captain.zip",
+      "sha256": "f8288ba980d8837f3d21fe17b2b08fa11a190a408ee04b9873ebd9db25cb1bcb",
+      "sizeBytes": 4858,
+      "files": 2
+    },
+    {
+      "skill": "vault-ingestion-router",
+      "productId": "context-vault",
+      "path": "desktop/vault-ingestion-router.zip",
+      "sha256": "a1fb95553f13a6c8328658ae37da9b347fb9317df5c19931e4bc390713d8b97c",
+      "sizeBytes": 4592,
+      "files": 2
+    },
+    {
+      "skill": "weekly-context-review",
+      "productId": "context-vault",
+      "path": "desktop/weekly-context-review.zip",
+      "sha256": "b021e8a64a1760e27753c22efbc076a95010202cf7501c3dfdf4275c91a5da22",
+      "sizeBytes": 4600,
+      "files": 2
+    },
+    {
+      "skill": "brand-voice-engine",
+      "productId": "brand-voice-engine",
+      "path": "desktop/brand-voice-engine.zip",
+      "sha256": "4447d33d352ed0668e1f80fea4cbf424b309680f3d42d7c08b50fa100d0e1318",
+      "sizeBytes": 23967,
+      "files": 3
+    },
+    {
+      "skill": "perfect-tweet-socratic",
+      "productId": "tweet-builder",
+      "path": "desktop/perfect-tweet-socratic.zip",
+      "sha256": "d4ac7246fdf0121b642c76a9b14b527ba46b4436d4f087f12b099bc54c08c836",
+      "sizeBytes": 15068,
+      "files": 3
+    },
+    {
+      "skill": "reducer-lens",
+      "productId": "reducer-lens",
+      "path": "desktop/reducer-lens.zip",
+      "sha256": "aa36fe3f59a1f4bdba16d774167fa1cf399c1b5fa286b58c39cb0cb4ca9a0f44",
+      "sizeBytes": 100328,
+      "files": 7
+    },
+    {
+      "skill": "aeo-and-geo",
+      "productId": "aeo-and-geo",
+      "path": "desktop/aeo-and-geo.zip",
+      "sha256": "ccf5004c85a3c4b70720a308048de6261956a91bdaeb87ac5e8cba3d4ed0a0eb",
+      "sizeBytes": 62630,
+      "files": 11
+    },
+    {
+      "skill": "seo-keyword-research",
+      "productId": "seo-keyword-research",
+      "path": "desktop/seo-keyword-research.zip",
+      "sha256": "105ec5b5e0d06efe14e8b42e35bf0b8aaec5d89b0245289658684e0f916d6718",
+      "sizeBytes": 6461,
+      "files": 2
+    },
+    {
+      "skill": "seo-longtail-keywords",
+      "productId": "seo-longtail-keywords",
+      "path": "desktop/seo-longtail-keywords.zip",
+      "sha256": "3d9421cc89a3cb0b8955833bb53dd705dfd7006551b01c9a9fe067f341f69d86",
+      "sizeBytes": 5896,
+      "files": 2
+    },
+    {
+      "skill": "seo-bing-places",
+      "productId": "seo-bing-places",
+      "path": "desktop/seo-bing-places.zip",
+      "sha256": "a7f7b280953466b7897d2996df49d0e36b427573c5c3177146755c8e412ee88b",
+      "sizeBytes": 9260,
+      "files": 2
+    },
+    {
+      "skill": "seo-search-console",
+      "productId": "seo-search-console",
+      "path": "desktop/seo-search-console.zip",
+      "sha256": "52a45324549cf8dafb6967249f6e512ad27a619b503c14c188109e1aa2373b90",
+      "sizeBytes": 5242,
+      "files": 2
     }
   ]
 }

@@ -1,12 +1,10 @@
 {
   "name": "apex-content-repurposing-engine",
-  "version": "1.0.0",
-  "description": "Content Multiplier",
+  "displayName": "Content Multiplier",
+  "version": "1.1.0",
+  "description": "Turn one piece of long-form content (blog post, YouTube video, podcast, transcript, newsletter) into a full week of distribution: LinkedIn post, X thread, newsletter draft, short-form video script, Instagram/Threads post, and email teaser. Use when the user says 'repurpose this', 'turn this into social', 'make this into a thread', 'I have a blog post and need posts for the week', or pastes a transcript/URL and asks for distribution.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload"
-  ]
+  "license": "MIT"
 }

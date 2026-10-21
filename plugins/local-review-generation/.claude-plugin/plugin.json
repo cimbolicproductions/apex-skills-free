@@ -1,12 +1,10 @@
 {
   "name": "apex-local-review-generation",
-  "version": "1.0.0",
-  "description": "Local Review Generation System",
+  "displayName": "Local Review Generation System",
+  "version": "1.1.0",
+  "description": "Use when asking for Google reviews, automating post-job review requests, routing negative feedback privately, writing review responses, or improving review velocity for local service businesses.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/local-review-generation"
-  ]
+  "license": "MIT"
 }

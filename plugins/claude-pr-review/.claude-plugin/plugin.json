@@ -1,12 +1,10 @@
 {
   "name": "apex-pr-review",
-  "version": "1.0.0",
-  "description": "Claude PR Review",
+  "displayName": "Claude PR Review",
+  "version": "1.1.0",
+  "description": "Use when reviewing a pull request, checking recent changes, verifying implementation against a ticket, spotting fake success, or preparing review comments. Always prefer fresh-context review.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/claude-pr-review"
-  ]
+  "license": "MIT"
 }

@@ -1,12 +1,10 @@
 {
   "name": "apex-saas-onboarding-flow",
-  "version": "1.0.0",
-  "description": "SaaS Onboarding Flow",
+  "displayName": "SaaS Onboarding Flow",
+  "version": "1.1.0",
+  "description": "Use when designing new-user onboarding, welcome emails, checklists, empty states, lifecycle emails, product tours, manual onboarding, or first-30-day retention flows.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/saas-onboarding-flow"
-  ]
+  "license": "MIT"
 }

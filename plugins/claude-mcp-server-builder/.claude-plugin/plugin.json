@@ -1,12 +1,10 @@
 {
   "name": "apex-mcp-server-builder",
-  "version": "1.0.0",
-  "description": "MCP Server Builder",
+  "displayName": "MCP Server Builder",
+  "version": "1.1.0",
+  "description": "Use when creating a custom MCP server, exposing an API or script as Claude tools, designing MCP tool schemas, or building with FastMCP or the MCP SDK. Do not use for merely installing existing servers.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/claude-mcp-server-builder"
-  ]
+  "license": "MIT"
 }

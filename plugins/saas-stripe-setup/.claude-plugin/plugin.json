@@ -1,12 +1,10 @@
 {
   "name": "apex-saas-stripe-setup",
-  "version": "1.0.0",
-  "description": "SaaS Stripe Setup",
+  "displayName": "SaaS Stripe Setup",
+  "version": "1.1.0",
+  "description": "Use when adding subscriptions, Stripe Checkout, pricing tables, trials, customer portal, webhooks, failed payment handling, Stripe plus Supabase access control, or SaaS billing lifecycle logic.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/saas-stripe-setup"
-  ]
+  "license": "MIT"
 }

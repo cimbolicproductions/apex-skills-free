@@ -1,12 +1,10 @@
 {
   "name": "apex-ecommerce-listing",
-  "version": "1.0.0",
-  "description": "E-commerce Listing Optimizer",
+  "displayName": "E-commerce Listing Optimizer",
+  "version": "1.1.0",
+  "description": "Writes a marketplace listing from item details or a photo: an 80-character keyword title, five to seven item specifics and a mobile-friendly description. Use when the user is listing an item on eBay, Poshmark or Shopify or wants a listing improved.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-  "skills": [
-    "./payload/ecommerce-listing"
-  ]
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0"
 }

@@ -1,12 +1,10 @@
 {
   "name": "apex-saas-landing-page",
-  "version": "1.0.0",
-  "description": "SaaS Landing Page",
+  "displayName": "SaaS Landing Page",
+  "version": "1.1.0",
+  "description": "Use when writing, reviewing, or improving a SaaS landing page, waitlist page, fake-door page, pricing page intro, hero copy, CTAs, proof, FAQ, or conversion-focused page structure.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/saas-landing-page"
-  ]
+  "license": "MIT"
 }

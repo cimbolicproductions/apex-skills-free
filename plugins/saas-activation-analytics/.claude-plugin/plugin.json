@@ -1,12 +1,10 @@
 {
   "name": "apex-saas-activation-analytics",
-  "version": "1.0.0",
-  "description": "SaaS Activation Analytics",
+  "displayName": "SaaS Activation Analytics",
+  "version": "1.1.0",
+  "description": "Use when defining activation metrics, aha moments, PostHog or Mixpanel events, onboarding funnels, retention cohorts, or analytics schemas for SaaS products.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/saas-activation-analytics"
-  ]
+  "license": "MIT"
 }

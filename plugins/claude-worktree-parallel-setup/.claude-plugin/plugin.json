@@ -1,12 +1,10 @@
 {
   "name": "apex-worktree-parallel-setup",
-  "version": "1.0.0",
-  "description": "Parallel Claude Worktree Setup",
+  "displayName": "Parallel Claude Worktree Setup",
+  "version": "1.1.0",
+  "description": "Use when running multiple Claude Code agents in parallel, using git worktrees, avoiding port/database collisions, or splitting features into independent AI workers.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/claude-worktree-parallel-setup"
-  ]
+  "license": "MIT"
 }

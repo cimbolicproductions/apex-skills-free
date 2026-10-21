@@ -1,12 +1,10 @@
 {
   "name": "apex-local-crm-automation",
-  "version": "1.0.0",
-  "description": "Local CRM and Automation Setup",
+  "displayName": "Local CRM and Automation Setup",
+  "version": "1.1.0",
+  "description": "Use when setting up CRM, pipeline stages, GoHighLevel, HubSpot, Twilio, n8n, lead intake, follow-up automation, booking reminders, review triggers, or local service workflow automation.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/local-crm-automation"
-  ]
+  "license": "MIT"
 }

@@ -1,12 +1,10 @@
 {
   "name": "apex-local-missed-call-textback",
-  "version": "1.0.0",
-  "description": "Missed-Call Text-Back Builder",
+  "displayName": "Missed-Call Text-Back Builder",
+  "version": "1.1.0",
+  "description": "Use when a local business misses calls, needs missed-call auto-SMS, after-hours triage, urgent/routine branching, Twilio, GoHighLevel, Grasshopper, or n8n missed-call workflows.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/local-missed-call-textback"
-  ]
+  "license": "MIT"
 }

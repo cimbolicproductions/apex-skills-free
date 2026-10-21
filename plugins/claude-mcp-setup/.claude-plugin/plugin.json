@@ -1,12 +1,10 @@
 {
   "name": "apex-mcp-setup",
-  "version": "1.0.0",
-  "description": "Claude MCP Setup and Troubleshooting",
+  "displayName": "Claude MCP Setup and Troubleshooting",
+  "version": "1.1.0",
+  "description": "Use when adding, configuring, auditing, or troubleshooting MCP servers in Claude Code or Claude Desktop, including scope, auth, tool collisions, JSON config, restarts, and context bloat.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/claude-mcp-setup"
-  ]
+  "license": "MIT"
 }

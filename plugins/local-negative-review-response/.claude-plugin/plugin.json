@@ -1,12 +1,10 @@
 {
   "name": "apex-local-negative-review-response",
-  "version": "1.0.0",
-  "description": "Negative Review Response Handler",
+  "displayName": "Negative Review Response Handler",
+  "version": "1.1.0",
+  "description": "Use when responding to negative Google reviews, unfair reviews, fake reviews, customer complaints, reputation issues, or drafting professional de-escalating public replies.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/local-negative-review-response"
-  ]
+  "license": "MIT"
 }

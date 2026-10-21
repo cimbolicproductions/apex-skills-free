@@ -1,12 +1,10 @@
 {
   "name": "apex-appliance-age-recall-checker",
-  "version": "1.0.0",
-  "description": "Appliance Age and Recall Checker",
+  "displayName": "Appliance Age and Recall Checker",
+  "version": "1.1.0",
+  "description": "Use when checking appliance age from model/serial, recall risk, safety warnings, resale eligibility, listing disclosure, or whether an appliance should not be sold or rented.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/appliance-age-recall-checker"
-  ]
+  "license": "MIT"
 }

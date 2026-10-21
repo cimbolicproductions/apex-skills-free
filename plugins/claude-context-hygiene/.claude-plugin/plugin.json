@@ -1,12 +1,10 @@
 {
   "name": "apex-context-hygiene",
-  "version": "1.0.0",
-  "description": "Claude Code Context Hygiene",
+  "displayName": "Claude Code Context Hygiene",
+  "version": "1.1.0",
+  "description": "Use when Claude Code is losing track, repeating itself, contradicting prior decisions, context is high, a task is getting long, or the user asks to compact, clear, resume, or manage context. Do not use for ordinary one-shot coding edits.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/claude-context-hygiene"
-  ]
+  "license": "MIT"
 }

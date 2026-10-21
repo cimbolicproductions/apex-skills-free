@@ -1,12 +1,10 @@
 {
   "name": "apex-hook-setup",
-  "version": "1.0.0",
-  "description": "Claude Code Hook Setup",
+  "displayName": "Claude Code Hook Setup",
+  "version": "1.1.0",
+  "description": "Use when setting up Claude Code hooks for auto-formatting, blocking dangerous commands, running lint/tests on stop, desktop notifications, context reinjection, or deterministic guardrails.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/claude-hook-setup"
-  ]
+  "license": "MIT"
 }

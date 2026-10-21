@@ -1,12 +1,10 @@
 {
   "name": "apex-skill-creator",
-  "version": "1.0.0",
-  "description": "Skill Forge",
+  "displayName": "Skill Forge",
+  "version": "1.1.0",
+  "description": "Generate production-grade Claude Code skill files from a voice dump, rough idea, or existing workflow. Use when the user says 'create a skill', 'make this into a skill', 'turn this prompt into a skill', 'package this workflow', 'I keep doing X manually', or describes a repeatable task they want Claude to handle automatically. Outputs a complete SKILL.md with frontmatter, scoring criteria, examples, and guardrails - not just a prompt.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload"
-  ]
+  "license": "MIT"
 }

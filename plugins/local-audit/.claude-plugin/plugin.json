@@ -1,12 +1,10 @@
 {
   "name": "apex-local-audit",
-  "version": "1.0.0",
-  "description": "B2B Automation Auditor",
+  "displayName": "B2B Automation Auditor",
+  "version": "1.1.0",
+  "description": "Audits a local or small business from a short intake and returns two or three practical automation fixes, each with setup steps and estimated hours or dollars saved per week. Use when the user describes a business and asks where AI or automation could save time or win more customers.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-  "skills": [
-    "./payload/local-audit"
-  ]
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0"
 }

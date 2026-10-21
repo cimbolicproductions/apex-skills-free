@@ -1,12 +1,10 @@
 {
   "name": "apex-saas-launch-playbook",
-  "version": "1.0.0",
-  "description": "SaaS Launch Playbook",
+  "displayName": "SaaS Launch Playbook",
+  "version": "1.1.0",
+  "description": "Use when planning a SaaS launch, Product Hunt launch, Indie Hackers post, Reddit launch, beta launch, design partner rollout, or 7-day pre-sell sprint.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/saas-launch-playbook"
-  ]
+  "license": "MIT"
 }

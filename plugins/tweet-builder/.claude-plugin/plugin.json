@@ -1,12 +1,10 @@
 {
   "name": "apex-tweet-builder",
-  "version": "1.0.0",
-  "description": "Tweet Builder",
+  "displayName": "Tweet Builder",
+  "version": "1.1.0",
+  "description": "Craft the perfect tweet or thread for X/Twitter through Socratic questioning - the ideas come from the USER, not the AI. Use when the user wants to write a tweet, post on X, draft a thread, improve a tweet, or workshop a hook. The skill interviews the user one question at a time to draw out the angle, audience, and payoff, validates against documented character counts and 2026 algorithm best practices, and only then helps assemble and polish. Never auto-generate a finished tweet without first running the questioning loop.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload"
-  ]
+  "license": "MIT"
 }

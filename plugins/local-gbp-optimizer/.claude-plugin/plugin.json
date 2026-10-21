@@ -1,12 +1,10 @@
 {
   "name": "apex-local-gbp-optimizer",
-  "version": "1.0.0",
-  "description": "Local Google Business Profile Optimizer",
+  "displayName": "Local Google Business Profile Optimizer",
+  "version": "1.1.0",
+  "description": "Use when optimizing a Google Business Profile, local map rankings, GBP categories, services, descriptions, photos, posts, reviews, or local search visibility for a service business. Owns the Optimized GBP Gate that must pass before a GBP is imported into Bing Places (seo-bing-places) and before any downstream listing import.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/local-gbp-optimizer"
-  ]
+  "license": "MIT"
 }

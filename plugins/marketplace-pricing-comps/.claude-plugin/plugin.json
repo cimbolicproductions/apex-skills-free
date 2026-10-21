@@ -1,12 +1,10 @@
 {
   "name": "apex-marketplace-pricing-comps",
-  "version": "1.0.0",
-  "description": "Marketplace Pricing Comps",
+  "displayName": "Marketplace Pricing Comps",
+  "version": "1.1.0",
+  "description": "Use when pricing items for eBay, Facebook Marketplace, Craigslist, OfferUp, appliances, furniture, electronics, or resale inventory using sold comps, local comps, condition, urgency, and negotiation room.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/marketplace-pricing-comps"
-  ]
+  "license": "MIT"
 }

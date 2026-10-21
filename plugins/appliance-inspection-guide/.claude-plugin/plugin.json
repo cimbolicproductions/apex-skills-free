@@ -1,12 +1,10 @@
 {
   "name": "apex-appliance-inspection-guide",
-  "version": "1.0.0",
-  "description": "Used Appliance Inspection Guide",
+  "displayName": "Used Appliance Inspection Guide",
+  "version": "1.1.0",
+  "description": "Use when inspecting used washers, dryers, refrigerators, ranges, or dishwashers before buying, selling, renting, refurbishing, or delivering, including test checklist and condition grading.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/appliance-inspection-guide"
-  ]
+  "license": "MIT"
 }
