@@ -113,7 +113,7 @@ class AppCompatibility(unittest.TestCase):
             bundle.validate_skill("ok", "Fine description.", "payload")
         bundle.validate_skill("ok-name", "Fine description.", "ok-name")
 
-    def test_install_copies_change_only_frontmatter(self):
+    def test_install_copies_change_only_frontmatter_and_listed_fixes(self):
         originals = {}
         for product in self.provenance["products"]:
             data = self.generated[product["artifactPath"]]
@@ -130,9 +130,19 @@ class AppCompatibility(unittest.TestCase):
             if payload["change"] == "frontmatter-added":
                 self.assertIsNone(bundle.frontmatter_fields(source))
                 self.assertEqual(bundle.split_frontmatter(installed)[1], b"\n" + source)
+            elif payload["change"] == "install-step-fixed":
+                old, new = bundle.CONTENT_FIXES[(payload["productId"], payload["sourceMember"])]
+                self.assertEqual(installed, source.replace(old, new))
+                self.assertNotIn(b"dangerously-skip-permissions", installed)
             else:
                 self.assertEqual(bundle.split_frontmatter(installed)[1], bundle.split_frontmatter(source)[1])
-        self.assertEqual(changed, 23)
+        self.assertEqual(changed, 24)
+
+    def test_no_install_copy_tells_users_to_skip_approvals(self):
+        for path, content in self.generated.items():
+            if path.startswith(("plugins/", "desktop/")):
+                with self.subTest(path=path):
+                    self.assertNotIn(b"dangerously-skip-permissions", content)
 
     def test_desktop_zips_hold_one_skill_folder(self):
         archives = self.provenance["desktopArchives"]

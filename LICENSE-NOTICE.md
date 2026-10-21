@@ -4,7 +4,8 @@ All 67 product files and packs are free for personal and commercial use under
 the licenses mapped in [LICENSE.md](LICENSE.md) and [PROVENANCE.json](PROVENANCE.json).
 The original downloads in `products/` keep their exact bytes. The install
 copies in `plugins/` and `desktop/` change only the skill name and description
-metadata the Claude apps require, and each one carries its license.
+metadata the Claude apps require, plus one install line in the MIT Brand Voice
+Engine guide, and each one carries its license.
 
 ## Existing MIT products
 

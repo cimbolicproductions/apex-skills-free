@@ -6,7 +6,7 @@
   "productCount": 67,
   "registeredWorkflowCount": 74,
   "pathNormalization": "ZIP backslashes become forward slashes. Install copies place each skill in plugins/<product>/skills/<name>/ and pack-level files at the plugin root.",
-  "installChanges": "products/ holds the original bytes. In install copies, frontmatter-added means a name, description and license header was placed before the unchanged original text; name-changed and description-shortened edit only that one frontmatter line. Every other file keeps its source bytes (sourceSha256).",
+  "installChanges": "products/ holds the original bytes. In install copies, frontmatter-added means a name, description and license header was placed before the unchanged original text; name-changed and description-shortened edit only that one frontmatter line; install-step-fixed replaces one install line in a guide (CONTENT_FIXES in scripts/build_bundle.py). Every other file keeps its source bytes (sourceSha256).",
   "products": [
     {
       "id": "browser-automation",
@@ -2161,10 +2161,10 @@
       "productId": "brand-voice-engine",
       "sourceMember": "README.md",
       "path": "plugins/brand-voice-engine/skills/brand-voice-engine/README.md",
-      "sha256": "2a9f4285a662e1109d6736d8ee7e75486b6385ccb104d974ca2e82720c53ae2c",
-      "sizeBytes": 2956,
+      "sha256": "54144c77a6227d0753ac720623db5adbc8b76610bfdfe4454108c12b0ea5fe45",
+      "sizeBytes": 2925,
       "sourceSha256": "2a9f4285a662e1109d6736d8ee7e75486b6385ccb104d974ca2e82720c53ae2c",
-      "change": "none"
+      "change": "install-step-fixed"
     },
     {
       "productId": "brand-voice-engine",
@@ -2916,8 +2916,8 @@
       "skill": "brand-voice-engine",
       "productId": "brand-voice-engine",
       "path": "desktop/brand-voice-engine.zip",
-      "sha256": "4447d33d352ed0668e1f80fea4cbf424b309680f3d42d7c08b50fa100d0e1318",
-      "sizeBytes": 23967,
+      "sha256": "6958cd3086fac65667ac84888ddedaf5ce19596dc8b5ca9795a9fb87c7d70962",
+      "sizeBytes": 23936,
       "files": 3
     },
     {
