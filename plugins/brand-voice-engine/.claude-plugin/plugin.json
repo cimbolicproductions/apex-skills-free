@@ -1,12 +1,10 @@
 {
   "name": "apex-brand-voice-engine",
-  "version": "1.0.0",
-  "description": "Brand Voice Engine",
+  "displayName": "Brand Voice Engine",
+  "version": "1.1.0",
+  "description": "Generate a complete brand voice and content engine for your business in one Claude session. Use when the buyer says 'build my brand voice', 'I need a content engine', 'set up my newsletter and blog voice', 'configure brand for my company', '/brand-voice-engine', or any request for brand identity + content workflow setup. Walks the buyer through a 15-question brand interview, researches their niche with whatever research tools the agent has, applies proven copywriting and writing methods (Halbert, Sugarman, Ogilvy, Parr, Handley, King, Graham, Ravikant and Kennedy) to their brand parameters, then generates a personalized brand voice document plus three companion content skills (newsletter, blog and tweet pipelines).",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload"
-  ]
+  "license": "MIT"
 }

@@ -1,12 +1,10 @@
 {
   "name": "apex-appliance-repair-triage",
-  "version": "1.0.0",
-  "description": "Appliance Repair Triage",
+  "displayName": "Appliance Repair Triage",
+  "version": "1.1.0",
+  "description": "Use when triaging washer, dryer, refrigerator, dishwasher, oven, or range symptoms, likely causes, error codes, repair difficulty, parts checklist, and repair-vs-replace decisions.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/appliance-repair-triage"
-  ]
+  "license": "MIT"
 }

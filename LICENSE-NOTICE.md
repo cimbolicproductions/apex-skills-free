@@ -2,14 +2,16 @@
 
 All 67 product files and packs are free for personal and commercial use under
 the licenses mapped in [LICENSE.md](LICENSE.md) and [PROVENANCE.json](PROVENANCE.json).
-Original skill and support file bytes are preserved.
+The original downloads in `products/` keep their exact bytes. The install
+copies in `plugins/` and `desktop/` change only the skill name and description
+metadata the Claude apps require, and each one carries its license.
 
 ## Existing MIT products
 
 The 54 products and packs with existing MIT declarations retain MIT. Their
 contents include 66 workflow files because some packs hold several workflows
 and the AEO pack carries five related copies. The original AEO
-[LICENSE](plugins/aeo-and-geo/payload/LICENSE) remains intact.
+[LICENSE](plugins/aeo-and-geo/skills/aeo-and-geo/LICENSE) remains intact.
 
 MIT permits redistribution and sale subject to its notice requirements.
 Historical prose in the Brand Voice Engine README says MIT and also asks
@@ -21,7 +23,7 @@ preserved as provenance; no rights already granted by MIT are removed.
 
 These 13 original files had no license declaration. Apex now grants the
 [Apex Personal and Commercial Use License 1.0](licenses/APEX-PERSONAL-COMMERCIAL.md)
-for these products, including their byte-identical plugin and archived copies:
+for these products, including their plugin, desktop and archived copies:
 
 - Browser Automation Scripter (`Browser-Automation-Agent.md`)
 - Project Context Saver (`Project-Closeout-Handoff.md`)

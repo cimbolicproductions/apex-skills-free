@@ -1,12 +1,10 @@
 {
   "name": "apex-asset-generator",
-  "version": "1.0.0",
-  "description": "App Asset Prompt Architect",
+  "displayName": "App Asset Prompt Architect",
+  "version": "1.1.0",
+  "description": "Turns a request for an app or web visual, such as an app icon, splash screen, hero image or social share image, into structured image-model prompts with style, composition and constraint tags plus the right aspect ratio. Use when the user needs prompts for Midjourney, DALL-E, Gemini or another image generator.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-  "skills": [
-    "./payload/asset-generator"
-  ]
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0"
 }

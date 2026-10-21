@@ -1,12 +1,10 @@
 {
   "name": "apex-seo-keyword-fix",
-  "version": "1.0.0",
-  "description": "Automated SEO Orchestrator",
+  "displayName": "Automated SEO Orchestrator",
+  "version": "1.1.0",
+  "description": "Runs a staged SEO pipeline on a website: site audit, keyword research from free sources, topic clusters with pillar pages, and an exact on-page plan for each URL, with an optional apply mode that edits the code and opens a pull request. Use when the user wants an SEO audit, keyword research, a content cluster plan or on-page SEO fixes. Start in plan-only mode.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-  "skills": [
-    "./payload/seo-keyword-fix"
-  ]
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0"
 }

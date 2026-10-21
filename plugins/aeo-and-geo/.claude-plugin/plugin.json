@@ -1,12 +1,10 @@
 {
   "name": "apex-aeo-and-geo",
-  "version": "1.0.0",
-  "description": "AEO and GEO",
+  "displayName": "AEO and GEO",
+  "version": "1.1.0",
+  "description": "Aeo and Geo (formerly seo-answer-engine). Audit and improve website answers for extractability by ChatGPT, Gemini, Perplexity, Copilot and AI Overviews. Use for 'get cited by ChatGPT', 'AI search', 'answer engine optimization', 'AEO', 'GEO', 'LLM SEO', 'why does ChatGPT recommend my competitor', 'show up in AI results', 'get a local business recommended by ChatGPT or Copilot', 'Bing Places for ChatGPT', or when a page ranks but earns no clicks and no mentions. Audits a page for extractability, finds what incumbents hide, rewrites so a model can lift the answer whole, and for local businesses enforces the local entity layer in order: Optimized GBP Gate (local-gbp-optimizer), then that GBP imported into Bing Places (seo-bing-places), then Bing Webmaster Tools. Includes companion listing and research workflows for local businesses. Includes a complete workflow for the task.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload"
-  ]
+  "license": "MIT"
 }

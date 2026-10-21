@@ -1,12 +1,10 @@
 {
   "name": "apex-marketplace-photo-coach",
-  "version": "1.0.0",
-  "description": "Marketplace Photo Coach",
+  "displayName": "Marketplace Photo Coach",
+  "version": "1.1.0",
+  "description": "Use when planning product photos for eBay, Facebook Marketplace, Craigslist, OfferUp, appliances, furniture, tools, electronics, or resale listings to increase trust and conversion.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/marketplace-photo-coach"
-  ]
+  "license": "MIT"
 }

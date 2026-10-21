@@ -1,67 +1,69 @@
 # Apex Skills Free
 
-67 free AI agent skills for Claude Code, Codex, and Gemini CLI. Drop them in, tell your agent to set them up, start with one skill for your next task.
+67 free AI skill files and packs for the Claude desktop app, claude.ai, Claude Code and Codex. Add a skill, then ask Claude to use it on your next task.
 
-The download contains **67 product files and packs**, not 67 unique workflows. Some packs contain several workflows and copies of standalone skills.
+## Use it in the Claude desktop app
 
-## Drop it into your agent
+### Pro, Max, Team or Enterprise: add the whole set once
 
-Download this repository with **Code > Download ZIP**, extract it, or clone it:
+1. In the Claude desktop app or on claude.ai, open **Customize**, then **Plugins**.
+2. Click **Add**, choose **Add marketplace**, then **Add from a repository**, and paste:
+   ```text
+   cimbolicproductions/apex-skills-free
+   ```
+3. Open **Discover**, pick a skill, and click **Add**.
 
-```sh
-git clone https://github.com/cimbolicproductions/apex-skills-free.git
-```
+Skills you add here also work in Cowork, and in Claude Code when you sign in with the same account. On Team and Enterprise plans, an Owner can limit which marketplaces members add.
 
-Give Codex or Claude Code the skill file, its ZIP, or this folder. Ask:
+### Any plan, including Free: upload one skill
 
-> Install the skill I selected for future sessions using your supported skill location. Keep its scripts, references, templates, and attribution together. Tell me how to invoke it, then help me use it for my next task.
+1. Open **Settings > Capabilities** and turn on **Code execution and file creation**. Skills need it.
+2. Download one skill. Each link is a ready-to-upload ZIP:
+   - [anti-slop.zip](https://github.com/cimbolicproductions/apex-skills-free/raw/main/desktop/anti-slop.zip): edit a draft that sounds like AI so it sounds like you.
+   - [session-handoff.zip](https://github.com/cimbolicproductions/apex-skills-free/raw/main/desktop/session-handoff.zip): save decisions, status and the next step before you end a session.
+   - [seo-keyword-fix.zip](https://github.com/cimbolicproductions/apex-skills-free/raw/main/desktop/seo-keyword-fix.zip): audit a website and plan keyword and on-page fixes.
+   - All 74 skills: [CATALOG.md](CATALOG.md).
+3. Open **Customize > Skills**, click **+**, choose **Create skill**, then **Upload a skill**, and pick the ZIP. Upload the ZIP as it is. Do not unzip it.
 
-Thirteen legacy files have no YAML metadata. Codex needs a skill name and description for reusable installation, so ask your agent to add that metadata to an installed copy or wrapper and verify that Codex discovers it. Keep this package's originals unchanged. You can also attach the original Markdown as instructions for a single task.
+### Then use it
 
-Start with one skill. Your agent can inspect the files and choose the right installation steps for its environment. The original downloads are in [`products/`](products/). See [START-HERE.md](START-HERE.md) for a walkthrough and [CATALOG.md](CATALOG.md) for the full inventory.
+Ask for the task in plain words, for example: "Edit this draft so it sounds like me." Claude loads a skill when your request matches it. To pick one yourself, type `/` in the message box and choose the skill.
 
-## Three places to start
+## Codex
 
-| Skill | Use it when | Original download |
-|---|---|---|
-| **Slop Killer** | A draft sounds generic and you want an edit in your voice. | [anti-slop.zip](products/anti-slop.zip) |
-| **Claude Code Session Handoff** | You need to save decisions, work status, and the next action before ending a session. | [claude-session-handoff.md](products/claude-session-handoff.md) |
-| **Automated SEO Orchestrator** | You want a site audit, keyword research, and a plan for on-page changes. Start in `plan-only` mode. | [SEO-Keyword-Fix-Pipeline.md](products/SEO-Keyword-Fix-Pipeline.md) |
+Download a skill ZIP from [CATALOG.md](CATALOG.md), unzip it into the `.agents/skills` folder in your home folder, then restart Codex. Or give Codex the ZIP and ask:
 
-## Claude Code marketplace
+> Install this skill for future sessions. Keep its scripts, references and license together, then tell me how to use it.
 
-In Claude Code, run:
+## Claude Code in the terminal
+
+Plugins you add in the desktop app already sync to Claude Code. To add the marketplace from a terminal instead:
 
 ```text
 /plugin marketplace add https://github.com/cimbolicproductions/apex-skills-free.git
 /plugin install apex-anti-slop@apex-skills-free
 ```
 
-Then use `/apex-anti-slop:anti-slop` with a draft.
+Then use `/apex-anti-slop:anti-slop` with a draft. With GitHub SSH access set up, the short form `/plugin marketplace add cimbolicproductions/apex-skills-free` also works. From a local checkout, run `/plugin marketplace add .` in its root.
 
-The HTTPS command works without GitHub SSH keys. If your GitHub SSH access is
-already configured, the short form also works:
+## What is in this repo
 
-```text
-/plugin marketplace add cimbolicproductions/apex-skills-free
-```
+| Folder | What it holds |
+|---|---|
+| [`desktop/`](desktop/) | One upload-ready ZIP for each of the 74 skills |
+| [`plugins/`](plugins/) | The same skills as 67 plugins, one per product, for the marketplace |
+| [`products/`](products/) | The 67 original downloads, unchanged |
 
-To use a local checkout instead, open Claude Code in its root and add it with:
+[START-HERE.md](START-HERE.md) walks through a first skill. [CATALOG.md](CATALOG.md) lists every skill with its download links.
 
-```text
-/plugin marketplace add .
-```
-
-Each product has its own plugin, so you can install the one you need. Codex and Gemini CLI users should use the file installation prompt above; these marketplace commands are for Claude Code.
+The install copies in `desktop/` and `plugins/` change only the name and description lines that the Claude apps require. Thirteen older skills had no name or description, so they now have one. Nine skill names started with `claude`, a word the apps do not allow in skill names, so those names drop it: `claude-session-handoff` is now `session-handoff`. The instructions themselves are unchanged. [PROVENANCE.json](PROVENANCE.json) records every change.
 
 ## Files and licenses
 
-Original product files are preserved in [`products/`](products/). The [`plugins/`](plugins/) folder exposes their workflows and support files to Claude Code. Existing attribution stays with the files.
-
 All products permit personal and commercial use. The 54 existing MIT products
 keep their MIT permissions. The other 13 use an Apex license that permits paid
-client work but prohibits reselling or repackaging the raw skill files. See
-[LICENSE.md](LICENSE.md) and [LICENSE-NOTICE.md](LICENSE-NOTICE.md) for the exact
-scope and retained notices.
+client work but prohibits reselling or repackaging the raw skill files. Each
+download includes its license. See [LICENSE.md](LICENSE.md) and
+[LICENSE-NOTICE.md](LICENSE-NOTICE.md) for the exact scope and retained notices.
 
 if a skill saved you time, a star on this repo is the price.

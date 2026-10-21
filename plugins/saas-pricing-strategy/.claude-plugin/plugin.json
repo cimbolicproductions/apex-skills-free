@@ -1,12 +1,10 @@
 {
   "name": "apex-saas-pricing-strategy",
-  "version": "1.0.0",
-  "description": "SaaS Pricing Strategy",
+  "displayName": "SaaS Pricing Strategy",
+  "version": "1.1.0",
+  "description": "Use when pricing SaaS, choosing free trial vs freemium, creating tiers, testing packages, setting Stripe products, evaluating usage-based vs seat-based pricing, or fixing underpricing.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/saas-pricing-strategy"
-  ]
+  "license": "MIT"
 }

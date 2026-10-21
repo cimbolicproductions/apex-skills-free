@@ -1,12 +1,10 @@
 {
   "name": "apex-seo-search-console",
-  "version": "1.0.0",
-  "description": "Search Console Analysis",
+  "displayName": "Search Console Analysis",
+  "version": "1.1.0",
+  "description": "Google Search Console analysis - quick wins, CTR gaps, cannibalization, indexing issues from real performance data. Use for 'check Search Console', 'why did traffic drop', 'what's almost ranking', 'GSC report', or any research on a site that already has traffic data. Includes a complete workflow for the task.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/seo-search-console"
-  ]
+  "license": "MIT"
 }

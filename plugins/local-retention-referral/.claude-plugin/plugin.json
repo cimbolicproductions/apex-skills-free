@@ -1,12 +1,10 @@
 {
   "name": "apex-local-retention-referral",
-  "version": "1.0.0",
-  "description": "Local Retention and Referral System",
+  "displayName": "Local Retention and Referral System",
+  "version": "1.1.0",
+  "description": "Use when building post-job retention, referral programs, seasonal reactivation, repeat-service reminders, customer loyalty, and lifetime value workflows for local service businesses.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/local-retention-referral"
-  ]
+  "license": "MIT"
 }

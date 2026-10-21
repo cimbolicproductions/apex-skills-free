@@ -1,12 +1,10 @@
 {
   "name": "apex-upwork-hunter",
-  "version": "1.0.0",
-  "description": "Automated Upwork Closer",
+  "displayName": "Automated Upwork Closer",
+  "version": "1.1.0",
+  "description": "Scores an Upwork job post from 1 to 10 for automation fit, names the client's core pain point, and drafts a proposal under 200 words. Use when the user pastes an Upwork or freelance job description, asks whether a job is worth bidding on, or wants a proposal written.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-  "skills": [
-    "./payload/upwork-hunter"
-  ]
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0"
 }

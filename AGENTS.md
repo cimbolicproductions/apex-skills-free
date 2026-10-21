@@ -1,11 +1,15 @@
 # Apex free bundle maintenance
 
 - The approved source is `source/Apex-Skills-Free-Bundle.zip`, pinned by SHA256 in `scripts/build_bundle.py`. Never glob a private skills folder into a release.
-- Preserve all 67 original product artifacts and every extracted skill/support byte. Only paths are normalized for ZIP entries that use Windows separators.
+- `products/` keeps all 67 original product artifacts byte for byte. Never edit them.
+- `plugins/` and `desktop/` are generated install copies. Never edit them by hand; change `scripts/build_bundle.py` and rebuild.
+  - Each skill lives at `plugins/<product>/skills/<name>/`, where the folder matches the skill's `name`. This is the layout claude.ai, Cowork and Claude Code all read. Pack-level files sit at the plugin root.
+  - `desktop/<name>.zip` holds one top-level `<name>/` folder with the skill, its support files and its license, for **Customize > Skills > Upload a skill**. Entries are stored uncompressed with fixed metadata, so rebuilds are byte-identical on any machine.
+  - A SKILL.md install copy may differ from its original only in frontmatter: the 13 legacy skills get a name, description and license header; the 9 `claude-*` names drop the reserved word; the one description over 1,024 characters is shortened. Bodies and support files keep their bytes. PROVENANCE.json records every change and the source SHA256.
+  - The build fails if any skill breaks the app rules: lowercase letters, numbers and single hyphens; 64 characters or fewer; no `claude` or `anthropic`; folder equals name; description 1 to 1,024 characters with no XML tags. It also fails if a fix stops being needed, so remove obsolete entries instead of forcing them.
 - Generate with `python scripts/build_bundle.py`. Verify with `python scripts/build_bundle.py --check` and `python -m unittest discover -s tests`.
-- Claude Code marketplace validation does not fully validate plugin components. Validate the root and every product plugin, then test installation and inspect the component inventory using an isolated `CLAUDE_CONFIG_DIR`.
-- Thirteen legacy skills have no frontmatter. Preserve them; Claude Code accepts them with documented warnings. Avoid `--strict` until a separately approved content migration.
-- Count 67 product files and packs separately from inner workflows. The AEO pack retains five related copies as support, not duplicate plugin registrations.
-- Preserve the mixed licensing in LICENSE.md: 54 existing MIT products; 13 legacy products under the Apex Personal and Commercial Use License. Plugin LICENSE copies and provenance mappings are generated; never rewrite source payload notices.
-- Dominic authorized this public repository and delegated the license decision on 2026-10-20. Further changes need authorization through their task scope. Phase 2 directory submissions and each awesome-list PR need separate fresh approval.
+- Before release, also validate with the official tools: `skills-ref validate` on every `plugins/*/skills/*` folder and on the extracted `desktop/` ZIPs, and `claude plugin validate` on the repository root and every plugin, using an isolated `CLAUDE_CONFIG_DIR`.
+- Count 67 product files and packs separately from the 74 skills. The AEO pack keeps five related copies as support inside its skill folder, not as separate registrations.
+- Preserve the mixed licensing in LICENSE.md: 54 existing MIT products; 13 legacy products under the Apex Personal and Commercial Use License. Plugin and desktop LICENSE copies and provenance mappings are generated; never rewrite source payload notices.
+- Dominic authorized this public repository and delegated the license decision on 2026-10-20. On 2026-10-21 he asked to make it easy for Claude desktop app users, which authorized the install-copy layout and metadata changes above. Further changes need authorization through their task scope. Directory submissions and each awesome-list PR follow the current Agent Tasks row.
 - Run `python scripts/build_bundle.py --check --zip ../dist/apex-skills-free.zip` for a deterministic review archive. Operational QA and local review notes stay outside this folder.

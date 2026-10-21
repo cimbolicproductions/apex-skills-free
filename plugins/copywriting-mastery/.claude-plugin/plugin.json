@@ -1,12 +1,10 @@
 {
   "name": "apex-copywriting-mastery",
-  "version": "1.0.0",
-  "description": "Direct-Response Copywriter",
+  "displayName": "Direct-Response Copywriter",
+  "version": "1.1.0",
+  "description": "Writes direct-response copy for landing pages, emails, ads and social posts using AIDA, PAS or BAB, with benefits over features, plain language, three ranked headlines and one clear call to action. Use when the user asks for sales copy, an ad, an email or a page that needs to convert better.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "LicenseRef-Apex-Personal-Commercial-1.0",
-  "skills": [
-    "./payload/copywriting-mastery"
-  ]
+  "license": "LicenseRef-Apex-Personal-Commercial-1.0"
 }

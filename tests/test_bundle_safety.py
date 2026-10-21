@@ -1,7 +1,9 @@
 """Archive boundaries and tamper detection matter for distributing agent files."""
 import importlib.util
 import io
-from pathlib import Path
+import json
+from pathlib import Path, PurePosixPath
+import re
 import stat
 import tempfile
 import unittest
@@ -84,6 +86,86 @@ class BundleSafety(unittest.TestCase):
                 self.assertNotIn("apex-skills-free/qa/internal.json", z.namelist())
                 self.assertNotIn("apex-skills-free/scripts/private.env", z.namelist())
                 self.assertEqual(z.namelist(), sorted(z.namelist()))
+
+
+class AppCompatibility(unittest.TestCase):
+    """The Claude apps refuse skills that break these rules, so the build must too."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.generated = bundle.prepare((bundle.ROOT / bundle.SOURCE_FILE).read_bytes())
+        cls.provenance = json.loads(cls.generated["PROVENANCE.json"])
+
+    def test_every_skill_meets_app_rules(self):
+        skills = [p for p in self.generated if re.fullmatch(r"plugins/[^/]+/skills/[^/]+/SKILL\.md", p)]
+        self.assertEqual(len(skills), 74)
+        for path in skills:
+            with self.subTest(path=path):
+                fields = bundle.frontmatter_fields(self.generated[path])
+                bundle.validate_skill(fields.get("name"), fields.get("description"), PurePosixPath(path).parent.name)
+
+    def test_metadata_rules_reject_what_the_apps_reject(self):
+        too_long = "x" * (bundle.DESCRIPTION_LIMIT + 1)
+        for name, description in (("claude-helper", "ok"), ("anthropic-tools", "ok"), ("Bad-Name", "ok"), ("a--b", "ok"), ("-ab", "ok"), ("ab-", "ok"), ("a" * 65, "ok"), ("ok", ""), ("ok", too_long), ("ok", "use <instructions> here")):
+            with self.subTest(name=name, description=description[:20]), self.assertRaises(ValueError):
+                bundle.validate_skill(name, description, name)
+        with self.assertRaises(ValueError):
+            bundle.validate_skill("ok", "Fine description.", "payload")
+        bundle.validate_skill("ok-name", "Fine description.", "ok-name")
+
+    def test_install_copies_change_only_frontmatter(self):
+        originals = {}
+        for product in self.provenance["products"]:
+            data = self.generated[product["artifactPath"]]
+            originals[product["id"]] = bundle.read_archive(data) if product["artifactPath"].endswith(".zip") else {product["filename"]: data}
+        changed = 0
+        for payload in self.provenance["payloads"]:
+            source = originals[payload["productId"]][payload["sourceMember"]]
+            installed = self.generated[payload["path"]]
+            self.assertEqual(bundle.digest(source), payload["sourceSha256"])
+            if payload["change"] == "none":
+                self.assertEqual(installed, source, payload["path"])
+                continue
+            changed += 1
+            if payload["change"] == "frontmatter-added":
+                self.assertIsNone(bundle.frontmatter_fields(source))
+                self.assertEqual(bundle.split_frontmatter(installed)[1], b"\n" + source)
+            else:
+                self.assertEqual(bundle.split_frontmatter(installed)[1], bundle.split_frontmatter(source)[1])
+        self.assertEqual(changed, 23)
+
+    def test_desktop_zips_hold_one_skill_folder(self):
+        archives = self.provenance["desktopArchives"]
+        self.assertEqual(len(archives), 74)
+        plugin_paths = {p["id"]: p["pluginPath"] for p in self.provenance["products"]}
+        for entry in archives:
+            name = entry["skill"]
+            with self.subTest(skill=name), zipfile.ZipFile(io.BytesIO(self.generated[entry["path"]])) as z:
+                names = z.namelist()
+                self.assertEqual(names, sorted(names))
+                self.assertTrue(all(n.startswith(name + "/") for n in names))
+                self.assertIn(f"{name}/SKILL.md", names)
+                self.assertIn(f"{name}/LICENSE", names)
+                for info in z.infolist():
+                    self.assertEqual(info.compress_type, zipfile.ZIP_STORED)
+                    self.assertEqual(info.date_time, bundle.ZIP_DATE)
+                    relative = info.filename[len(name) + 1:]
+                    installed = self.generated.get(f"{plugin_paths[entry['productId']]}/skills/{name}/{relative}")
+                    if installed is None:
+                        self.assertEqual(relative, "LICENSE")
+                    else:
+                        self.assertEqual(z.read(info), installed)
+
+    def test_plugins_use_the_default_skills_folder(self):
+        market = json.loads(self.generated[".claude-plugin/marketplace.json"])
+        self.assertEqual(len(market["plugins"]), bundle.PRODUCT_COUNT)
+        for plugin in market["plugins"]:
+            base = plugin["source"].removeprefix("./")
+            manifest = json.loads(self.generated[f"{base}/.claude-plugin/plugin.json"])
+            self.assertEqual(manifest["name"], plugin["name"])
+            self.assertNotIn("skills", manifest)
+            self.assertNotIn("—", manifest["description"])
+            self.assertTrue(any(p.startswith(f"{base}/skills/") for p in self.generated))
 
 
 if __name__ == "__main__":

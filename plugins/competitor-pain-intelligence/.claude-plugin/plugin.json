@@ -1,12 +1,10 @@
 {
   "name": "apex-competitor-pain-intelligence",
-  "version": "1.0.0",
-  "description": "Competitor Pain Intelligence",
+  "displayName": "Competitor Pain Intelligence",
+  "version": "1.1.0",
+  "description": "Mine public reviews, Reddit threads, Google Business reviews, Yelp, Trustpilot, app stores, and social platforms to find the real problems customers have with competitors - then design simple, aggressive solutions to win those customers. Use when the user says \"do a competitive analysis\", \"competitive analysis for X\", \"figure out competitive advantage for X\", \"find what people hate about X\", \"scrape competitor reviews\", \"what are people complaining about\", or asks for competitor intelligence, attack plans, or differentiation strategy.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/competitor-pain-intelligence"
-  ]
+  "license": "MIT"
 }

@@ -1,12 +1,10 @@
 {
   "name": "apex-seo-bing-places",
-  "version": "1.0.0",
-  "description": "Bing Places",
+  "displayName": "Bing Places",
+  "version": "1.1.0",
+  "description": "Set up and optimize Bing Places for Business listings by importing an OPTIMIZED Google Business Profile. Use for 'Bing Places', 'get found on Bing', 'Copilot local results', 'import GBP to Bing', or when auditing a local listing. Requires the Optimized GBP Gate (local-gbp-optimizer) before import. Includes a complete workflow for the task.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/seo-bing-places"
-  ]
+  "license": "MIT"
 }

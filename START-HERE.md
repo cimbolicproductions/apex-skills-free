@@ -1,69 +1,70 @@
 # Start with one skill
 
-67 free AI agent skills for Claude Code, Codex, and Gemini CLI. Drop them in, tell your agent to set them up, start with one skill for your next task.
-
-There are 67 product files and packs. Packs can contain several workflows, including copies of standalone skills. Browse [CATALOG.md](CATALOG.md) when you need something beyond the three starters below.
+67 free AI skill files and packs for the Claude desktop app, claude.ai, Claude Code and Codex. Pick one task, add the skill for it, and try it.
 
 ## 1. Pick your next task
 
-| Your task | Pick |
+| Your task | Skill | Download for the desktop app |
+|---|---|---|
+| Edit a draft that sounds like AI. | **Slop Killer** | [anti-slop.zip](https://github.com/cimbolicproductions/apex-skills-free/raw/main/desktop/anti-slop.zip) |
+| End a work session with a clear handoff and a prompt to resume. | **Session Handoff** | [session-handoff.zip](https://github.com/cimbolicproductions/apex-skills-free/raw/main/desktop/session-handoff.zip) |
+| Audit a website and plan keyword and on-page SEO fixes. | **Automated SEO Orchestrator** | [seo-keyword-fix.zip](https://github.com/cimbolicproductions/apex-skills-free/raw/main/desktop/seo-keyword-fix.zip) |
+
+Something else? [CATALOG.md](CATALOG.md) has all 74 skills.
+
+## 2. Add it to Claude
+
+### Claude desktop app or claude.ai, any plan
+
+1. Open **Settings > Capabilities** and turn on **Code execution and file creation**.
+2. Download the ZIP from the table above.
+3. Open **Customize > Skills**, click **+**, choose **Create skill**, then **Upload a skill**, and pick the ZIP. Upload it as it is. Do not unzip it.
+4. Make sure the skill's switch is on in your skills list.
+
+### Pro, Max, Team or Enterprise: get every skill in one place
+
+1. Open **Customize > Plugins**.
+2. Click **Add**, choose **Add marketplace**, then **Add from a repository**, and paste `cimbolicproductions/apex-skills-free`.
+3. Open **Discover**, pick the skill, and click **Add**.
+
+You only add the marketplace once. After that, every skill in this repo shows up in **Discover**.
+
+## 3. Use it
+
+Ask for the task in plain words. Claude loads the skill when your request matches it.
+
+| Skill | Try saying |
 |---|---|
-| Edit a draft that sounds like AI. | **Slop Killer**, in [anti-slop.zip](products/anti-slop.zip). |
-| Finish a coding session with a clear handoff and resume prompt. | **Claude Code Session Handoff**, in [claude-session-handoff.md](products/claude-session-handoff.md). |
-| Audit a site and build a keyword and on-page SEO plan. | **Automated SEO Orchestrator**, in [SEO-Keyword-Fix-Pipeline.md](products/SEO-Keyword-Fix-Pipeline.md). |
+| Slop Killer | "Edit this draft so it sounds like me: [paste draft]" |
+| Session Handoff | "Save a handoff for this session and write the prompt to resume it." |
+| Automated SEO Orchestrator | "Audit [your website] in plan-only mode." |
 
-## 2. Give the files to your agent
+To pick a skill yourself, type `/` in the message box and choose it. Start the SEO skill in plan-only mode. It can also change a site's code, and only does that if you choose apply mode.
 
-Drop the selected file or ZIP into Codex or Claude Code, or give the agent access to this folder. For a ZIP, keep the extracted skill with all its scripts, references, and templates.
+## Other apps
 
-Paste this with your task:
+**Codex.** Unzip the skill into the `.agents/skills` folder in your home folder, then restart Codex. Or give Codex the ZIP and ask it to install the skill and keep its files together.
 
-> Install this skill for future sessions using your supported skill location. Preserve its support files and attribution, and tell me how to invoke it. Then apply it to this task: [describe your task].
-
-For Codex, also ask the agent to verify that the installed skill is discovered. Thirteen legacy products have no YAML name or description, which Codex requires for reusable skills. The agent can add metadata to an installed copy or wrapper while keeping the original downloads unchanged. Attached Markdown works as task instructions without a reusable install.
-
-If your agent cannot access attachments, extract the product into a local folder and give it that path. Gemini CLI users can give their agent the same prompt and local files.
-
-You can also use a skill for one task without installing it: attach its Markdown and relevant references, describe your task, and ask the agent to apply the workflow.
-
-## 3. Or install a Claude Code plugin
-
-The marketplace has one plugin per product. Add it in Claude Code:
+**Claude Code in the terminal.** Skills you add in the desktop app sync to Claude Code when you sign in with the same account. To use the terminal instead:
 
 ```text
 /plugin marketplace add https://github.com/cimbolicproductions/apex-skills-free.git
-```
-
-Install the starter you chose:
-
-```text
 /plugin install apex-anti-slop@apex-skills-free
 /plugin install apex-session-handoff@apex-skills-free
 /plugin install apex-seo-keyword-fix@apex-skills-free
 ```
 
-You only need to run the install command for your chosen skill. Invoke it with your task:
+Install only the one you need, then run it with your task:
 
 ```text
 /apex-anti-slop:anti-slop Edit this draft in my voice: [draft]
-/apex-session-handoff:claude-session-handoff Save a handoff for this session and write the next session's resume prompt.
+/apex-session-handoff:session-handoff Save a handoff for this session and write the next session's resume prompt.
 /apex-seo-keyword-fix:seo-keyword-fix Audit [site URL or local project] in plan-only mode.
 ```
 
-The session handoff plugin keeps the original skill name `claude-session-handoff`, so its invocation includes that name.
+## Keep the files together
 
-HTTPS avoids requiring GitHub SSH keys. With GitHub SSH access already set up,
-you can instead use `/plugin marketplace add cimbolicproductions/apex-skills-free`.
-
-If you have a local checkout, you can instead open Claude Code in its root and run:
-
-```text
-/plugin marketplace add .
-```
-
-## Keep the useful files together
-
-[`products/`](products/) contains all 67 original downloads. [`plugins/`](plugins/) contains their extracted Claude Code payloads and plugin descriptors. Some packs expose multiple skills and include shared scripts or references. Keep the whole selected pack together when moving or installing it.
+Some skills come with scripts, references or templates. Each ZIP in [`desktop/`](desktop/) already holds everything its skill needs plus its license, so upload or unzip the whole ZIP. [`products/`](products/) keeps the 67 original downloads unchanged.
 
 All products permit personal and commercial use. Existing MIT products retain
 their MIT permissions; 13 legacy products use an Apex license that permits

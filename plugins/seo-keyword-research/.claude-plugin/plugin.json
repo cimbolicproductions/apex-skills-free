@@ -1,12 +1,10 @@
 {
   "name": "apex-seo-keyword-research",
-  "version": "1.0.0",
-  "description": "Keyword Research",
+  "displayName": "Keyword Research",
+  "version": "1.1.0",
+  "description": "General keyword research - seed generation, competitor keyword extraction, intent mapping, and a keyword→page map for any site or niche. Use for 'keyword research', 'what keywords should this site target', 'keyword map', or as the pre-build research pass for any new site. Includes a complete workflow for the task.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/seo-keyword-research"
-  ]
+  "license": "MIT"
 }

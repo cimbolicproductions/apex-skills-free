@@ -1,12 +1,10 @@
 {
   "name": "apex-saas-pmf-engine",
-  "version": "1.0.0",
-  "description": "SaaS PMF Engine",
+  "displayName": "SaaS PMF Engine",
+  "version": "1.1.0",
+  "description": "Use when measuring product-market fit, running the Superhuman PMF survey, segmenting very-disappointed users, finding high-expectation customers, or building a PMF improvement roadmap.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/saas-pmf-engine"
-  ]
+  "license": "MIT"
 }

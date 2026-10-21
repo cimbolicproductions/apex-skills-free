@@ -1,12 +1,10 @@
 {
   "name": "apex-session-handoff",
-  "version": "1.0.0",
-  "description": "Claude Code Session Handoff",
+  "displayName": "Claude Code Session Handoff",
+  "version": "1.1.0",
+  "description": "Use when ending a Claude Code session, resuming a project later, summarizing what was done, creating HANDOVER.md, or preserving decisions between sessions. Do not use for general project documentation.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/claude-session-handoff"
-  ]
+  "license": "MIT"
 }

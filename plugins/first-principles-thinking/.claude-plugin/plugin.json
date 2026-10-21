@@ -1,12 +1,10 @@
 {
   "name": "apex-first-principles-thinking",
-  "version": "1.0.0",
-  "description": "First Principles Reasoner",
+  "displayName": "First Principles Reasoner",
+  "version": "1.1.0",
+  "description": "Attack any decision, problem, or design challenge using first principles reasoning - the Elon Musk / SpaceX / Tesla method. Strip away assumptions, analogies, and conventional wisdom to find the bedrock truth, then rebuild from the ground up. Use when the user says \"use first principles thinking\", \"use first principles\", \"break this down\", \"why does this cost so much\", \"what are we assuming\", or any request to question conventional wisdom.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/first-principles-thinking"
-  ]
+  "license": "MIT"
 }

@@ -1,12 +1,10 @@
 {
   "name": "apex-marketplace-scam-safety",
-  "version": "1.0.0",
-  "description": "Marketplace Scam and Safety Guard",
+  "displayName": "Marketplace Scam and Safety Guard",
+  "version": "1.1.0",
+  "description": "Use when selling or buying on Facebook Marketplace, Craigslist, OfferUp, eBay, or local marketplaces and checking scam red flags, fake payments, overpayment, verification codes, shipping requests, or meetup safety.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/marketplace-scam-safety"
-  ]
+  "license": "MIT"
 }

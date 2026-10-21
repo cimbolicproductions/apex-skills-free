@@ -1,12 +1,10 @@
 {
   "name": "apex-local-quote-followup",
-  "version": "1.0.0",
-  "description": "Local Quote Follow-Up",
+  "displayName": "Local Quote Follow-Up",
+  "version": "1.1.0",
+  "description": "Use when following up after a quote or estimate, recovering lost estimates, writing SMS/email quote follow-ups, breakup messages, value-add touches, or estimate pipeline automation.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/local-quote-followup"
-  ]
+  "license": "MIT"
 }

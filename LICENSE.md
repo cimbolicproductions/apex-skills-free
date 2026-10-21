@@ -10,7 +10,7 @@ This repository uses two licenses. Both permit personal and commercial use.
 
 The per-product `license` value in [PROVENANCE.json](PROVENANCE.json) identifies
 the applicable license. Each plugin also includes its applicable payload license
-in `LICENSE`. Existing third-party attribution and copyright notices remain
+in `LICENSE`, and each skill ZIP in `desktop/` carries one inside its folder. Existing third-party attribution and copyright notices remain
 with the original files. Third-party quotations and source material retain
 their respective rights.
 

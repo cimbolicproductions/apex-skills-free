@@ -4,343 +4,344 @@
     "name": "Apex Skills"
   },
   "metadata": {
-    "description": "67 free AI agent skill files and packs"
+    "description": "67 free AI agent skill files and packs",
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "apex-browser-automation",
       "source": "./plugins/browser-automation",
-      "description": "Browser Automation Scripter"
+      "description": "Turns a plain-English browser task, such as renaming a Vercel project or downloading invoices from a dashboard, into a step-by-step JSON script an autonomous browser agent can run. Use when the user wants to automate a repetitive website task or needs browser steps for Playwright, Puppeteer or a browser agent."
     },
     {
       "name": "apex-project-closeout",
       "source": "./plugins/project-closeout",
-      "description": "Project Context Saver"
+      "description": "Writes a short markdown handoff at the end of a work session: what got done, what is blocked, and the next two or three tasks in priority order. Use when the user is wrapping up a coding or work session, handing work to someone else, or wants a SESSION_HANDOFF.md to resume from."
     },
     {
       "name": "apex-skill-creator",
       "source": "./plugins/skill-creator",
-      "description": "Skill Forge"
+      "description": "Generate production-grade Claude Code skill files from a voice dump, rough idea, or existing workflow. Use when the user says 'create a skill', 'make this into a skill', 'turn this prompt into a skill', 'package this workflow', 'I keep doing X manually', or describes a repeatable task they want Claude to handle automatically. Outputs a complete SKILL.md with frontmatter, scoring criteria, examples, and guardrails - not just a prompt."
     },
     {
       "name": "apex-content-repurposing-engine",
       "source": "./plugins/content-repurposing-engine",
-      "description": "Content Multiplier"
+      "description": "Turn one piece of long-form content (blog post, YouTube video, podcast, transcript, newsletter) into a full week of distribution: LinkedIn post, X thread, newsletter draft, short-form video script, Instagram/Threads post, and email teaser. Use when the user says 'repurpose this', 'turn this into social', 'make this into a thread', 'I have a blog post and need posts for the week', or pastes a transcript/URL and asks for distribution."
     },
     {
       "name": "apex-anti-slop",
       "source": "./plugins/anti-slop",
-      "description": "Slop Killer"
+      "description": "Scan any AI-generated text for tell-tale slop words, hedge phrases, em-dash overuse, sycophancy, rule-of-three structure, staccato fragment crutch, and generic AI cadence - then run a holistic vibe check and rewrite cleanly in the user's voice. Use when the user says 'remove the slop', 'make this sound human', 'this sounds like AI', 'kill the fluff', 'clean this up', 'detect AI slop', or pastes a draft and asks for a human pass. Outputs a flagged report + a clean rewrite."
     },
     {
       "name": "apex-upwork-hunter",
       "source": "./plugins/upwork-hunter",
-      "description": "Automated Upwork Closer"
+      "description": "Scores an Upwork job post from 1 to 10 for automation fit, names the client's core pain point, and drafts a proposal under 200 words. Use when the user pastes an Upwork or freelance job description, asks whether a job is worth bidding on, or wants a proposal written."
     },
     {
       "name": "apex-website-landlord",
       "source": "./plugins/website-landlord",
-      "description": "Website Landlord Playbook"
+      "description": "Builds a rank-and-rent plan for a local lead-generation website: domain ideas, page structure, call-focused headline copy, local trust signals and a script for renting the site to a contractor. Use when the user names a niche and city or asks about rank and rent or website landlord sites."
     },
     {
       "name": "apex-seo-keyword-fix",
       "source": "./plugins/seo-keyword-fix",
-      "description": "Automated SEO Orchestrator"
+      "description": "Runs a staged SEO pipeline on a website: site audit, keyword research from free sources, topic clusters with pillar pages, and an exact on-page plan for each URL, with an optional apply mode that edits the code and opens a pull request. Use when the user wants an SEO audit, keyword research, a content cluster plan or on-page SEO fixes. Start in plan-only mode."
     },
     {
       "name": "apex-yt-content-engine",
       "source": "./plugins/yt-content-engine",
-      "description": "YouTube Repurposing Engine"
+      "description": "Turns a raw YouTube or podcast transcript into show notes, a 5-slide LinkedIn carousel outline and a newsletter hook, using only what the speaker actually said. Use when the user pastes a video or audio transcript and wants it repurposed into written content."
     },
     {
       "name": "apex-local-audit",
       "source": "./plugins/local-audit",
-      "description": "B2B Automation Auditor"
+      "description": "Audits a local or small business from a short intake and returns two or three practical automation fixes, each with setup steps and estimated hours or dollars saved per week. Use when the user describes a business and asks where AI or automation could save time or win more customers."
     },
     {
       "name": "apex-podcast-wisdom",
       "source": "./plugins/podcast-wisdom",
-      "description": "Podcast Insight Extractor"
+      "description": "Turns a long podcast or interview transcript into a concept-based note: core thesis, mental models, verbatim quotes and one action to take today, formatted for Obsidian or Notion. Use when the user shares a podcast transcript or wants an episode turned into second-brain notes."
     },
     {
       "name": "apex-copywriting-mastery",
       "source": "./plugins/copywriting-mastery",
-      "description": "Direct-Response Copywriter"
+      "description": "Writes direct-response copy for landing pages, emails, ads and social posts using AIDA, PAS or BAB, with benefits over features, plain language, three ranked headlines and one clear call to action. Use when the user asks for sales copy, an ad, an email or a page that needs to convert better."
     },
     {
       "name": "apex-product-naming",
       "source": "./plugins/product-naming",
-      "description": "Brand & Naming Strategist"
+      "description": "Generates five or more name options for a product, feature, company or domain, each with a one-line rationale and domain ideas, then picks the top three. Use when the user is naming something new or wants better name ideas."
     },
     {
       "name": "apex-web-design-foundations",
       "source": "./plugins/web-design-foundations",
-      "description": "UI/UX Design Roaster"
+      "description": "Reviews a UI description, screenshot or Tailwind code for visual hierarchy, usability and implementation, then gives exactly three specific fixes. Use when the user wants design feedback, a UX or UI review, or asks to roast and improve a page."
     },
     {
       "name": "apex-asset-generator",
       "source": "./plugins/asset-generator",
-      "description": "App Asset Prompt Architect"
+      "description": "Turns a request for an app or web visual, such as an app icon, splash screen, hero image or social share image, into structured image-model prompts with style, composition and constraint tags plus the right aspect ratio. Use when the user needs prompts for Midjourney, DALL-E, Gemini or another image generator."
     },
     {
       "name": "apex-ecommerce-listing",
       "source": "./plugins/ecommerce-listing",
-      "description": "E-commerce Listing Optimizer"
+      "description": "Writes a marketplace listing from item details or a photo: an 80-character keyword title, five to seven item specifics and a mobile-friendly description. Use when the user is listing an item on eBay, Poshmark or Shopify or wants a listing improved."
     },
     {
       "name": "apex-context-hygiene",
       "source": "./plugins/claude-context-hygiene",
-      "description": "Claude Code Context Hygiene"
+      "description": "Use when Claude Code is losing track, repeating itself, contradicting prior decisions, context is high, a task is getting long, or the user asks to compact, clear, resume, or manage context. Do not use for ordinary one-shot coding edits."
     },
     {
       "name": "apex-session-handoff",
       "source": "./plugins/claude-session-handoff",
-      "description": "Claude Code Session Handoff"
+      "description": "Use when ending a Claude Code session, resuming a project later, summarizing what was done, creating HANDOVER.md, or preserving decisions between sessions. Do not use for general project documentation."
     },
     {
       "name": "apex-fail-loud",
       "source": "./plugins/claude-fail-loud",
-      "description": "Fail Loud, Never Fake"
+      "description": "Use when building API integrations, database calls, file parsers, payment flows, auth, external services, or any code that might silently fake success. Enforces fail-loud error handling and no mock-data deception."
     },
     {
       "name": "apex-hook-setup",
       "source": "./plugins/claude-hook-setup",
-      "description": "Claude Code Hook Setup"
+      "description": "Use when setting up Claude Code hooks for auto-formatting, blocking dangerous commands, running lint/tests on stop, desktop notifications, context reinjection, or deterministic guardrails."
     },
     {
       "name": "apex-mcp-setup",
       "source": "./plugins/claude-mcp-setup",
-      "description": "Claude MCP Setup and Troubleshooting"
+      "description": "Use when adding, configuring, auditing, or troubleshooting MCP servers in Claude Code or Claude Desktop, including scope, auth, tool collisions, JSON config, restarts, and context bloat."
     },
     {
       "name": "apex-mcp-server-builder",
       "source": "./plugins/claude-mcp-server-builder",
-      "description": "MCP Server Builder"
+      "description": "Use when creating a custom MCP server, exposing an API or script as Claude tools, designing MCP tool schemas, or building with FastMCP or the MCP SDK. Do not use for merely installing existing servers."
     },
     {
       "name": "apex-worktree-parallel-setup",
       "source": "./plugins/claude-worktree-parallel-setup",
-      "description": "Parallel Claude Worktree Setup"
+      "description": "Use when running multiple Claude Code agents in parallel, using git worktrees, avoiding port/database collisions, or splitting features into independent AI workers."
     },
     {
       "name": "apex-pr-review",
       "source": "./plugins/claude-pr-review",
-      "description": "Claude PR Review"
+      "description": "Use when reviewing a pull request, checking recent changes, verifying implementation against a ticket, spotting fake success, or preparing review comments. Always prefer fresh-context review."
     },
     {
       "name": "apex-cost-optimizer",
       "source": "./plugins/claude-cost-optimizer",
-      "description": "Claude Code Cost Optimizer"
+      "description": "Use when Claude Code token usage, model spend, MCP overhead, subagent cost, or long-running agent loops seem high. Produces a cost and context reduction plan."
     },
     {
       "name": "apex-saas-validate-before-build",
       "source": "./plugins/saas-validate-before-build",
-      "description": "SaaS Validate Before Build"
+      "description": "Use when validating a SaaS, app, AI tool, marketplace, or business idea before building, including fake-door tests, pre-sells, deposits, problem research, and go/no-go decisions."
     },
     {
       "name": "apex-saas-customer-interviews",
       "source": "./plugins/saas-customer-interviews",
-      "description": "SaaS Customer Interviews"
+      "description": "Use when writing customer discovery scripts, analyzing interview notes, finding ICP patterns, applying Mom Test questions, or turning user conversations into product decisions."
     },
     {
       "name": "apex-saas-landing-page",
       "source": "./plugins/saas-landing-page",
-      "description": "SaaS Landing Page"
+      "description": "Use when writing, reviewing, or improving a SaaS landing page, waitlist page, fake-door page, pricing page intro, hero copy, CTAs, proof, FAQ, or conversion-focused page structure."
     },
     {
       "name": "apex-saas-pricing-strategy",
       "source": "./plugins/saas-pricing-strategy",
-      "description": "SaaS Pricing Strategy"
+      "description": "Use when pricing SaaS, choosing free trial vs freemium, creating tiers, testing packages, setting Stripe products, evaluating usage-based vs seat-based pricing, or fixing underpricing."
     },
     {
       "name": "apex-saas-activation-analytics",
       "source": "./plugins/saas-activation-analytics",
-      "description": "SaaS Activation Analytics"
+      "description": "Use when defining activation metrics, aha moments, PostHog or Mixpanel events, onboarding funnels, retention cohorts, or analytics schemas for SaaS products."
     },
     {
       "name": "apex-saas-onboarding-flow",
       "source": "./plugins/saas-onboarding-flow",
-      "description": "SaaS Onboarding Flow"
+      "description": "Use when designing new-user onboarding, welcome emails, checklists, empty states, lifecycle emails, product tours, manual onboarding, or first-30-day retention flows."
     },
     {
       "name": "apex-saas-stripe-setup",
       "source": "./plugins/saas-stripe-setup",
-      "description": "SaaS Stripe Setup"
+      "description": "Use when adding subscriptions, Stripe Checkout, pricing tables, trials, customer portal, webhooks, failed payment handling, Stripe plus Supabase access control, or SaaS billing lifecycle logic."
     },
     {
       "name": "apex-saas-mvp-stack",
       "source": "./plugins/saas-mvp-stack",
-      "description": "SaaS MVP Stack"
+      "description": "Use when choosing a SaaS MVP tech stack, boilerplate, Supabase vs Firebase, Next.js setup, Vercel, Resend, PostHog, Sentry, auth, or pre-launch technical checklist."
     },
     {
       "name": "apex-saas-pmf-engine",
       "source": "./plugins/saas-pmf-engine",
-      "description": "SaaS PMF Engine"
+      "description": "Use when measuring product-market fit, running the Superhuman PMF survey, segmenting very-disappointed users, finding high-expectation customers, or building a PMF improvement roadmap."
     },
     {
       "name": "apex-saas-launch-playbook",
       "source": "./plugins/saas-launch-playbook",
-      "description": "SaaS Launch Playbook"
+      "description": "Use when planning a SaaS launch, Product Hunt launch, Indie Hackers post, Reddit launch, beta launch, design partner rollout, or 7-day pre-sell sprint."
     },
     {
       "name": "apex-saas-aso",
       "source": "./plugins/saas-aso",
-      "description": "App Store Optimization"
+      "description": "Use when optimizing iOS App Store or Google Play listings, app keywords, screenshots, preview videos, descriptions, subtitles, A/B tests, custom product pages, or app launch metadata."
     },
     {
       "name": "apex-saas-founder-notes",
       "source": "./plugins/saas-founder-notes",
-      "description": "Founder Second Brain Notes"
+      "description": "Use when organizing founder research, customer interviews, experiment logs, Obsidian notes, second brain systems, product decisions, competitor notes, or weekly learning reviews."
     },
     {
       "name": "apex-local-gbp-optimizer",
       "source": "./plugins/local-gbp-optimizer",
-      "description": "Local Google Business Profile Optimizer"
+      "description": "Use when optimizing a Google Business Profile, local map rankings, GBP categories, services, descriptions, photos, posts, reviews, or local search visibility for a service business. Owns the Optimized GBP Gate that must pass before a GBP is imported into Bing Places (seo-bing-places) and before any downstream listing import."
     },
     {
       "name": "apex-local-missed-call-textback",
       "source": "./plugins/local-missed-call-textback",
-      "description": "Missed-Call Text-Back Builder"
+      "description": "Use when a local business misses calls, needs missed-call auto-SMS, after-hours triage, urgent/routine branching, Twilio, GoHighLevel, Grasshopper, or n8n missed-call workflows."
     },
     {
       "name": "apex-local-lead-followup-sequence",
       "source": "./plugins/local-lead-followup-sequence",
-      "description": "Local Lead Follow-Up Sequence"
+      "description": "Use when writing new lead SMS/email follow-up for local service inquiries, speed-to-lead automation, no-response nurturing, booking prompts, or inbound lead conversion workflows."
     },
     {
       "name": "apex-local-quote-followup",
       "source": "./plugins/local-quote-followup",
-      "description": "Local Quote Follow-Up"
+      "description": "Use when following up after a quote or estimate, recovering lost estimates, writing SMS/email quote follow-ups, breakup messages, value-add touches, or estimate pipeline automation."
     },
     {
       "name": "apex-local-review-generation",
       "source": "./plugins/local-review-generation",
-      "description": "Local Review Generation System"
+      "description": "Use when asking for Google reviews, automating post-job review requests, routing negative feedback privately, writing review responses, or improving review velocity for local service businesses."
     },
     {
       "name": "apex-local-b2b-property-manager-outreach",
       "source": "./plugins/local-b2b-property-manager-outreach",
-      "description": "B2B Property Manager Outreach"
+      "description": "Use when reaching out to property managers, landlords, HOAs, facility managers, real estate investors, Airbnb or STR operators for recurring local service contracts."
     },
     {
       "name": "apex-local-good-better-best-pricing",
       "source": "./plugins/local-good-better-best-pricing",
-      "description": "Good-Better-Best Local Pricing"
+      "description": "Use when creating Good-Better-Best pricing, service tiers, quote menus, upsells, warranties, volume pricing, or pricing packages for local service businesses."
     },
     {
       "name": "apex-local-crm-automation",
       "source": "./plugins/local-crm-automation",
-      "description": "Local CRM and Automation Setup"
+      "description": "Use when setting up CRM, pipeline stages, GoHighLevel, HubSpot, Twilio, n8n, lead intake, follow-up automation, booking reminders, review triggers, or local service workflow automation."
     },
     {
       "name": "apex-local-retention-referral",
       "source": "./plugins/local-retention-referral",
-      "description": "Local Retention and Referral System"
+      "description": "Use when building post-job retention, referral programs, seasonal reactivation, repeat-service reminders, customer loyalty, and lifetime value workflows for local service businesses."
     },
     {
       "name": "apex-local-negative-review-response",
       "source": "./plugins/local-negative-review-response",
-      "description": "Negative Review Response Handler"
+      "description": "Use when responding to negative Google reviews, unfair reviews, fake reviews, customer complaints, reputation issues, or drafting professional de-escalating public replies."
     },
     {
       "name": "apex-marketplace-listing-optimizer",
       "source": "./plugins/marketplace-listing-optimizer",
-      "description": "Marketplace Listing Optimizer"
+      "description": "Use when creating or improving listings for eBay, Facebook Marketplace, Craigslist, OfferUp, Mercari, or local resale, including titles, descriptions, item specifics, flaws, pickup terms, and relisting."
     },
     {
       "name": "apex-marketplace-pricing-comps",
       "source": "./plugins/marketplace-pricing-comps",
-      "description": "Marketplace Pricing Comps"
+      "description": "Use when pricing items for eBay, Facebook Marketplace, Craigslist, OfferUp, appliances, furniture, electronics, or resale inventory using sold comps, local comps, condition, urgency, and negotiation room."
     },
     {
       "name": "apex-marketplace-photo-coach",
       "source": "./plugins/marketplace-photo-coach",
-      "description": "Marketplace Photo Coach"
+      "description": "Use when planning product photos for eBay, Facebook Marketplace, Craigslist, OfferUp, appliances, furniture, tools, electronics, or resale listings to increase trust and conversion."
     },
     {
       "name": "apex-marketplace-negotiation-scripts",
       "source": "./plugins/marketplace-negotiation-scripts",
-      "description": "Marketplace Negotiation Scripts"
+      "description": "Use when handling lowball offers, buyer questions, holds, no-shows, delivery requests, local pickup scheduling, deposits, bundles, and negotiation on Facebook Marketplace, Craigslist, OfferUp, or eBay."
     },
     {
       "name": "apex-marketplace-scam-safety",
       "source": "./plugins/marketplace-scam-safety",
-      "description": "Marketplace Scam and Safety Guard"
+      "description": "Use when selling or buying on Facebook Marketplace, Craigslist, OfferUp, eBay, or local marketplaces and checking scam red flags, fake payments, overpayment, verification codes, shipping requests, or meetup safety."
     },
     {
       "name": "apex-appliance-inspection-guide",
       "source": "./plugins/appliance-inspection-guide",
-      "description": "Used Appliance Inspection Guide"
+      "description": "Use when inspecting used washers, dryers, refrigerators, ranges, or dishwashers before buying, selling, renting, refurbishing, or delivering, including test checklist and condition grading."
     },
     {
       "name": "apex-appliance-repair-triage",
       "source": "./plugins/appliance-repair-triage",
-      "description": "Appliance Repair Triage"
+      "description": "Use when triaging washer, dryer, refrigerator, dishwasher, oven, or range symptoms, likely causes, error codes, repair difficulty, parts checklist, and repair-vs-replace decisions."
     },
     {
       "name": "apex-appliance-age-recall-checker",
       "source": "./plugins/appliance-age-recall-checker",
-      "description": "Appliance Age and Recall Checker"
+      "description": "Use when checking appliance age from model/serial, recall risk, safety warnings, resale eligibility, listing disclosure, or whether an appliance should not be sold or rented."
     },
     {
       "name": "apex-steve-jobs-design",
       "source": "./plugins/steve-jobs-design",
-      "description": "The Craft Lens"
+      "description": "Apply an uncompromising design-craft philosophy - the one Steve Jobs made famous - to any product, website, app, or business. Use when the user says \"design like Jobs\", \"design like Steve Jobs\", \"redesign this homepage\", \"is this UX clean?\", \"audit my app's design\", or asks for radical simplicity, intuitive UX, beautiful typography, or empathy-first product critique. Always confirms before applying - this is an opinionated, uncompromising style."
     },
     {
       "name": "apex-first-principles-thinking",
       "source": "./plugins/first-principles-thinking",
-      "description": "First Principles Reasoner"
+      "description": "Attack any decision, problem, or design challenge using first principles reasoning - the Elon Musk / SpaceX / Tesla method. Strip away assumptions, analogies, and conventional wisdom to find the bedrock truth, then rebuild from the ground up. Use when the user says \"use first principles thinking\", \"use first principles\", \"break this down\", \"why does this cost so much\", \"what are we assuming\", or any request to question conventional wisdom."
     },
     {
       "name": "apex-competitor-pain-intelligence",
       "source": "./plugins/competitor-pain-intelligence",
-      "description": "Competitor Pain Intelligence"
+      "description": "Mine public reviews, Reddit threads, Google Business reviews, Yelp, Trustpilot, app stores, and social platforms to find the real problems customers have with competitors - then design simple, aggressive solutions to win those customers. Use when the user says \"do a competitive analysis\", \"competitive analysis for X\", \"figure out competitive advantage for X\", \"find what people hate about X\", \"scrape competitor reviews\", \"what are people complaining about\", or asks for competitor intelligence, attack plans, or differentiation strategy."
     },
     {
       "name": "apex-context-vault",
       "source": "./plugins/context-vault",
-      "description": "Personal Context Vault"
+      "description": "Eight skills for building and maintaining a personal context vault: folder setup, guided brain dumps, project pages, blocker triage, weekly reviews, AI handoff briefs, a personal operating system map and routing for new notes."
     },
     {
       "name": "apex-brand-voice-engine",
       "source": "./plugins/brand-voice-engine",
-      "description": "Brand Voice Engine"
+      "description": "Generate a complete brand voice and content engine for your business in one Claude session. Use when the buyer says 'build my brand voice', 'I need a content engine', 'set up my newsletter and blog voice', 'configure brand for my company', '/brand-voice-engine', or any request for brand identity + content workflow setup. Walks the buyer through a 15-question brand interview, researches their niche with whatever research tools the agent has, applies proven copywriting and writing methods (Halbert, Sugarman, Ogilvy, Parr, Handley, King, Graham, Ravikant and Kennedy) to their brand parameters, then generates a personalized brand voice document plus three companion content skills (newsletter, blog and tweet pipelines)."
     },
     {
       "name": "apex-tweet-builder",
       "source": "./plugins/tweet-builder",
-      "description": "Tweet Builder"
+      "description": "Craft the perfect tweet or thread for X/Twitter through Socratic questioning - the ideas come from the USER, not the AI. Use when the user wants to write a tweet, post on X, draft a thread, improve a tweet, or workshop a hook. The skill interviews the user one question at a time to draw out the angle, audience, and payoff, validates against documented character counts and 2026 algorithm best practices, and only then helps assemble and polish. Never auto-generate a finished tweet without first running the questioning loop."
     },
     {
       "name": "apex-reducer-lens",
       "source": "./plugins/reducer-lens",
-      "description": "The Reducer Lens"
+      "description": "A producer/reducer creative lens (Rick Rubin-inspired) for writing, products, music, brands, code concepts, offers, content, and art. Use when the user wants producer mode, reducer mode, creative direction, ruthless editing, taste calibration, constraints, essence-finding, or help making work more honest, simple, emotionally true, and complete."
     },
     {
       "name": "apex-aeo-and-geo",
       "source": "./plugins/aeo-and-geo",
-      "description": "AEO and GEO"
+      "description": "Aeo and Geo (formerly seo-answer-engine). Audit and improve website answers for extractability by ChatGPT, Gemini, Perplexity, Copilot and AI Overviews. Use for 'get cited by ChatGPT', 'AI search', 'answer engine optimization', 'AEO', 'GEO', 'LLM SEO', 'why does ChatGPT recommend my competitor', 'show up in AI results', 'get a local business recommended by ChatGPT or Copilot', 'Bing Places for ChatGPT', or when a page ranks but earns no clicks and no mentions. Audits a page for extractability, finds what incumbents hide, rewrites so a model can lift the answer whole, and for local businesses enforces the local entity layer in order: Optimized GBP Gate (local-gbp-optimizer), then that GBP imported into Bing Places (seo-bing-places), then Bing Webmaster Tools. Includes companion listing and research workflows for local businesses. Includes a complete workflow for the task."
     },
     {
       "name": "apex-seo-keyword-research",
       "source": "./plugins/seo-keyword-research",
-      "description": "Keyword Research"
+      "description": "General keyword research - seed generation, competitor keyword extraction, intent mapping, and a keyword→page map for any site or niche. Use for 'keyword research', 'what keywords should this site target', 'keyword map', or as the pre-build research pass for any new site. Includes a complete workflow for the task."
     },
     {
       "name": "apex-seo-longtail-keywords",
       "source": "./plugins/seo-longtail-keywords",
-      "description": "Long-tail Keyword Research"
+      "description": "Long-tail keyword research - question mining, 'near me' variants, voice/AI-answer phrasing, zero-volume-but-buying keywords. Use for 'long tail keywords', 'what questions do customers ask', 'easy keywords to win', or when seo-keyword-research finds page 1 too competitive. Includes a complete workflow for the task."
     },
     {
       "name": "apex-seo-bing-places",
       "source": "./plugins/seo-bing-places",
-      "description": "Bing Places"
+      "description": "Set up and optimize Bing Places for Business listings by importing an OPTIMIZED Google Business Profile. Use for 'Bing Places', 'get found on Bing', 'Copilot local results', 'import GBP to Bing', or when auditing a local listing. Requires the Optimized GBP Gate (local-gbp-optimizer) before import. Includes a complete workflow for the task."
     },
     {
       "name": "apex-seo-search-console",
       "source": "./plugins/seo-search-console",
-      "description": "Search Console Analysis"
+      "description": "Google Search Console analysis - quick wins, CTR gaps, cannibalization, indexing issues from real performance data. Use for 'check Search Console', 'why did traffic drop', 'what's almost ranking', 'GSC report', or any research on a site that already has traffic data. Includes a complete workflow for the task."
     }
   ]
 }

@@ -1,19 +1,10 @@
 {
   "name": "apex-context-vault",
-  "version": "1.0.0",
-  "description": "Personal Context Vault",
+  "displayName": "Personal Context Vault",
+  "version": "1.1.0",
+  "description": "Eight skills for building and maintaining a personal context vault: folder setup, guided brain dumps, project pages, blocker triage, weekly reviews, AI handoff briefs, a personal operating system map and routing for new notes.",
   "author": {
     "name": "Apex Skills"
   },
-  "license": "MIT",
-  "skills": [
-    "./payload/ai-handoff-brief-builder",
-    "./payload/blocker-snag-triage",
-    "./payload/context-vault-architect",
-    "./payload/guided-brain-dump-capture",
-    "./payload/personal-operating-system-map",
-    "./payload/project-context-captain",
-    "./payload/vault-ingestion-router",
-    "./payload/weekly-context-review"
-  ]
+  "license": "MIT"
 }
