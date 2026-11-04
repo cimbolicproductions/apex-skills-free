@@ -1,7 +1,7 @@
 {
   "name": "apex-saas-customer-interviews",
   "displayName": "SaaS Customer Interviews",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Use when writing customer discovery scripts, analyzing interview notes, finding ICP patterns, applying Mom Test questions, or turning user conversations into product decisions.",
   "author": {
     "name": "Apex Skills"

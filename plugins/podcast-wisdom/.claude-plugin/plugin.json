@@ -1,7 +1,7 @@
 {
   "name": "apex-podcast-wisdom",
   "displayName": "Podcast Insight Extractor",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Turns a long podcast or interview transcript into a concept-based note: core thesis, mental models, verbatim quotes and one action to take today, formatted for Obsidian or Notion. Use when the user shares a podcast transcript or wants an episode turned into second-brain notes.",
   "author": {
     "name": "Apex Skills"

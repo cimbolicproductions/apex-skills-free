@@ -1,7 +1,7 @@
 {
   "name": "apex-fail-loud",
   "displayName": "Fail Loud, Never Fake",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Use when building API integrations, database calls, file parsers, payment flows, auth, external services, or any code that might silently fake success. Enforces fail-loud error handling and no mock-data deception.",
   "author": {
     "name": "Apex Skills"

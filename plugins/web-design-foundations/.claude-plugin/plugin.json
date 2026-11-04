@@ -1,7 +1,7 @@
 {
   "name": "apex-web-design-foundations",
   "displayName": "UI/UX Design Roaster",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Reviews a UI description, screenshot or Tailwind code for visual hierarchy, usability and implementation, then gives exactly three specific fixes. Use when the user wants design feedback, a UX or UI review, or asks to roast and improve a page.",
   "author": {
     "name": "Apex Skills"
