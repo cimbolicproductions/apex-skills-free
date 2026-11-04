@@ -1,7 +1,7 @@
 {
   "name": "apex-yt-content-engine",
   "displayName": "YouTube Repurposing Engine",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Turns a raw YouTube or podcast transcript into show notes, a 5-slide LinkedIn carousel outline and a newsletter hook, using only what the speaker actually said. Use when the user pastes a video or audio transcript and wants it repurposed into written content.",
   "author": {
     "name": "Apex Skills"

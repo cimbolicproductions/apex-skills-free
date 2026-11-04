@@ -1,7 +1,7 @@
 {
   "name": "apex-mcp-server-builder",
   "displayName": "MCP Server Builder",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Use when creating a custom MCP server, exposing an API or script as Claude tools, designing MCP tool schemas, or building with FastMCP or the MCP SDK. Do not use for merely installing existing servers.",
   "author": {
     "name": "Apex Skills"

@@ -23,7 +23,7 @@ SOURCE_URL = "https://apexskills.dev/api/free-bundle"
 SOURCE_FILE = "source/Apex-Skills-Free-Bundle.zip"
 REPO_URL = "https://github.com/cimbolicproductions/apex-skills-free"
 PRODUCT_COUNT = 67
-PLUGIN_VERSION = "1.1.0"
+PLUGIN_VERSION = "1.1.1"
 APEX_LICENSE = "LicenseRef-Apex-Personal-Commercial-1.0"
 LEGACY_PRODUCTS = frozenset({
     "browser-automation", "project-closeout", "upwork-hunter", "website-landlord",
@@ -333,6 +333,25 @@ def prepare(source):
         description = description.replace(" — ", " - ").replace("—", " - ")
         generated[f"{base}/LICENSE"] = license_text
         generated[f"{base}/.claude-plugin/plugin.json"] = json_bytes({"name": name, "displayName": artifact["title"], "version": PLUGIN_VERSION, "description": description, "author": {"name": "Apex Skills"}, "license": license_id})
+        # The directory accepts one plugin folder per listing, and requires
+        # its own README (40+ prose words). Preserve original pack READMEs.
+        if f"{base}/README.md" not in generated:
+            readme = [f"# {artifact['title']}", "", description, "", "## Workflows", ""]
+            for skill in ordered:
+                plain = skill['description'].replace("\u2014", "-")
+                readme.append(f"- [{skill['name']}](skills/{skill['name']}/SKILL.md): {plain}")
+            readme += ["", "## Install and use", "",
+                "Add the Apex Skills Free marketplace in Claude's Customize > Plugins, then select this plugin. In Claude Code, use:", "", "```text",
+                f"/plugin marketplace add {REPO_URL}.git", f"/plugin install {name}@apex-skills-free", "```", "",
+                "Ask for the workflow in plain language or select its skill. Read the linked instructions and reference files to understand the procedure and required inputs.", "",
+                "## Tools and data", "",
+                "These are instructions for your AI agent. When invoked, the agent uses the tools and permissions available in your environment. Depending on the workflow, those instructions can ask it to read or write files, run commands, browse websites, or contact services. Review the selected skill before supplying data or granting access, and keep credentials and private customer information out of prompts.", "",
+                "This package declares no MCP server, hook, install command, or telemetry endpoint. It provides no Apex-hosted data storage. Your AI provider and any tools you choose to connect handle the information used during the task; their policies and your account settings apply."]
+            scripts = sorted(path[len(base) + 1:] for path in install_bytes if path.endswith((".py", ".sh", ".ps1", ".js", ".mjs")))
+            if scripts:
+                readme += ["", "Included scripts (inspect before running):", "", *[f"- [{p}]({p})" for p in scripts]]
+            readme += ["", "## License", "", f"See [LICENSE](LICENSE) for this plugin's {license_id} terms. The marketplace contains products with different licenses; this folder's license applies to this plugin.", "", "[Apex Skills](https://apexskills.dev) | [Source repository](" + REPO_URL + ")", ""]
+            generated[f"{base}/README.md"] = "\n".join(readme).encode("utf-8")
         plugins.append({"name": name, "source": f"./{base}", "description": description})
 
         desktop = []

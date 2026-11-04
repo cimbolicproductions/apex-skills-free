@@ -1,7 +1,7 @@
 {
   "name": "apex-product-naming",
   "displayName": "Brand & Naming Strategist",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Generates five or more name options for a product, feature, company or domain, each with a one-line rationale and domain ideas, then picks the top three. Use when the user is naming something new or wants better name ideas.",
   "author": {
     "name": "Apex Skills"

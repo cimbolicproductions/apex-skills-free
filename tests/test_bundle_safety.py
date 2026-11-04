@@ -177,6 +177,19 @@ class AppCompatibility(unittest.TestCase):
             self.assertNotIn("—", manifest["description"])
             self.assertTrue(any(p.startswith(f"{base}/skills/") for p in self.generated))
 
+    def test_each_directory_plugin_has_a_readable_listing_and_license(self):
+        market = json.loads(self.generated[".claude-plugin/marketplace.json"])
+        for plugin in market["plugins"]:
+            base = plugin["source"].removeprefix("./")
+            with self.subTest(plugin=plugin["name"]):
+                readme = self.generated[f"{base}/README.md"].decode("utf-8")
+                prose = re.sub(r"```.*?```", "", readme, flags=re.S)
+                self.assertGreaterEqual(len(prose.split()), 40)
+                self.assertTrue(self.generated[f"{base}/LICENSE"])
+                for link in re.findall(r"\]\(([^)]+)\)", readme):
+                    if "://" not in link and not link.startswith("#"):
+                        self.assertIn(f"{base}/{link}", self.generated)
+
 
 if __name__ == "__main__":
     unittest.main()

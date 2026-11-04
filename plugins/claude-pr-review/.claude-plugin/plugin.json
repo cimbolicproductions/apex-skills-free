@@ -1,7 +1,7 @@
 {
   "name": "apex-pr-review",
   "displayName": "Claude PR Review",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Use when reviewing a pull request, checking recent changes, verifying implementation against a ticket, spotting fake success, or preparing review comments. Always prefer fresh-context review.",
   "author": {
     "name": "Apex Skills"

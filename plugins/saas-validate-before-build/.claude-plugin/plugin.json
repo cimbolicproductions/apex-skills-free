@@ -1,7 +1,7 @@
 {
   "name": "apex-saas-validate-before-build",
   "displayName": "SaaS Validate Before Build",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Use when validating a SaaS, app, AI tool, marketplace, or business idea before building, including fake-door tests, pre-sells, deposits, problem research, and go/no-go decisions.",
   "author": {
     "name": "Apex Skills"
